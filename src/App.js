@@ -1,8 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+const App = () => {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  const updateCounter = () => {
+    const newCount = count + 5;
+    setCount(newCount);
+  };
+
+  // componentDidMount
+  useEffect(() => {}, []);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +32,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;

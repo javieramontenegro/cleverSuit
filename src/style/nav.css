@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+
+.logo {
+  width: 4rem;
+  margin-left: 2rem;
+}
+.margintext {
+  margin-right: 2rem;
+}
+.btn-nav {
+  font-size: 1rem;
+  color: #7e0cf5;
+  border-color: #7e0cf5;
+  background-color: transparent;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.select-lang {
+  border-color: white;
+}
+/* .notIE .fancyArrow {
+  width: 23px;
+  height: 28px;
+  position: absolute;
+  display: inline-block;
+  top: 1px;
+  right: 3px;
+  background: url(http://www.stackoverflow.com/favicon.ico) right / 90%
+    no-repeat #fff;
+  pointer-events: none;
+} */
+
+/* .bootstrap-select > .dropdown-toggle {
+  width: 30%;
+}
+ */
+.btn-light {
+  background-color: white;
+  border-color: white;
+}
+.btn-nav-mobile {
+  font-size: 1rem;
+  color: white;
+  border-color: #7e0cf5;
+  background-color: #7e0cf5;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.aling-content {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+.row-title h3 {
+  font-size: 2rem;
+  color: #373a3c;
+}
+.row-title p {
+  margin-bottom: 0.5rem;
+}
+.container-modal {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.row-name p {
+  font-size: 0.8rem;
+  color: #818a91;
+}
+
+.row-company p {
+  margin-bottom: 0.5rem;
+}
+.row-industry {
+  margin-top: 2rem;
+}
+.row-industry p {
+  padding-right: 2rem;
+  margin-bottom: 0;
+}
+.row-options {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.row-options p {
+  font-size: 1.4rem;
+}
+.row-check {
+  justify-content: space-between;
+  width: 100%;
+}
+.btn-close button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3.4rem;
+  padding-left: 3.4rem;
+}
+.row-btn-submit {
+  margin-top: 2rem;
+}
+.modal-body {
+  padding-bottom: 3rem;
+}
+.modal-body img {
+  width: 100%;
+}
+/* .modal-form {
+  z-index: 200;
+} */
+.modal-body-succes {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.formik-display-off {
+  display: none;
+}
+.formik-display-on {
+  display: block;
+}
+.succesfull-display-on {
+  display: block;
+}
+.succesfull-display-off {
+  display: none;
+}
+.row-img-sucess {
+  width: 100%;
+  padding: 5rem;
+}
+.row-sucess-text {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.row-succes-btn button {
+  font-size: 1rem;
+  color: white;
+  border-color: #7e0cf5;
+  background-color: #7e0cf5;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.input {
+  width: 100%;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+@media (max-width: 868px) {
+  .btn-nav {
+    display: none;
+  }
+  .select-web {
+    display: none !important;
+  }
+}
