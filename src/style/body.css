@@ -17,6 +17,7 @@ html {
 .container-fluid {
   padding: 0;
 }
+
 .btn-outline-video {
   color: white;
   border-color: white;
@@ -24,6 +25,16 @@ html {
 
   margin-left: auto;
   margin-right: auto;
+}
+/* """"""SECTION MAIN """""""" */
+.hidden {
+  display: none;
+}
+.visible {
+  animation-name: visible;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 .btn-color {
   background-color: #7e0cf5;
@@ -42,6 +53,18 @@ html {
   padding-left: 6rem;
   padding-top: 5rem;
 }
+@keyframes visible {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
 .row-main h1 {
   font-size: 4rem;
   text-align: left;
@@ -56,12 +79,16 @@ html {
 .button-talk {
   background-color: #7e0cf5;
   text-align: center;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1rem;
   cursor: pointer;
   border-width: 0px;
+  margin-top: 2rem;
 }
+
 .ux-image img {
   width: 80%;
 }
@@ -218,7 +245,7 @@ ul.ul-section2 {
 .empresa {
   text-align: center;
   align-content: center;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 .img-companies {
   width: 50%;
@@ -237,19 +264,24 @@ ul.ul-section2 {
   margin-top: 1rem;
   width: 100%;
 }
+.text-porfolio h1 {
+  font-weight: bold;
+}
 
 .card {
   border-radius: 0.3rem;
 }
 
 .section-portfolio {
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 .btn-loadMore {
   margin-top: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
   border-radius: 4px;
+  background-color: #7e0cf5;
+  border-color: #7e0cf5;
 }
 .inner {
   overflow: hidden;
@@ -262,6 +294,9 @@ ul.ul-section2 {
 .inner:hover img {
   transform: scale(1.5);
 }
+.area-text {
+  color: #7e0cf5;
+}
 
 /* SECTION PLAN */
 .card-plan {
@@ -270,14 +305,19 @@ ul.ul-section2 {
   text-align: center;
   margin-top: 1rem;
 }
+.card-title-plan {
+  font-weight: bold;
+  color: #373a3c;
+  font-size: 1.5rem;
+}
 .ul-plan {
   list-style-type: none;
-  margin-bottom: 5rem;
-  font-size: 1.4rem;
+  /*  margin-bottom: 10rem; */
+  font-size: 1.2rem;
   text-align: left;
 }
 .ul-plan li {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -291,7 +331,7 @@ ul.ul-section2 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 5rem;
   width: 100%;
   margin-left: 0rem;
 }
@@ -301,10 +341,11 @@ ul.ul-section2 {
 }
 .text-help p {
   padding-left: 7rem;
+  margin-bottom: 5rem;
 }
 .text-help span {
   font-weight: bold;
-  color: red;
+  color: #7e0cf5;
 }
 .carousel-testimony {
   margin-top: 4rem;
@@ -336,16 +377,41 @@ ul.ul-section2 {
 .row-testimony span {
   color: grey;
 }
+.title-plan {
+  font-weight: bold;
+  color: #7e0cf5;
+}
 .title-plan-mobile {
   display: none;
 }
 .card-smart {
   background-color: rgb(235, 235, 235) !important;
 }
+.btn-plan-outline {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  color: #7e0cf5;
+  border-color: #7e0cf5;
+  margin-top: 10rem;
+}
 .btn-plan {
   padding-left: 6rem;
   padding-right: 6rem;
+  background-color: #7e0cf5;
+  border-color: #7e0cf5;
+  margin-top: 5rem;
 }
+.btn-plan:hover,
+.btn-plan:active {
+  background-color: #7d4eaf !important;
+  border-color: rgb(156, 9, 253);
+}
+.btn-plan-outline:hover,
+.btn-plan-outline:active {
+  background-color: #7d4eaf !important;
+  border-color: rgb(156, 9, 253);
+}
+
 .card {
   padding-bottom: 4rem;
 }
@@ -607,6 +673,11 @@ h5 {
 
 /* """"""SMALL SIZE""""""" */
 @media screen and (max-width: 365px) {
+  .image-background-show {
+    width: 600%;
+    display: relative;
+    background-image: url(../img/bg_mobile.png);
+  }
   .row {
     width: 100%;
     margin-left: 0;
@@ -621,8 +692,28 @@ h5 {
     padding-left: 2rem;
     padding-top: 0rem;
   }
+  .ux-text h1 {
+    font-size: 2rem;
+  }
+  .ux-text p {
+    font-size: 1rem;
+  }
+  .button-talk {
+    background-color: #7e0cf5;
+    text-align: center;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-width: 0px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
   .text-porfolio h1 {
     font-size: 2rem;
+    font-weight: bold;
   }
   .text-porfolio {
     margin-left: auto;
@@ -644,41 +735,43 @@ h5 {
     text-align: center;
   }
   .position-text {
-    justify-content: center;
+    justify-content: left;
     z-index: 2;
-    margin-top: -218rem;
+    margin-top: -212rem;
     width: 100%;
     align-items: center;
     text-align: center;
   }
   .empresa {
-    margin-top: -80rem;
+    margin-top: -75rem;
   }
-  ul.ul-section2 li {
+  .ul-section2 li {
     display: block;
     padding: 0.3rem;
     padding-left: 0rem;
     color: white;
     font-size: 1rem;
+    justify-content: left;
+    text-align: left;
+    margin-left: 3rem;
   }
   .position-text h2 {
     margin-top: 2rem;
     color: white;
     margin-bottom: 1rem;
     font-size: 1.4rem;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
   }
 
   .content-text {
     padding-left: 0;
     padding-right: 0;
   }
-  ul.ul-selection2 {
-    columns: 50px 2;
-
-    columns: 2;
+  .ul-section2 {
     padding: 0;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
   }
 
   .title-plan-mobile {
@@ -750,4 +843,9 @@ h5 {
   .show-carousel .col-sm-12 .col-12 {
     padding: 0;
   }
+}
+.image-background-show {
+  width: 600%;
+  display: relative;
+  background-image: url(../img/bg_mobile.png);
 }

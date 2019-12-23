@@ -36,6 +36,7 @@ const Navbar = props => {
   const [showSuccesfull, setSuccesfull] = useState(false);
   const handleCloseSuccesful = () => setSuccesfull(false);
   const handleShowSuccesfull = () => setSuccesfull(true);
+  const [lang, onLangChange] = useState("en");
 
   return (
     <>

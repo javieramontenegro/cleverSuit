@@ -15,10 +15,53 @@ import Photos from "../component/Photos";
 import Footer from "../component/Footer";
 
 class CleverExTheme extends React.Component {
-  state = {
-    navbarOpen: false
+  constructor(props) {
+    super(props);
+    this.state = {
+      navbarOpen: false,
+      classAnimationVideo: "hidden",
+      classAnimationPortfolio: "hidden",
+      classAnimationCompanies: "hidden",
+      classAnimationPlan: "hidden",
+      classAnimationPhoto: "hidden",
+      classAnimationFooter: "hidden"
+    };
+  }
+  componentDidMount() {
+    window.onscroll = () => this.handleAnimation();
+  }
+  handleAnimation = () => {
+    if (document.documentElement.scrollTop > 100) {
+      this.setState({
+        classAnimationVideo: "visible"
+      });
+    }
+    if (document.documentElement.scrollTop > 642) {
+      this.setState({
+        classAnimationCompanies: "visible"
+      });
+    }
+    if (document.documentElement.scrollTop > 980) {
+      this.setState({
+        classAnimationPortfolio: "visible"
+      });
+    }
+    if (document.documentElement.scrollTop > 2690) {
+      this.setState({
+        classAnimationPlan: "visible"
+      });
+    }
+    if (document.documentElement.scrollTop > 3700) {
+      this.setState({
+        classAnimationPhoto: "visible"
+      });
+    }
+    if (document.documentElement.scrollTop > 4300) {
+      this.setState({
+        classAnimationFooter: "visible"
+      });
+    }
   };
-
   handleNavbar = () => {
     this.setState({ navbarOpen: !this.state.navbarOpen });
   };
@@ -32,27 +75,37 @@ class CleverExTheme extends React.Component {
         <GlobalStyle />
         <Container fluid>
           <section className="section-main" id="section-main">
-            <Main></Main>
+            <Main classAnimation={this.state.classAnimation}></Main>
           </section>
 
           <section className="section-video" id="section-video">
-            <VideoPrueba></VideoPrueba>
+            <VideoPrueba
+              classAnimationVideo={this.state.classAnimationVideo}
+            ></VideoPrueba>
           </section>
           <section>
-            <Companies></Companies>
+            <Companies
+              classAnimationCompanies={this.state.classAnimationCompanies}
+            ></Companies>
           </section>
           <section className="section-portfolio" id="section-portfolio">
-            <CardsPortfolio></CardsPortfolio>
+            <CardsPortfolio
+              classAnimationPortfolio={this.state.classAnimationPortfolio}
+            ></CardsPortfolio>
           </section>
           <section className="section-plan" id="section-plan">
-            <Plan></Plan>
+            <Plan classAnimationPlan={this.state.classAnimationPlan}></Plan>
           </section>
           <section className="section-photos" id="section-photos">
-            <Photos></Photos>
+            <Photos
+              classAnimationPhoto={this.state.classAnimationPhoto}
+            ></Photos>
           </section>
 
           <section className="section-footer" id="section-footer">
-            <Footer></Footer>
+            <Footer
+              classAnimationFooter={this.state.classAnimationFooter}
+            ></Footer>
           </section>
         </Container>
       </div>
