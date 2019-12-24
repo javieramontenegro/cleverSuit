@@ -17,7 +17,7 @@ const habilityContent = [
   { hability: "2D / 3D Motion Graphics" },
   { hability: "Web design and mobile apps" }
 ];
-const back = window.matchMedia("(max-width: 365px)");
+const back = window.matchMedia("(max-width: 720px)");
 class VideoPrueba extends React.Component {
   constructor(props) {
     super(props);
@@ -238,10 +238,7 @@ class VideoPrueba extends React.Component {
               xl={12}
               className="content-text"
             >
-              <h2>
-                Our customers support our capacity <br></br>to boost your
-                project
-              </h2>
+              <h2>Our customers support our capacity to boost your project</h2>
               <ul className="ul-section2">
                 {habilityContent.map(hab => {
                   return (

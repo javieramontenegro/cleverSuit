@@ -228,10 +228,9 @@ ul.ul-section2 {
   margin-top: 2rem;
 }
 .position-text h2 {
-  margin-top: 2rem;
   color: white;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 3rem;
+
   font-size: 3rem;
 }
 .col-button-video {
@@ -250,9 +249,9 @@ ul.ul-section2 {
 .img-companies {
   width: 50%;
 }
-.div-companies-img {
+/* .div-companies-img {
   width: 100%;
-}
+} */
 /* SECTION PORTFOLIO */
 .section-portfolio h1 {
   margin-left: auto;
@@ -593,34 +592,54 @@ h5 {
   .position-text {
     justify-content: center;
     z-index: 2;
-    margin-top: -40rem;
+    margin-top: -50rem;
     width: 100%;
     align-items: center;
     text-align: center;
   }
   .content-text {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #circle {
+    width: 10px;
+
+    margin-right: 1rem;
+    fill: #7e0cf5;
   }
 
   ul.ul-section2 li {
     display: block;
-    padding: 0.5rem;
-    padding-left: 0rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
+    justify-content: left;
+    text-align: left;
+    /*  margin-left: 3rem; */
   }
   ul.ul-section2 {
+    columns: 2;
     font-size: 1.2rem;
-
-    padding: 0;
     text-align: center;
     align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .position-text h2 {
-    margin-top: 2rem;
+    margin-top: 0rem;
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     font-size: 2rem;
+  }
+  .btn-watchvideo button {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 
   .title-plan-mobile {
@@ -768,12 +787,18 @@ h5 {
     padding-left: 0;
     padding-right: 0;
   }
-  .ul-section2 {
+  ul.ul-section2 {
     padding: 0;
     text-align: left;
     align-items: left;
+    columns: 1;
   }
-
+  .btn-watchvideo button {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
   .title-plan-mobile {
     display: block;
     justify-content: center;
@@ -848,4 +873,45 @@ h5 {
   width: 600%;
   display: relative;
   background-image: url(../img/bg_mobile.png);
+}
+@keyframes cf4 {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#fadeImages {
+  position: relative;
+}
+#fadeImages img {
+  width: fit-content;
+  animation-name: cf4;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  position: absolute;
+  left: 0;
+}
+#fadeImages img:nth-of-type(1) {
+  animation-delay: 6s;
+}
+#fadeImages img:nth-of-type(2) {
+  animation-delay: 4s;
+}
+#fadeImages img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+#fadeImages img:nth-of-type(4) {
+  animation-delay: 0;
 }
