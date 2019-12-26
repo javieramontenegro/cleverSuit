@@ -17,7 +17,7 @@ const habilityContent = [
   { hability: "2D / 3D Motion Graphics" },
   { hability: "Web design and mobile apps" }
 ];
-const back = window.matchMedia("(max-width: 720px)");
+const back = window.matchMedia("(max-width: 1080px)");
 class VideoPrueba extends React.Component {
   constructor(props) {
     super(props);
@@ -258,7 +258,7 @@ class VideoPrueba extends React.Component {
                           </g>
                         </svg>
                       </div>
-                      <div className="col-10 col-sm-10 col-md-10 col-lg-12 col-xl-12 div-hability">
+                      <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 div-hability">
                         {hab.hability}
                       </div>
                     </li>

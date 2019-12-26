@@ -24,25 +24,46 @@ class Companies extends React.Component {
         <Row
           className={`justify-content-center company ${this.props.classAnimationCompanies} `}
         >
-          <Col xs={8} sm={6} md={5} lg={2} xl={2} className="align-self-center">
+          <Col
+            xs={8}
+            sm={6}
+            md={5}
+            lg={3}
+            xl={2}
+            className="align-self-center align-items-center"
+          >
             {/* CAROUSEL ONE */}
             <div id="fadeImages">
               <Image src={falabella}></Image>
-              <Image src={adt} className={` ${this.props.showImages} `}></Image>
+              <Image src={adt}></Image>
               <Image src={cat}></Image>
               <Image src={propins}></Image>
             </div>
           </Col>
-          <Col xs={8} sm={6} md={5} lg={2} xl={2} className="align-self-center">
+          <Col
+            xs={8}
+            sm={6}
+            md={5}
+            lg={3}
+            xl={2}
+            className="align-self-center align-items-center"
+          >
             {/* CAROUSEL ONE */}
-            <div id="fadeImages" className="fade-images">
+            <div id="fadeImages" className="fade-images ">
               <Image src={arauco}></Image>
               <Image src={cat}></Image>
               <Image src={forus}></Image>
               <Image src={adt}></Image>
             </div>
           </Col>
-          <Col xs={8} sm={6} md={5} lg={2} xl={2} className="align-self-center">
+          <Col
+            xs={8}
+            sm={6}
+            md={5}
+            lg={3}
+            xl={2}
+            className="align-self-center align-items-center"
+          >
             {/* CAROUSEL ONE */}
             <div id="fadeImages">
               <Image src={propins}></Image>
@@ -51,7 +72,14 @@ class Companies extends React.Component {
               <Image src={cat}></Image>
             </div>
           </Col>
-          <Col xs={8} sm={6} md={5} lg={2} xl={2} className="align-self-center">
+          <Col
+            xs={8}
+            sm={6}
+            md={5}
+            lg={3}
+            xl={2}
+            className="align-self-center align-items-center"
+          >
             {/* CAROUSEL ONE */}
             <div id="fadeImages">
               <Image src={cat}></Image>
@@ -64,7 +92,14 @@ class Companies extends React.Component {
         <Row
           className={`justify-content-center company ${this.props.classAnimationCompanies} companies-file-two `}
         >
-          <Col xs={8} sm={6} md={5} lg={2} xl={2} className="align-self-center">
+          <Col
+            xs={8}
+            sm={6}
+            md={5}
+            lg={3}
+            xl={2}
+            className="align-self-center align-items-center"
+          >
             {/* CAROUSEL ONE */}
             <div id="fadeImages">
               <Image src={adt}></Image>
@@ -73,7 +108,14 @@ class Companies extends React.Component {
               <Image src={forus}></Image>
             </div>
           </Col>
-          <Col xs={8} sm={6} md={5} lg={2} xl={2} className="align-self-center">
+          <Col
+            xs={8}
+            sm={6}
+            md={5}
+            lg={3}
+            xl={2}
+            className="align-self-center align-items-center"
+          >
             {/* CAROUSEL ONE */}
             <div id="fadeImages">
               <Image src={forus}></Image>

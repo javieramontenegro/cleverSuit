@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Button } from "react-bootstrap";
+import { Button, Modal, Image } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
+import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
+import succes from "../../img/succes.svg";
 
 const CollapseMenu = props => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
+  const [show, setShow] = useState(false);
 
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  const [showSuccesfull, setSuccesfull] = useState(false);
+  const handleCloseSuccesful = () => setSuccesfull(false);
+  const handleShowSuccesfull = () => setSuccesfull(true);
   if (props.navbarState === true) {
     return (
       <CollapseWrapper
@@ -71,9 +79,154 @@ const CollapseMenu = props => {
             </select>
           </div>
           <div className="aling-content">
-            <Button className="btn-nav-mobile">Request a Quote</Button>
+            <Button className="btn-nav-mobile" onClick={handleShow}>
+              Request a Quote
+            </Button>
           </div>
         </NavLinks>
+        {/* MODAL FORM */}
+        <Modal
+          show={show}
+          onHide={handleClose}
+          showSucces={showSuccesfull}
+          className="modal-form"
+        >
+          <Modal.Header
+            closeButton
+            className={
+              showSuccesfull === true
+                ? "formik-display-off"
+                : "formik-display-on"
+            }
+          ></Modal.Header>
+          <Modal.Body
+            className={
+              showSuccesfull === true
+                ? "formik-display-off"
+                : "formik-display-on"
+            }
+          >
+            <Formik
+              className={
+                showSuccesfull === true
+                  ? "formik-display-off"
+                  : "formik-display-on"
+              }
+            >
+              <Form>
+                <div className="row container-modal">
+                  <div className="row-title">
+                    <h3> Enter your info, to offer you a good deal</h3>
+                    <br></br>
+                    <p>Type your name</p>
+                  </div>
+                  <div className="row row-name">
+                    <Field name="name" type="text" className="input" />
+                    <ErrorMessage name="name">
+                      {message => <div className="error">{message}</div>}
+                    </ErrorMessage>
+                    <p>We will never share this information with anyone.</p>
+                  </div>
+                  <div className="row row-company">
+                    <p>What's the name of your company?</p>
+                    <Field name="company" type="text" className="input" />
+                    <ErrorMessage name="company">
+                      {message => <div className="error">{message}</div>}
+                    </ErrorMessage>
+                  </div>
+                  <div className="row row-industry align-items-center">
+                    <p>industry</p>
+
+                    <select>
+                      <option>01</option>
+                      <option>01</option>
+                    </select>
+                  </div>
+                  <div className="row row-options">
+                    <p>How big is the company you work for?</p>
+                  </div>
+                  <div className="row row-check">
+                    <label>
+                      <input
+                        name="isGoing"
+                        type="radio"
+                        /* checked={this.state.isGoing}
+                            onChange={this.handleInputChange} */
+                      />
+                      Only me
+                    </label>
+                    <label>
+                      <input
+                        name="isGoing"
+                        type="radio"
+                        /* checked={this.state.isGoing}
+                            onChange={this.handleInputChange} */
+                      />
+                      1 - 50
+                    </label>
+                    <label>
+                      <input
+                        name="isGoing"
+                        type="radio"
+                        /* checked={this.state.isGoing}
+                            onChange={this.handleInputChange} */
+                      />
+                      50 - 250
+                    </label>
+                    <label>
+                      <input
+                        name="isGoing"
+                        type="radio"
+                        /* checked={this.state.isGoing}
+                            onChange={this.handleInputChange} */
+                      />
+                      250+
+                    </label>
+                  </div>
+                  <div className="row row-btn-submit">
+                    <Button
+                      className="btn-nav-mobile"
+                      data-toggle="modal"
+                      data-target="#myModal2"
+                      onClick={handleShowSuccesfull}
+                    >
+                      Request a Quote
+                    </Button>
+                  </div>
+                  <div className="row btn-close">
+                    <Button variant="secondary" onClick={handleClose}>
+                      Close
+                    </Button>
+                  </div>
+                </div>
+              </Form>
+            </Formik>
+          </Modal.Body>
+          {/* MODAL SUCCESFULLY  */}
+
+          <Modal.Body
+            className={
+              showSuccesfull === true
+                ? "succesfull-display-on"
+                : "succesfull-display-off"
+            }
+          >
+            <div className="row row-img-sucess">
+              <Image src={succes}></Image>
+            </div>
+            <div className="row row-sucess-text">
+              <h3>Your application has been successfully submitted!</h3>
+            </div>
+            <div className="row row-succes-btn">
+              <Button
+                className=""
+                onClick={handleClose && handleCloseSuccesful}
+              >
+                Continue
+              </Button>
+            </div>
+          </Modal.Body>
+        </Modal>
       </CollapseWrapper>
     );
   }

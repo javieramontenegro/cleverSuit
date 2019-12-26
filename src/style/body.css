@@ -236,7 +236,7 @@ ul.ul-section2 {
   font-size: 3rem;
 }
 .col-button-video {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .btn-watchvideo button {
   padding-left: 2rem;
@@ -279,6 +279,7 @@ ul.ul-section2 {
 
 .card {
   border-radius: 0.3rem;
+  padding-bottom: 1rem;
 }
 
 .section-portfolio {
@@ -421,9 +422,6 @@ ul.ul-section2 {
   border-color: rgb(156, 9, 253);
 }
 
-.card {
-  padding-bottom: 4rem;
-}
 /* SECTION PHOTOS */
 .row-photos {
   align-items: center;
@@ -566,7 +564,7 @@ h5 {
 }
 
 /* """""""""MEDIUM SIZE""""""""" */
-@media screen and (max-width: 988px) {
+@media screen and (max-width: 1080px) {
   .row {
     width: 100%;
     margin-left: 0;
@@ -602,7 +600,7 @@ h5 {
   .position-text {
     justify-content: center;
     z-index: 2;
-    margin-top: -50rem;
+    margin-top: -42rem;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -617,12 +615,15 @@ h5 {
     margin-right: 1rem;
     fill: #7e0cf5;
   }
+  .col-button-video {
+    margin-top: 1rem;
+  }
 
   ul.ul-section2 li {
     display: flex;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -666,7 +667,11 @@ h5 {
     margin-top: 1rem;
   }
   #fadeImages {
-    margin-top: 8rem;
+    margin-top: 9rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: auto;
   }
   #fadeImages img {
     width: 100%;
@@ -675,6 +680,8 @@ h5 {
     animation-iteration-count: infinite;
     animation-duration: 8s;
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
 
     left: 0;
   }
@@ -730,6 +737,7 @@ h5 {
 @media screen and (max-width: 400px) {
   .image-background-show {
     width: 600%;
+
     display: relative;
     background-image: url(../img/bg_mobile.png);
   }
@@ -792,7 +800,7 @@ h5 {
   .position-text {
     justify-content: left;
     z-index: 2;
-    margin-top: -212rem;
+    margin-top: -210rem;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -825,11 +833,12 @@ h5 {
     left: 0;
   }
   #fadeImages {
-    margin-top: 5rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
   }
   .ul-section2 li {
     display: block;
-    padding: 0.3rem;
+    margin-top: 0.5rem;
     padding-left: 0rem;
     color: white;
     font-size: 1rem;
@@ -847,8 +856,8 @@ h5 {
   }
 
   .content-text {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   ul.ul-section2 {
     padding: 0;
