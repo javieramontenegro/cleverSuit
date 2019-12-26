@@ -241,17 +241,16 @@ ul.ul-section2 {
   padding-right: 4rem;
 }
 /* """""" COMPANIES""""" */
-.empresa {
+.company {
   text-align: center;
   align-content: center;
-  margin-top: 6rem;
+  margin-top: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
-.img-companies {
-  width: 50%;
+.company img {
+  width: fit-content;
 }
-/* .div-companies-img {
-  width: 100%;
-} */
 /* SECTION PORTFOLIO */
 .section-portfolio h1 {
   margin-left: auto;
@@ -272,7 +271,7 @@ ul.ul-section2 {
 }
 
 .section-portfolio {
-  margin-top: 8rem;
+  margin-top: 15rem;
 }
 .btn-loadMore {
   margin-top: 2rem;
@@ -761,7 +760,7 @@ h5 {
     align-items: center;
     text-align: center;
   }
-  .empresa {
+  .company {
     margin-top: -75rem;
   }
   .ul-section2 li {
@@ -893,6 +892,7 @@ h5 {
 }
 #fadeImages {
   position: relative;
+  will-change: auto;
 }
 #fadeImages img {
   width: fit-content;
@@ -901,6 +901,7 @@ h5 {
   animation-iteration-count: infinite;
   animation-duration: 8s;
   position: absolute;
+
   left: 0;
 }
 #fadeImages img:nth-of-type(1) {

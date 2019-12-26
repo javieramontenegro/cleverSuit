@@ -24,7 +24,8 @@ class CleverExTheme extends React.Component {
       classAnimationCompanies: "hidden",
       classAnimationPlan: "hidden",
       classAnimationPhoto: "hidden",
-      classAnimationFooter: "hidden"
+      classAnimationFooter: "hidden",
+      showImages: "hidden"
     };
   }
   componentDidMount() {
@@ -38,15 +39,16 @@ class CleverExTheme extends React.Component {
     }
     if (document.documentElement.scrollTop > 642) {
       this.setState({
-        classAnimationCompanies: "visible"
+        classAnimationCompanies: "visible",
+        showImages: "delay"
       });
     }
-    if (document.documentElement.scrollTop > 980) {
+    if (document.documentElement.scrollTop > 960) {
       this.setState({
         classAnimationPortfolio: "visible"
       });
     }
-    if (document.documentElement.scrollTop > 2690) {
+    if (document.documentElement.scrollTop > 2670) {
       this.setState({
         classAnimationPlan: "visible"
       });
@@ -86,6 +88,7 @@ class CleverExTheme extends React.Component {
           <section>
             <Companies
               classAnimationCompanies={this.state.classAnimationCompanies}
+              showImages={this.state.showImages}
             ></Companies>
           </section>
           <section className="section-portfolio" id="section-portfolio">
