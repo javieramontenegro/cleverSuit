@@ -43,17 +43,17 @@ class CleverExTheme extends React.Component {
         showImages: "delay"
       });
     }
-    if (document.documentElement.scrollTop > 960) {
+    if (document.documentElement.scrollTop > 800) {
       this.setState({
         classAnimationPortfolio: "visible"
       });
     }
-    if (document.documentElement.scrollTop > 2670) {
+    if (document.documentElement.scrollTop > 2500) {
       this.setState({
         classAnimationPlan: "visible"
       });
     }
-    if (document.documentElement.scrollTop > 3700) {
+    if (document.documentElement.scrollTop > 3500) {
       this.setState({
         classAnimationPhoto: "visible"
       });
