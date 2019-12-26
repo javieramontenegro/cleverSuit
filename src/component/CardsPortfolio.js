@@ -76,7 +76,7 @@ class CardsPortfolio extends React.Component {
         >
           {cards.slice(0, this.state.visible).map(card => {
             return (
-              <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-5  card-portfolio">
+              <div className="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-5  card-portfolio">
                 <Card style={{ width: "100%" }}>
                   <div class="inner">
                     <Card.Img variant="top" src={card.img} />

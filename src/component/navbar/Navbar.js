@@ -194,7 +194,11 @@ const Navbar = props => {
               /* value={this.state.lang} onChange={this.onLangChange} */ className="selectpicker select-web"
               data-width="fit"
             >
-              <option value="es" data-content="<i class='fa fa-globe'></i>  Es">
+              <option
+                value="es"
+                className="anchor-option"
+                data-content="<i class='fa fa-globe'></i>  Es"
+              >
                 Es
               </option>
               <option value="en" data-content="<i class='fa fa-globe'></i>  En">
@@ -257,7 +261,7 @@ const NavLinks = styled(animated.ul)`
     color: #55595c;
 
     border-bottom: 1px solid transparent;
-    margin: 0 1.2rem;
+    margin-right: 1.2rem;
     transition: all 300ms linear 0s;
     text-decoration: none;
     cursor: pointer;

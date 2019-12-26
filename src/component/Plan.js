@@ -277,9 +277,9 @@ class Plan extends React.Component {
           </Col>
           <Col
             xl={{ span: 3, order: 2 }}
-            lg={{ span: 3, order: 2 }}
-            md={{ span: 12, order: 1 }}
-            sm={{ span: 12, order: 1 }}
+            lg={{ span: 4, order: 2 }}
+            md={{ span: 8, order: 1 }}
+            sm={{ span: 8, order: 1 }}
             xs={{ span: 12, order: 1 }}
           >
             <h1 className="title-plan-mobile">
@@ -315,9 +315,9 @@ class Plan extends React.Component {
           </Col>
           <Col
             xl={{ span: 3, order: 3 }}
-            lg={{ span: 3, order: 3 }}
-            md={{ span: 12, order: 2 }}
-            sm={{ span: 12, order: 2 }}
+            lg={{ span: 4, order: 3 }}
+            md={{ span: 8, order: 2 }}
+            sm={{ span: 8, order: 2 }}
             xs={{ span: 12, order: 2 }}
           >
             <Card style={{ width: "100%" }} className="card-plan">
@@ -355,7 +355,8 @@ class Plan extends React.Component {
           <Col xl={6} lg={5} md={2} sm={0} xs={0}></Col>
           <Col xl={6} lg={6} md={10} sm={12} xs={12} className="text-help">
             <p>
-              ¿Tienes alguna duda adicional,<span>te llamaremos</span>?{" "}
+              Do you have any additional questions? ,
+              <span>We'll call you!</span>?{" "}
             </p>
           </Col>
         </Row>

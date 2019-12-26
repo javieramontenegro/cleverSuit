@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/body.css";
-import reel from "../img/reel_final.mp4";
+import reel from "../img/video_back.mp4";
 import circle from "../img/circle.svg";
 import { Row, Col, Container, Button, Modal, Image } from "react-bootstrap";
 import YoutubeVideo from "./YoutubeVideo";
@@ -243,21 +243,24 @@ class VideoPrueba extends React.Component {
                 {habilityContent.map(hab => {
                   return (
                     <li>
-                      <svg
-                        version="1.1"
-                        id="circle"
-                        xmlns="http://www.w3.org/2000/svg"
-                        x="0px"
-                        y="0px"
-                        viewBox="0 0 2 2"
-                      >
-                        <g>
-                          <circle cx="1" cy="1" r="0.5" />
-                          <path d="M1,0C0.45,0,0,0.45,0,1s0.45,1,1,1s1-0.45,1-1S1.55,0,1,0L1,0z" />
-                        </g>
-                      </svg>
-
-                      {hab.hability}
+                      <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                        <svg
+                          version="1.1"
+                          id="circle"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 2 2"
+                        >
+                          <g>
+                            <circle cx="1" cy="1" r="0.5" />
+                            <path d="M1,0C0.45,0,0,0.45,0,1s0.45,1,1,1s1-0.45,1-1S1.55,0,1,0L1,0z" />
+                          </g>
+                        </svg>
+                      </div>
+                      <div className="col-10 col-sm-10 col-md-10 col-lg-12 col-xl-12 div-hability">
+                        {hab.hability}
+                      </div>
                     </li>
                   );
                 })}

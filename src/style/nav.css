@@ -20,30 +20,22 @@ html {
   padding-right: 1rem;
   padding-left: 1rem;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 1rem;
 }
+/* LANGUAGE */
 .select-lang {
   border-color: white;
 }
-/* .notIE .fancyArrow {
-  width: 23px;
-  height: 28px;
-  position: absolute;
-  display: inline-block;
-  top: 1px;
-  right: 3px;
-  background: url(http://www.stackoverflow.com/favicon.ico) right / 90%
-    no-repeat #fff;
-  pointer-events: none;
-} */
-
-/* .bootstrap-select > .dropdown-toggle {
-  width: 30%;
+.anchor-option {
+  margin: 0 0 !important;
 }
- */
 .btn-light {
   background-color: white;
   border-color: white;
+  color: #818a91;
+}
+.dropdown-item {
+  color: #818a91 !important;
 }
 .btn-nav-mobile {
   font-size: 1rem;

@@ -190,11 +190,14 @@ video.fillWidth {
 
   text-align: center;
 }
-
+.div-hability {
+  padding: 0;
+  padding-right: 2rem;
+}
 ul.ul-section2 li {
   display: inline-flex;
   padding: 1rem;
-  padding-left: 4rem;
+
   color: white;
 }
 ul.ul-section2 {
@@ -212,7 +215,6 @@ ul.ul-section2 {
 #circle {
   width: 10px;
 
-  margin-right: 1rem;
   fill: #7e0cf5;
 }
 
@@ -237,20 +239,29 @@ ul.ul-section2 {
   margin-top: 1rem;
 }
 .btn-watchvideo button {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 /* """""" COMPANIES""""" */
 .company {
   text-align: center;
   align-content: center;
-  margin-top: 5rem;
+}
+.section-companies {
+  width: 100%;
+  margin-top: 0rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
-.company img {
-  width: fit-content;
+.companies-file-two {
+  margin-top: 8rem;
 }
+#fadeImages {
+  margin-top: 5rem;
+}
+
 /* SECTION PORTFOLIO */
 .section-portfolio h1 {
   margin-left: auto;
@@ -386,15 +397,15 @@ ul.ul-section2 {
   background-color: rgb(235, 235, 235) !important;
 }
 .btn-plan-outline {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   color: #7e0cf5;
   border-color: #7e0cf5;
   margin-top: 10rem;
 }
 .btn-plan {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   background-color: #7e0cf5;
   border-color: #7e0cf5;
   margin-top: 5rem;
@@ -548,14 +559,14 @@ h5 {
 .btn-primary:focus,
 .btn-primary:active {
   background-color: #7d4eaf !important;
-  border-color: rgb(156, 9, 253);
+  border-color: #7d4eaf;
 }
 .btn-primary.active {
   background-color: #8e05ff !important;
 }
 
 /* """""""""MEDIUM SIZE""""""""" */
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 988px) {
   .row {
     width: 100%;
     margin-left: 0;
@@ -608,7 +619,7 @@ h5 {
   }
 
   ul.ul-section2 li {
-    display: block;
+    display: flex;
     padding-left: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -635,12 +646,38 @@ h5 {
     font-size: 2rem;
   }
   .btn-watchvideo button {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
+  /* SECTION COMPANIES */
+  .company {
+    text-align: center;
+    align-content: center;
+  }
+  .section-companies {
+    width: 100%;
+    /* margin-top: 1rem; */
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .companies-file-two {
+    margin-top: 1rem;
+  }
+  #fadeImages {
+    margin-top: 8rem;
+  }
+  #fadeImages img {
+    width: 100%;
+    animation-name: cf4;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    position: absolute;
 
+    left: 0;
+  }
   .title-plan-mobile {
     display: block;
     justify-content: center;
@@ -690,7 +727,7 @@ h5 {
 }
 
 /* """"""SMALL SIZE""""""" */
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 400px) {
   .image-background-show {
     width: 600%;
     display: relative;
@@ -760,8 +797,35 @@ h5 {
     align-items: center;
     text-align: center;
   }
+
+  /* SECTION COMPANIES */
   .company {
+    text-align: center;
+    align-content: center;
+  }
+  .section-companies {
+    width: 100%;
     margin-top: -75rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .companies-file-two {
+    margin-top: 1rem;
+  }
+  #fadeImages img {
+    width: 70%;
+
+    animation-name: cf4;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    position: absolute;
+
+    left: 0;
+  }
+  #fadeImages {
+    margin-top: 5rem;
   }
   .ul-section2 li {
     display: block;
@@ -895,7 +959,7 @@ h5 {
   will-change: auto;
 }
 #fadeImages img {
-  width: fit-content;
+  width: 70%;
   animation-name: cf4;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;

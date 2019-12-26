@@ -85,10 +85,9 @@ class CleverExTheme extends React.Component {
               classAnimationVideo={this.state.classAnimationVideo}
             ></VideoPrueba>
           </section>
-          <section>
+          <section className="section-companies">
             <Companies
               classAnimationCompanies={this.state.classAnimationCompanies}
-              showImages={this.state.showImages}
             ></Companies>
           </section>
           <section className="section-portfolio" id="section-portfolio">
