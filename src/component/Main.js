@@ -6,6 +6,7 @@ import "../style/body.css";
 import { Row, Col, Container, Button, Image, Modal } from "react-bootstrap";
 import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
 import succes from "../img/succes.svg";
+import Animation from "../component/AnimationUx";
 
 const mainContent = [
   {
@@ -224,7 +225,8 @@ class Main extends React.Component {
             xl={6}
             className={`align-self-center ux-image visible `}
           >
-            <Image src={uxImage} className=""></Image>
+            {/*  <Image src={uxImage} className=""></Image> */}
+            <Animation></Animation>
           </Col>
         </Row>
       </>

@@ -29,8 +29,10 @@ class VideoPrueba extends React.Component {
       hideVideo: ""
     };
   }
+
   componentDidMount() {
     back.addListener(this.handleBackground);
+    this.handleBackground();
   }
   showVideo = () => {
     this.setState({ showVideo: !this.state.showVideo });
@@ -54,12 +56,11 @@ class VideoPrueba extends React.Component {
         imageBackground: "image-background-show",
         hideVideo: "hidden"
       });
-      if (!back.matches) {
-        this.setState({
-          imageBackground: "hidden",
-          hideVideo: ""
-        });
-      }
+    } else {
+      this.setState({
+        imageBackground: "hidden",
+        hideVideo: ""
+      });
     }
   };
   render() {
