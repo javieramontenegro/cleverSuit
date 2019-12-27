@@ -60,15 +60,17 @@ class CardsPortfolio extends React.Component {
         >
           <Col
             xs={12}
-            sm={12}
-            md={12}
-            lg={6}
-            xl={4}
+            sm={10}
+            md={10}
+            lg={10}
+            xl={12}
             className={`${this.props.classAnimationPortfolio} `}
           >
-            <h1>We build your tailored digital products</h1>
+            <h1 className="portfolio-title">
+              We build your tailored digital products
+            </h1>
           </Col>
-          <Col xl={6} lg={2} md={0} sm={0} xs={0}></Col>
+          {/*  <Col xl={6} lg={2} md={0} sm={0} xs={0}></Col> */}
         </Row>
 
         <Row

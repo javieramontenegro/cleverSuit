@@ -15,6 +15,8 @@ import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
 import succes from "../img/succes.svg";
 
 import Image from "react-bootstrap/Image";
+
+const back = window.matchMedia("(max-width: 1100px)");
 const plan = {
   title: [{ title: "We offer plans that fit your needs" }],
 
@@ -78,8 +80,14 @@ class Plan extends React.Component {
     super(props);
     this.state = {
       showSuccesfull: false,
-      show: false
+      show: false,
+      title: "hidden",
+      titleNormal: "title-plan"
     };
+  }
+  componentDidMount() {
+    back.addListener(this.handleTitle);
+    this.handleTitle();
   }
   handleShow = () => {
     this.setState({ show: true });
@@ -92,6 +100,19 @@ class Plan extends React.Component {
   };
   handleShowSuccesfull = () => {
     this.setState({ showSuccesfull: true });
+  };
+  handleTitle = () => {
+    if (back.matches) {
+      this.setState({
+        title: "title-plan-mobile",
+        titleNormal: "hidden"
+      });
+    } else {
+      this.setState({
+        title: "hidden",
+        titleNormal: "title-plan"
+      });
+    }
   };
   render() {
     return (
@@ -244,14 +265,16 @@ class Plan extends React.Component {
         >
           <Col
             xl={{ span: 3, order: 1 }}
-            lg={{ span: 3, order: 1 }}
-            md={{ span: 12, order: 3 }}
-            sm={{ span: 12, order: 3 }}
+            lg={{ span: 8, order: 3 }}
+            md={{ span: 8, order: 3 }}
+            sm={{ span: 8, order: 3 }}
             xs={{ span: 12, order: 3 }}
             className=" align-self-center "
           >
             <>
-              <h1 className="title-plan">We offer plans that fit your needs</h1>
+              <h1 className={`${this.state.titleNormal}`}>
+                We offer plans that fit your needs
+              </h1>
               <Carousel className="carousel-testimony">
                 {plan.testimony.map(plan => (
                   <Carousel.Item>
@@ -277,15 +300,15 @@ class Plan extends React.Component {
           </Col>
           <Col
             xl={{ span: 3, order: 2 }}
-            lg={{ span: 4, order: 2 }}
+            lg={{ span: 8, order: 1 }}
             md={{ span: 8, order: 1 }}
             sm={{ span: 8, order: 1 }}
             xs={{ span: 12, order: 1 }}
           >
-            <h1 className="title-plan-mobile">
+            <h1 className={`${this.state.title}`}>
               We offer plans that fit your needs
             </h1>
-            <Card style={{ width: "100%" }} className="card-plan card-smart">
+            <Card style={{ width: "100%" }} className="card-plan ">
               <Card.Body>
                 <Card.Title className="card-title-plan">
                   Standard Plan
@@ -315,12 +338,12 @@ class Plan extends React.Component {
           </Col>
           <Col
             xl={{ span: 3, order: 3 }}
-            lg={{ span: 4, order: 3 }}
+            lg={{ span: 8, order: 2 }}
             md={{ span: 8, order: 2 }}
             sm={{ span: 8, order: 2 }}
             xs={{ span: 12, order: 2 }}
           >
-            <Card style={{ width: "100%" }} className="card-plan">
+            <Card style={{ width: "100%" }} className="card-plan card-custom">
               <Card.Body>
                 <Card.Title className="card-title-plan">
                   Custom-made plan
@@ -352,8 +375,8 @@ class Plan extends React.Component {
           </Col>
         </Row>
         <Row className={`${this.props.classAnimationPlan}`}>
-          <Col xl={6} lg={5} md={2} sm={0} xs={0}></Col>
-          <Col xl={6} lg={6} md={10} sm={12} xs={12} className="text-help">
+          <Col xl={6} lg={2} md={2} sm={0} xs={0}></Col>
+          <Col xl={6} lg={10} md={10} sm={12} xs={12} className="text-help">
             <p>
               Do you have any additional questions? ,
               <span>We'll call you!</span>?{" "}

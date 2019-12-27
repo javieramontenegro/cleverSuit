@@ -284,13 +284,18 @@ ul.ul-section2 {
 .card-portfolio {
   margin-right: 1rem;
   margin-left: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   width: 100%;
 }
 .text-porfolio h1 {
   font-weight: bold;
 }
+.portfolio-title {
+  padding-left: 10%;
+  padding-right: 50%;
+}
 
+/* SECCION PLAN */
 .card {
   border-radius: 0.3rem;
   padding-bottom: 1rem;
@@ -329,6 +334,9 @@ ul.ul-section2 {
   text-align: center;
   margin-top: 1rem;
 }
+.card-custom {
+  border-color: #7e0cf5;
+}
 .card-title-plan {
   font-weight: bold;
   color: #373a3c;
@@ -339,6 +347,12 @@ ul.ul-section2 {
   /*  margin-bottom: 10rem; */
   font-size: 1.2rem;
   text-align: left;
+}
+.title-plan-mobile {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .ul-plan li {
   margin-top: 1.5rem;
@@ -405,12 +419,7 @@ ul.ul-section2 {
   font-weight: bold;
   color: #7e0cf5;
 }
-.title-plan-mobile {
-  display: none;
-}
-.card-smart {
-  background-color: rgb(235, 235, 235) !important;
-}
+
 .btn-plan-outline {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -590,7 +599,9 @@ h5 {
     padding-right: 3rem;
     padding-top: 5rem;
   }
-
+  .section-main {
+    margin-top: 4rem;
+  }
   .ux-image {
     justify-content: center;
     text-align: center;
@@ -688,7 +699,7 @@ h5 {
     margin-top: 1rem;
   }
   #fadeImages {
-    margin-top: 9rem;
+    margin-top: 50%;
     justify-content: center;
     text-align: center;
     margin-left: 2rem;
@@ -706,13 +717,9 @@ h5 {
 
     left: 0;
   }
-  .title-plan-mobile {
-    display: block;
-    justify-content: center;
-    text-align: center;
-  }
-  .title-plan {
-    display: none;
+  .portfolio-title {
+    padding-left: 10%;
+    padding-right: 30%;
   }
   .text-help p {
     padding-left: 0rem;
@@ -766,6 +773,9 @@ h5 {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+  .section-main {
+    margin-top: 8rem;
   }
   .row-main h1 {
     font-size: 2rem;
@@ -893,6 +903,11 @@ h5 {
     padding-right: 3rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+  }
+  /*   SECTION PORTFOLIO */
+  .portfolio-title {
+    padding-left: 5%;
+    padding-right: 10%;
   }
   .title-plan-mobile {
     display: block;

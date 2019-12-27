@@ -25,7 +25,7 @@ class Companies extends React.Component {
           className={`justify-content-center company ${this.props.classAnimationCompanies} `}
         >
           <Col
-            xs={8}
+            xs={6}
             sm={6}
             md={5}
             lg={3}
@@ -41,7 +41,7 @@ class Companies extends React.Component {
             </div>
           </Col>
           <Col
-            xs={8}
+            xs={6}
             sm={6}
             md={5}
             lg={3}
@@ -57,7 +57,7 @@ class Companies extends React.Component {
             </div>
           </Col>
           <Col
-            xs={8}
+            xs={6}
             sm={6}
             md={5}
             lg={3}
@@ -73,7 +73,7 @@ class Companies extends React.Component {
             </div>
           </Col>
           <Col
-            xs={8}
+            xs={6}
             sm={6}
             md={5}
             lg={3}
@@ -93,7 +93,7 @@ class Companies extends React.Component {
           className={`justify-content-center company ${this.props.classAnimationCompanies} companies-file-two `}
         >
           <Col
-            xs={8}
+            xs={6}
             sm={6}
             md={5}
             lg={3}
@@ -109,7 +109,7 @@ class Companies extends React.Component {
             </div>
           </Col>
           <Col
-            xs={8}
+            xs={6}
             sm={6}
             md={5}
             lg={3}

@@ -48,7 +48,7 @@ class CleverExTheme extends React.Component {
         classAnimationPortfolio: "visible"
       });
     }
-    if (document.documentElement.scrollTop > 2500) {
+    if (document.documentElement.scrollTop > 2650) {
       this.setState({
         classAnimationPlan: "visible"
       });

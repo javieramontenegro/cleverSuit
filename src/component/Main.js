@@ -10,9 +10,9 @@ import Animation from "../component/AnimationUx";
 
 const mainContent = [
   {
-    title: "We turn complicated things into simple ones",
+    title: "We make complex things simple",
     description:
-      "We are a skilled creative team, our main focus is to deliver an outstanding user experiences in all the projects we are involved in.",
+      "As a team, our goal is to build great user experiences for every project we participate in",
     button: "Request a Quote"
   }
 ];
