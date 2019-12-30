@@ -2,7 +2,7 @@ import React from "react";
 
 import uxImage from "../img/ux.svg";
 import "../style/bodyUx.css";
-import Navbar from "../component/navbar/Navbar";
+import Navbar from "../component/navbarUx/Navbar";
 import GlobalStyle from "../style/NavbarStyle";
 
 import { Row, Col, Container, Button, Modal } from "react-bootstrap";

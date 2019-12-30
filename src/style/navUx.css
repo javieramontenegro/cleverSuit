@@ -4,6 +4,15 @@ html {
 .nav-item {
   margin-right: 1rem;
 }
+.img-nav {
+  height: 85%;
+  margin: auto 0;
+}
+@media (max-width: 868px) {
+  .img-nav {
+    height: 60%;
+  }
+}
 
 .logo {
   width: 4rem;

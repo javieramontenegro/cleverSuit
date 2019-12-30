@@ -247,7 +247,7 @@ ul.ul-section2 {
 .position-text h2 {
   color: white;
   margin-bottom: 3rem;
-
+  font-weight: bold;
   font-size: 3rem;
 }
 .col-button-video {
@@ -874,7 +874,6 @@ h5 {
     margin-left: 3rem;
   }
   .position-text h2 {
-    margin-top: 2rem;
     color: white;
     margin-bottom: 1rem;
     font-size: 1.4rem;
