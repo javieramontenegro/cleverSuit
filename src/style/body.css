@@ -277,22 +277,18 @@ ul.ul-section2 {
 }
 
 /* SECTION PORTFOLIO */
-.section-portfolio h1 {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .card-portfolio {
   margin-right: 1rem;
   margin-left: 1rem;
   margin-top: 3rem;
   width: 100%;
 }
-.text-porfolio h1 {
-  font-weight: bold;
-}
+
 .portfolio-title {
-  padding-left: 10%;
-  padding-right: 50%;
+  padding-left: 8%;
+  padding-right: 45%;
+  font-weight: bold;
 }
 
 /* SECCION PLAN */
@@ -350,9 +346,11 @@ ul.ul-section2 {
 }
 .title-plan-mobile {
   display: block;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
   margin-bottom: 3rem;
+  font-weight: bold;
+  color: #7e0cf5;
 }
 .ul-plan li {
   margin-top: 1.5rem;
@@ -719,7 +717,8 @@ h5 {
   }
   .portfolio-title {
     padding-left: 10%;
-    padding-right: 30%;
+    padding-right: 10%;
+    font-weight: bold;
   }
   .text-help p {
     padding-left: 0rem;
@@ -803,7 +802,6 @@ h5 {
     cursor: pointer;
     border-width: 0px;
     margin-top: 1rem;
-    margin-bottom: 2rem;
   }
   .text-porfolio h1 {
     font-size: 2rem;
@@ -906,14 +904,10 @@ h5 {
   }
   /*   SECTION PORTFOLIO */
   .portfolio-title {
-    padding-left: 5%;
+    padding-left: 2%;
     padding-right: 10%;
   }
-  .title-plan-mobile {
-    display: block;
-    justify-content: center;
-    text-align: center;
-  }
+
   /* SECTION PORTFOLIO */
   .section-portfolio {
     margin-top: 8rem;
@@ -944,8 +938,8 @@ h5 {
     padding-bottom: 5rem;
   }
   .btn-plan {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   .title-footer {
     width: 100%;
@@ -966,6 +960,13 @@ h5 {
     justify-content: center;
     text-align: center;
   }
+  .clerverSuit-footer ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+  }
+  /*  .clerverSuit-footer li {
+    margin-bottom: 0rem;
+  } */
 }
 
 /* ONLY FOR PHOTOS IN COROUSEL */

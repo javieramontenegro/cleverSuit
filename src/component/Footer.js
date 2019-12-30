@@ -197,7 +197,7 @@ class Footer extends React.Component {
               lg={2}
               md={{ span: 6, order: 2 }}
               sm={{ span: 6, order: 2 }}
-              xs={{ span: 12, order: 2 }}
+              xs={{ span: 6, order: 2 }}
             >
               <ul>
                 <li>
@@ -216,7 +216,7 @@ class Footer extends React.Component {
               lg={2}
               md={{ span: 6, order: 2 }}
               sm={{ span: 6, order: 3 }}
-              xs={{ span: 12, order: 3 }}
+              xs={{ span: 6, order: 3 }}
             >
               <ul>
                 <li>
@@ -232,7 +232,7 @@ class Footer extends React.Component {
               lg={2}
               md={{ span: 6, order: 2 }}
               sm={{ span: 6, order: 4 }}
-              xs={{ span: 12, order: 4 }}
+              xs={{ span: 6, order: 4 }}
             >
               <ul>
                 <li>
@@ -251,7 +251,7 @@ class Footer extends React.Component {
               lg={2}
               md={{ span: 6, order: 2 }}
               sm={{ span: 6, order: 5 }}
-              xs={{ span: 12, order: 5 }}
+              xs={{ span: 6, order: 5 }}
             >
               <ul>
                 <li>

@@ -268,7 +268,7 @@ class Plan extends React.Component {
             lg={{ span: 8, order: 3 }}
             md={{ span: 8, order: 3 }}
             sm={{ span: 8, order: 3 }}
-            xs={{ span: 12, order: 3 }}
+            xs={{ span: 10, order: 3 }}
             className=" align-self-center "
           >
             <>
@@ -302,8 +302,8 @@ class Plan extends React.Component {
             xl={{ span: 3, order: 2 }}
             lg={{ span: 8, order: 1 }}
             md={{ span: 8, order: 1 }}
-            sm={{ span: 8, order: 1 }}
-            xs={{ span: 12, order: 1 }}
+            sm={{ span: 10, order: 1 }}
+            xs={{ span: 10, order: 1 }}
           >
             <h1 className={`${this.state.title}`}>
               We offer plans that fit your needs
@@ -340,8 +340,8 @@ class Plan extends React.Component {
             xl={{ span: 3, order: 3 }}
             lg={{ span: 8, order: 2 }}
             md={{ span: 8, order: 2 }}
-            sm={{ span: 8, order: 2 }}
-            xs={{ span: 12, order: 2 }}
+            sm={{ span: 10, order: 2 }}
+            xs={{ span: 10, order: 2 }}
           >
             <Card style={{ width: "100%" }} className="card-plan card-custom">
               <Card.Body>
@@ -375,8 +375,8 @@ class Plan extends React.Component {
           </Col>
         </Row>
         <Row className={`${this.props.classAnimationPlan}`}>
-          <Col xl={6} lg={2} md={2} sm={0} xs={0}></Col>
-          <Col xl={6} lg={10} md={10} sm={12} xs={12} className="text-help">
+          <Col xl={6} lg={2} md={2} sm={2} xs={1}></Col>
+          <Col xl={6} lg={10} md={10} sm={10} xs={10} className="text-help">
             <p>
               Do you have any additional questions? ,
               <span>We'll call you!</span>?{" "}
