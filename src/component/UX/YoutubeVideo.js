@@ -2,7 +2,7 @@ import React from "react";
 import YouTube from "react-youtube";
 import "../../style/bodyUx.css";
 
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 class YoutubeVideo extends React.Component {
   constructor(props) {

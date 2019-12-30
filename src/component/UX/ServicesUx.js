@@ -1,8 +1,8 @@
 import React from "react";
 import "../../style/bodyUx.css";
 import reel from "../../img/video_back.mp4";
-import circle from "../../img/circle.svg";
-import { Row, Col, Container, Button, Modal, Image } from "react-bootstrap";
+
+import { Row, Col, Button, Image } from "react-bootstrap";
 import YoutubeVideo from "./YoutubeVideo";
 
 import imgBackground from "../../img/bg_mobile.png";
@@ -79,12 +79,12 @@ class ServicesUx extends React.Component {
             show={this.state.showVideo}
             handleVideo={this.showVideo}
           ></YoutubeVideo>
-          <div class={` video-container `}>
+          <div className={` video-container `}>
             <video
               autoPlay
               loop
               muted
-              class={` fillWidth visible-lg ${this.state.hideVideo}`}
+              className={` fillWidth visible-lg ${this.state.hideVideo}`}
             >
               <source src={reel} type="video/mp4; " />
             </video>
@@ -106,9 +106,9 @@ class ServicesUx extends React.Component {
             >
               <h2>Our customers support our capacity to boost your project</h2>
               <ul className="ul-section2">
-                {habilityContent.map(hab => {
+                {habilityContent.map((hab, index) => {
                   return (
-                    <li>
+                    <li key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
                         <svg
                           version="1.1"

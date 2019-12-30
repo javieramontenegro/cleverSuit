@@ -1,18 +1,10 @@
 import React from "react";
 import "../../style/bodyUx.css";
 
-import {
-  Row,
-  Col,
-  Container,
-  Button,
-  Card,
-  Carousel,
-  Modal
-} from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 
 import Image from "react-bootstrap/Image";
-import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 import succes from "../../img/succes.svg";
 
 class ModalForm extends React.Component {

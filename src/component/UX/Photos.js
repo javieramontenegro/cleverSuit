@@ -5,7 +5,7 @@ import photo2 from "../../img/team_02.png";
 import photo3 from "../../img/team_03.png";
 import photo4 from "../../img/team_04.png";
 import photo5 from "../../img/team_05.png";
-import { Row, Col, Container, Button, Card, Carousel } from "react-bootstrap";
+import { Row, Col, Carousel } from "react-bootstrap";
 
 import Image from "react-bootstrap/Image";
 

@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
-import {
-  Button,
-  Modal,
-  ButtonToolbar,
-  Image,
-  ModalBody
-} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import Brand from "./Brand";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
 import "../../style/navUx.css";
-import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
-import succes from "../../img/succes.svg";
+
 import ModalForm from "../UX/ModalForm";
 
 const Navbar = props => {

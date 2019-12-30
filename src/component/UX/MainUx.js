@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import "../../style/bodyUx.css";
 
-import { Row, Col, Container, Button, Image, Modal } from "react-bootstrap";
-import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
+import { Row, Col, Button } from "react-bootstrap";
 
 import Animation from "./AnimationUx";
 import ModalForm from "./ModalForm";
@@ -66,8 +65,8 @@ class MainUx extends React.Component {
             xl={6}
             className={`ux-text visible`}
           >
-            {mainContent.map(text => (
-              <>
+            {mainContent.map((text, index) => (
+              <React.Fragment key={index}>
                 <h1>{text.title}</h1>
                 <br></br>
                 <p>{text.description}</p>
@@ -78,7 +77,7 @@ class MainUx extends React.Component {
                 >
                   {text.button}
                 </Button>
-              </>
+              </React.Fragment>
             ))}
           </Col>
 

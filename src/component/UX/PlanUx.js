@@ -2,16 +2,7 @@ import React from "react";
 import "../../style/bodyUx.css";
 import ticket from "../../img/ticket.svg";
 import testimony1 from "../../img/testimony_1.png";
-import {
-  Row,
-  Col,
-  Container,
-  Button,
-  Card,
-  Carousel,
-  Modal
-} from "react-bootstrap";
-import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
+import { Row, Col, Button, Card, Carousel } from "react-bootstrap";
 
 import Image from "react-bootstrap/Image";
 import ModalForm from "./ModalForm";
@@ -141,8 +132,8 @@ class PlanUx extends React.Component {
                 We offer plans that fit your needs
               </h1>
               <Carousel className="carousel-testimony">
-                {plan.testimony.map(plan => (
-                  <Carousel.Item>
+                {plan.testimony.map((plan, index) => (
+                  <Carousel.Item key={index}>
                     <div>
                       <h4>{plan.testimony}</h4>
                     </div>
@@ -180,8 +171,8 @@ class PlanUx extends React.Component {
                 </Card.Title>
                 <p>Our default plan</p>
                 <ul className="ul-plan">
-                  {plan.planSmart.map(plan => (
-                    <li className="row">
+                  {plan.planSmart.map((plan, index) => (
+                    <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
                         <Image src={ticket} className="ticket"></Image>
                       </div>
@@ -216,8 +207,8 @@ class PlanUx extends React.Component {
                 <p>Exclusive tailor-made service</p>
 
                 <ul className="ul-plan">
-                  {plan.planCostume.map(plan => (
-                    <li className="row">
+                  {plan.planCostume.map((plan, index) => (
+                    <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
                         <Image src={ticket} className="ticket"></Image>
                       </div>

@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import { Button, Modal, Image } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
-import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
-import succes from "../../img/succes.svg";
+
 import ModalForm from "../UX/ModalForm";
 
 const CollapseMenu = props => {

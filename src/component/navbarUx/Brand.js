@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+
 import "../../style/navUx.css";
 import logo from "../../img/logoCleverEx.svg";
 import { Image } from "react-bootstrap";

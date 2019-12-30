@@ -1,11 +1,9 @@
 import React from "react";
-
-import uxImage from "../img/ux.svg";
 import "../style/bodyUx.css";
 import Navbar from "../component/navbarUx/Navbar";
 import GlobalStyle from "../style/NavbarStyle";
 
-import { Row, Col, Container, Button, Modal } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Main from "../component/UX/MainUx";
 import Services from "../component/UX/ServicesUx";
 import CardsPortfolio from "../component/UX/PortfolioUx";

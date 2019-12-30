@@ -4,8 +4,7 @@ import flexit from "../../img/flexit.jpg";
 import propins from "../../img/propins.png";
 import whyX from "../../img/whyX.png";
 import forus from "../../img/forus.png";
-import { Row, Col, Container, Button, Card } from "react-bootstrap";
-import Image from "react-bootstrap/Image";
+import { Row, Col, Button, Card } from "react-bootstrap";
 
 const { Body, Title, Text } = Card;
 const cards = [
@@ -76,11 +75,14 @@ class PortfolioUx extends React.Component {
         <Row
           className={` justify-content-center ${this.props.classAnimationPortfolio} `}
         >
-          {cards.slice(0, this.state.visible).map(card => {
+          {cards.slice(0, this.state.visible).map((card, index) => {
             return (
-              <div className="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-5  card-portfolio">
+              <div
+                className="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-5  card-portfolio"
+                key={index}
+              >
                 <Card style={{ width: "100%" }}>
-                  <div class="inner">
+                  <div className="inner">
                     <Card.Img variant="top" src={card.img} />
                   </div>
                   <Body>

@@ -1,18 +1,9 @@
 import React from "react";
 import "../../style/bodyUx.css";
 import logoCleverit from "../../img/logo_cleverit.svg";
-import {
-  Row,
-  Col,
-  Container,
-  Button,
-  Card,
-  Carousel,
-  Modal
-} from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 
 import Image from "react-bootstrap/Image";
-import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
 
 import ModalForm from "./ModalForm";
 
@@ -151,7 +142,7 @@ class FooterUx extends React.Component {
                   title="Instagram"
                   role="button"
                 >
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </span>
             </Col>
@@ -164,7 +155,7 @@ class FooterUx extends React.Component {
                   title="Linkedlin"
                   role="button"
                 >
-                  <i class="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </span>
             </Col>
@@ -177,7 +168,7 @@ class FooterUx extends React.Component {
                   title="Behance"
                   role="button"
                 >
-                  <i class="fab fa-behance"></i>
+                  <i className="fab fa-behance"></i>
                 </a>
               </span>
             </Col>
@@ -190,7 +181,7 @@ class FooterUx extends React.Component {
                   title="Dribble"
                   role="button"
                 >
-                  <i class="fab fa-dribbble"></i>
+                  <i className="fab fa-dribbble"></i>
                 </a>
               </span>
             </Col>
