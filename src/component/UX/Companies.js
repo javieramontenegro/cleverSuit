@@ -1,11 +1,11 @@
 import React from "react";
-import "../style/body.css";
-import arauco from "../img/arauco_logo.svg";
-import adt from "../img/adt_logo.svg";
-import propins from "../img/propins_logo.svg";
-import cat from "../img/cat_logo.svg";
-import forus from "../img/forus_logo.svg";
-import falabella from "../img/falabella_logo.svg";
+import "../../style/bodyUx.css";
+import arauco from "../../img/arauco_logo.svg";
+import adt from "../../img/adt_logo.svg";
+import propins from "../../img/propins_logo.svg";
+import cat from "../../img/cat_logo.svg";
+import forus from "../../img/forus_logo.svg";
+import falabella from "../../img/falabella_logo.svg";
 import { Row, Col, Container, Button, Image } from "react-bootstrap";
 
 class Companies extends React.Component {

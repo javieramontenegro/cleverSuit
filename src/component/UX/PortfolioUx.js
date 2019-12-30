@@ -1,9 +1,9 @@
 import React from "react";
-import "../style/body.css";
-import flexit from "../img/flexit.jpg";
-import propins from "../img/propins.png";
-import whyX from "../img/whyX.png";
-import forus from "../img/forus.png";
+import "../../style/bodyUx.css";
+import flexit from "../../img/flexit.jpg";
+import propins from "../../img/propins.png";
+import whyX from "../../img/whyX.png";
+import forus from "../../img/forus.png";
 import { Row, Col, Container, Button, Card } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 
@@ -38,7 +38,7 @@ const cards = [
     area: "UX, UI, branding, development"
   }
 ];
-class CardsPortfolio extends React.Component {
+class PortfolioUx extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -107,4 +107,4 @@ class CardsPortfolio extends React.Component {
     );
   }
 }
-export default CardsPortfolio;
+export default PortfolioUx;

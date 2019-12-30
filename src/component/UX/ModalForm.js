@@ -1,78 +1,54 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import "../../style/bodyUx.css";
 
-import uxImage from "../img/ux.svg";
-import "../style/body.css";
+import {
+  Row,
+  Col,
+  Container,
+  Button,
+  Card,
+  Carousel,
+  Modal
+} from "react-bootstrap";
 
-import { Row, Col, Container, Button, Image, Modal } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
-import succes from "../img/succes.svg";
-import Animation from "../component/AnimationUx";
+import succes from "../../img/succes.svg";
 
-const mainContent = [
-  {
-    title: "We make complex things simple",
-    description:
-      "As a team, our goal is to build great user experiences for every project we participate in",
-    button: "Request a Quote"
-  }
-];
-/* const [show, setShow] = useState(false);
-
-const handleClose = () => setShow(false);
-const handleShow = () => setShow(true);
-const [showSuccesfull, setSuccesfull] = useState(false);
-const handleCloseSuccesful = () => setSuccesfull(false);
-const handleShowSuccesfull = () => setSuccesfull(true); */
-
-class Main extends React.Component {
+class ModalForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      classAnimation: this.props.classAnimation,
-      showSuccesfull: false,
-      show: false
-    };
+    this.state = {};
   }
-  handleShow = () => {
-    this.setState({ show: true });
-  };
-  handleClose = () => {
-    this.setState({ show: false });
-  };
-  handleCloseSuccesful = () => {
-    this.setState({ showSuccesfull: false });
-  };
-  handleShowSuccesfull = () => {
-    this.setState({ showSuccesfull: true });
-  };
+
   render() {
     return (
       <>
         {/* MODAL FORM */}
         <Modal
-          show={this.state.show}
-          onHide={this.handleClose}
-          showSucces={this.showSuccesfull}
+          show={this.props.show}
+          onHide={this.props.handleClose}
+          showSucces={this.props.showSuccesfull}
           className="modal-form"
         >
           <Modal.Header
             closeButton
             className={
-              this.state.showSuccesfull === true
+              this.props.showSuccesfull === true
                 ? "formik-display-off"
                 : "formik-display-on"
             }
           ></Modal.Header>
           <Modal.Body
             className={
-              this.state.showSuccesfull === true
+              this.props.showSuccesfull === true
                 ? "formik-display-off"
                 : "formik-display-on"
             }
           >
             <Formik
               className={
-                this.state.showSuccesfull === true
+                this.props.showSuccesfull === true
                   ? "formik-display-off"
                   : "formik-display-on"
               }
@@ -112,7 +88,7 @@ class Main extends React.Component {
                   <div className="row row-check">
                     <label>
                       <input
-                        name="optionOne"
+                        name="OptionOne"
                         type="radio"
                         /* checked={this.state.isGoing}
                             onChange={this.handleInputChange} */
@@ -121,7 +97,7 @@ class Main extends React.Component {
                     </label>
                     <label>
                       <input
-                        name="optionTwo"
+                        name="OptionTwo"
                         type="radio"
                         /* checked={this.state.isGoing}
                             onChange={this.handleInputChange} */
@@ -130,7 +106,7 @@ class Main extends React.Component {
                     </label>
                     <label>
                       <input
-                        name="optionThree"
+                        name="OptionThree"
                         type="radio"
                         /* checked={this.state.isGoing}
                             onChange={this.handleInputChange} */
@@ -139,7 +115,7 @@ class Main extends React.Component {
                     </label>
                     <label>
                       <input
-                        name="optionFour"
+                        name="OptionFour"
                         type="radio"
                         /* checked={this.state.isGoing}
                             onChange={this.handleInputChange} */
@@ -152,13 +128,16 @@ class Main extends React.Component {
                       className="btn-nav-mobile"
                       data-toggle="modal"
                       data-target="#myModal2"
-                      onClick={this.handleShowSuccesfull}
+                      onClick={this.props.handleShowSuccesfull}
                     >
                       Request a Quote
                     </Button>
                   </div>
                   <div className="row btn-close">
-                    <Button variant="secondary" onClick={this.handleClose}>
+                    <Button
+                      variant="secondary"
+                      onClick={this.props.handleClose}
+                    >
                       Close
                     </Button>
                   </div>
@@ -170,7 +149,7 @@ class Main extends React.Component {
 
           <Modal.Body
             className={
-              this.state.showSuccesfull === true
+              this.props.showSuccesfull === true
                 ? "succesfull-display-on"
                 : "succesfull-display-off"
             }
@@ -184,53 +163,17 @@ class Main extends React.Component {
             <div className="row row-succes-btn">
               <Button
                 className=""
-                onClick={this.handleClose && this.handleCloseSuccesful}
+                onClick={
+                  this.props.handleClose && this.props.handleCloseSuccesful
+                }
               >
                 Continue
               </Button>
             </div>
           </Modal.Body>
         </Modal>
-
-        <Row className="row-main">
-          <Col
-            xs={12}
-            sm={12}
-            md={12}
-            lg={6}
-            xl={6}
-            className={`ux-text visible`}
-          >
-            {mainContent.map(text => (
-              <>
-                <h1>{text.title}</h1>
-                <br></br>
-                <p>{text.description}</p>
-                <Button
-                  className="button-talk"
-                  id="btnTalk"
-                  onClick={this.handleShow}
-                >
-                  {text.button}
-                </Button>
-              </>
-            ))}
-          </Col>
-
-          <Col
-            xs={12}
-            sm={12}
-            md={12}
-            lg={6}
-            xl={6}
-            className={`align-self-center ux-image visible `}
-          >
-            {/*  <Image src={uxImage} className=""></Image> */}
-            <Animation></Animation>
-          </Col>
-        </Row>
       </>
     );
   }
 }
-export default Main;
+export default ModalForm;

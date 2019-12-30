@@ -1,7 +1,7 @@
 import React from "react";
-import "../style/body.css";
-import ticket from "../img/ticket.svg";
-import testimony1 from "../img/testimony_1.png";
+import "../../style/bodyUx.css";
+import ticket from "../../img/ticket.svg";
+import testimony1 from "../../img/testimony_1.png";
 import {
   Row,
   Col,
@@ -12,11 +12,11 @@ import {
   Modal
 } from "react-bootstrap";
 import { Formik, Form, Field, ErrorMessage, CheckboxField } from "formik";
-import succes from "../img/succes.svg";
 
 import Image from "react-bootstrap/Image";
+import ModalForm from "./ModalForm";
 
-const back = window.matchMedia("(max-width: 1100px)");
+const back = window.matchMedia("(max-width: 1199px)");
 const plan = {
   title: [{ title: "We offer plans that fit your needs" }],
 
@@ -75,7 +75,7 @@ const plan = {
     }
   ]
 };
-class Plan extends React.Component {
+class PlanUx extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -117,149 +117,14 @@ class Plan extends React.Component {
   render() {
     return (
       <>
-        {/* MODAL FORM */}
-        <Modal
+        <ModalForm
+          handleShow={this.handleShow}
+          handleClose={this.handleClose}
+          handleCloseSuccesful={this.handleCloseSuccesful}
+          handleShowSuccesfull={this.handleShowSuccesfull}
           show={this.state.show}
-          onHide={this.handleClose}
-          showSucces={this.showSuccesfull}
-          className="modal-form"
-        >
-          <Modal.Header
-            closeButton
-            className={
-              this.state.showSuccesfull === true
-                ? "formik-display-off"
-                : "formik-display-on"
-            }
-          ></Modal.Header>
-          <Modal.Body
-            className={
-              this.state.showSuccesfull === true
-                ? "formik-display-off"
-                : "formik-display-on"
-            }
-          >
-            <Formik
-              className={
-                this.state.showSuccesfull === true
-                  ? "formik-display-off"
-                  : "formik-display-on"
-              }
-            >
-              <Form>
-                <div className="row container-modal">
-                  <div className="row-title">
-                    <h3> Enter your info, to offer you a good deal</h3>
-                    <br></br>
-                    <p>Type your name</p>
-                  </div>
-                  <div className="row row-name">
-                    <Field name="name" type="text" className="input" />
-                    <ErrorMessage name="name">
-                      {message => <div className="error">{message}</div>}
-                    </ErrorMessage>
-                    <p>We will never share this information with anyone.</p>
-                  </div>
-                  <div className="row row-company">
-                    <p>What's the name of your company?</p>
-                    <Field name="company" type="text" className="input" />
-                    <ErrorMessage name="company">
-                      {message => <div className="error">{message}</div>}
-                    </ErrorMessage>
-                  </div>
-                  <div className="row row-industry align-items-center">
-                    <p>industry</p>
-
-                    <select>
-                      <option>01</option>
-                      <option>01</option>
-                    </select>
-                  </div>
-                  <div className="row row-options">
-                    <p>How big is the company you work for?</p>
-                  </div>
-                  <div className="row row-check">
-                    <label>
-                      <input
-                        name="OptionOne"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      Only me
-                    </label>
-                    <label>
-                      <input
-                        name="OptionTwo"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      1 - 50
-                    </label>
-                    <label>
-                      <input
-                        name="OptionThree"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      50 - 250
-                    </label>
-                    <label>
-                      <input
-                        name="OptionFour"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      250+
-                    </label>
-                  </div>
-                  <div className="row row-btn-submit">
-                    <Button
-                      className="btn-nav-mobile"
-                      data-toggle="modal"
-                      data-target="#myModal2"
-                      onClick={this.handleShowSuccesfull}
-                    >
-                      Request a Quote
-                    </Button>
-                  </div>
-                  <div className="row btn-close">
-                    <Button variant="secondary" onClick={this.handleClose}>
-                      Close
-                    </Button>
-                  </div>
-                </div>
-              </Form>
-            </Formik>
-          </Modal.Body>
-          {/* MODAL SUCCESFULLY  */}
-
-          <Modal.Body
-            className={
-              this.state.showSuccesfull === true
-                ? "succesfull-display-on"
-                : "succesfull-display-off"
-            }
-          >
-            <div className="row row-img-sucess">
-              <Image src={succes}></Image>
-            </div>
-            <div className="row row-sucess-text">
-              <h3>Your application has been successfully submitted!</h3>
-            </div>
-            <div className="row row-succes-btn">
-              <Button
-                className=""
-                onClick={this.handleClose && this.handleCloseSuccesful}
-              >
-                Continue
-              </Button>
-            </div>
-          </Modal.Body>
-        </Modal>
+          showSuccesfull={this.state.showSuccesfull}
+        ></ModalForm>
         <Row
           className={` justify-content-center row-plan ${this.props.classAnimationPlan}`}
         >
@@ -283,10 +148,10 @@ class Plan extends React.Component {
                     </div>
 
                     <div className="row row-testimony">
-                      <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-1 ">
+                      <div className="col-2 col-sm-2 col-md-1 col-lg-1 col-xl-2 ">
                         <img className="" src={plan.img} alt="First slide" />
                       </div>
-                      <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-11">
+                      <div className="col-10 col-sm-6 col-md-6 col-lg-6 col-xl-10">
                         <p>
                           {plan.name} <br></br>
                           <span>{plan.ocupation}</span>
@@ -375,8 +240,8 @@ class Plan extends React.Component {
           </Col>
         </Row>
         <Row className={`${this.props.classAnimationPlan}`}>
-          <Col xl={6} lg={2} md={2} sm={2} xs={1}></Col>
-          <Col xl={6} lg={10} md={10} sm={10} xs={10} className="text-help">
+          <Col xl={6} lg={3} md={3} sm={2} xs={1}></Col>
+          <Col xl={6} lg={9} md={9} sm={10} xs={10} className="text-help">
             <p>
               Do you have any additional questions? ,
               <span>We'll call you!</span>?{" "}
@@ -387,4 +252,4 @@ class Plan extends React.Component {
     );
   }
 }
-export default Plan;
+export default PlanUx;

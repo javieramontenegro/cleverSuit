@@ -1,18 +1,18 @@
 import React from "react";
-import Nav from "../component/Nav";
+
 import uxImage from "../img/ux.svg";
-import "../style/body.css";
+import "../style/bodyUx.css";
 import Navbar from "../component/navbar/Navbar";
 import GlobalStyle from "../style/NavbarStyle";
 
 import { Row, Col, Container, Button, Modal } from "react-bootstrap";
-import Main from "../component/Main";
-import VideoPrueba from "../component/VideoPrueba";
-import CardsPortfolio from "../component/CardsPortfolio";
-import Companies from "../component/Companies";
-import Plan from "../component/Plan";
-import Photos from "../component/Photos";
-import Footer from "../component/Footer";
+import Main from "../component/UX/MainUx";
+import Services from "../component/UX/ServicesUx";
+import CardsPortfolio from "../component/UX/PortfolioUx";
+import Companies from "../component/UX/Companies";
+import Plan from "../component/UX/PlanUx";
+import Photos from "../component/UX/Photos";
+import Footer from "../component/UX/FooterUx";
 
 class CleverExTheme extends React.Component {
   constructor(props) {
@@ -81,9 +81,9 @@ class CleverExTheme extends React.Component {
           </section>
 
           <section className="section-video" id="section-video">
-            <VideoPrueba
+            <Services
               classAnimationVideo={this.state.classAnimationVideo}
-            ></VideoPrueba>
+            ></Services>
           </section>
           <section className="section-companies">
             <Companies

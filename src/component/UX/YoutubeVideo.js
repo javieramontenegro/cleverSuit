@@ -1,6 +1,6 @@
 import React from "react";
 import YouTube from "react-youtube";
-import "../style/body.css";
+import "../../style/bodyUx.css";
 
 import { Row, Col, Container, Button } from "react-bootstrap";
 
