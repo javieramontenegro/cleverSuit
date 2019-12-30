@@ -1,5 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+
   width: 100%;
   background-color: #f7f9fb;
 }
@@ -651,7 +652,7 @@ h5 {
   ul.ul-section2 li {
     display: flex;
     padding-left: 0.5rem;
-    padding-top: 0.2rem;
+
     padding-bottom: 0.2rem;
     margin-left: auto;
     margin-right: auto;
@@ -675,8 +676,8 @@ h5 {
     font-size: 2rem;
   }
   .btn-watchvideo button {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 30%;
+    padding-right: 30%;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
@@ -892,8 +893,8 @@ h5 {
     columns: 1;
   }
   .btn-watchvideo button {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }

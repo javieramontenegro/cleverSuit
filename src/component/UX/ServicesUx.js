@@ -11,8 +11,8 @@ const habilityContent = [
   { hability: "UI / UX Audit" },
   { hability: "Research" },
   { hability: "Brand Identity" },
-  { hability: "Prototyping and Testing" },
-  { hability: "Software Development" },
+  { hability: "Prototyping" },
+  { hability: "Software" },
   { hability: "Animation" },
   { hability: "2D / 3D Motion Graphics" },
   { hability: "Web design and mobile apps" }
