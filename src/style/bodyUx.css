@@ -576,12 +576,33 @@ h5 {
 }
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active {
+.btn-primary:active,
+.btn-primary:visited {
   background-color: #7d4eaf !important;
-  border-color: #7d4eaf;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem #7d4eaf;
 }
+.focus {
+  background-color: #8e05ff !important;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
+}
+
 .btn-primary.active {
   background-color: #8e05ff !important;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem #7d4eaf;
+}
+/* MODAL ---------------------------- */
+.button-check {
+  background-color: white;
+  border-color: rgb(156, 9, 253);
+  color: rgb(156, 9, 253);
+  padding: 1rem;
+}
+.button-check-group {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* """""""""MEDIUM SIZE""""""""" ------------------------------------------------ */
@@ -703,7 +724,7 @@ h5 {
     margin-right: auto;
   }
   #fadeImages img {
-    width: 100%;
+    width: 90% !important;
     animation-name: cf4;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;

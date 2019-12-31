@@ -1,7 +1,13 @@
 import React from "react";
 import "../../style/bodyUx.css";
 
-import { Button, Modal } from "react-bootstrap";
+import {
+  Button,
+  Modal,
+  ButtonGroup,
+  ToggleButton,
+  ButtonToolbar
+} from "react-bootstrap";
 
 import Image from "react-bootstrap/Image";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -44,8 +50,26 @@ class ModalForm extends React.Component {
                   ? "formik-display-off"
                   : "formik-display-on"
               }
+              initialValues={{ email: "", password: "" }}
+              validate={values => {
+                const errors = {};
+                if (!values.email) {
+                  errors.email = "Required";
+                } else if (
+                  !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
+                ) {
+                  errors.email = "Invalid email address";
+                }
+                return errors;
+              }}
+              onSubmit={(values, { setSubmitting }) => {
+                setTimeout(() => {
+                  alert(JSON.stringify(values, null, 2));
+                  setSubmitting(false);
+                }, 400);
+              }}
             >
-              <Form>
+              <Form onSubmit={""}>
                 <div className="row container-modal">
                   <div className="row-title">
                     <h3> Enter your info, to offer you a good deal</h3>
@@ -77,43 +101,53 @@ class ModalForm extends React.Component {
                   <div className="row row-options">
                     <p>How big is the company you work for?</p>
                   </div>
-                  <div className="row row-check">
-                    <label>
-                      <input
-                        name="OptionOne"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      Only me
-                    </label>
-                    <label>
-                      <input
-                        name="OptionTwo"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      1 - 50
-                    </label>
-                    <label>
-                      <input
-                        name="OptionThree"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      50 - 250
-                    </label>
-                    <label>
-                      <input
-                        name="OptionFour"
-                        type="radio"
-                        /* checked={this.state.isGoing}
-                            onChange={this.handleInputChange} */
-                      />
-                      250+
-                    </label>
+                  <div className="row row-check  justify-content-start">
+                    <ButtonToolbar
+                      aria-label="Toolbar with button groups"
+                      className="mt-2 justify-content-start"
+                    >
+                      <ButtonGroup toggle className="button-check-group ">
+                        <ToggleButton
+                          type="radio"
+                          name="radio"
+                          value="1"
+                          className="button-check "
+                        >
+                          only me
+                        </ToggleButton>
+                      </ButtonGroup>
+                      <ButtonGroup toggle className="button-check-group">
+                        <ToggleButton
+                          type="radio"
+                          name="radio"
+                          value="2"
+                          className="button-check"
+                        >
+                          0-50
+                        </ToggleButton>
+                      </ButtonGroup>
+
+                      <ButtonGroup toggle className="button-check-group">
+                        <ToggleButton
+                          type="radio"
+                          name="radio"
+                          value="3"
+                          className="button-check"
+                        >
+                          50 - 250
+                        </ToggleButton>
+                      </ButtonGroup>
+                      <ButtonGroup toggle className="button-check-group">
+                        <ToggleButton
+                          type="radio"
+                          name="radio"
+                          value="4"
+                          className="button-check"
+                        >
+                          +250
+                        </ToggleButton>
+                      </ButtonGroup>
+                    </ButtonToolbar>
                   </div>
                   <div className="row row-btn-submit">
                     <Button
