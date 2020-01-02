@@ -1,5 +1,5 @@
 import React from "react";
-
+import data from "../../data/content.json";
 import "../../style/bodyUx.css";
 
 import { Row, Col, Button } from "react-bootstrap";
@@ -7,14 +7,14 @@ import { Row, Col, Button } from "react-bootstrap";
 import Animation from "./AnimationUx";
 import ModalForm from "./ModalForm";
 
-const mainContent = [
+/* const mainContent = [
   {
     title: "We make complex things simple",
     description:
       "As a team, our goal is to build great user experiences for every project we participate in",
     button: "Request a Quote"
   }
-];
+]; */
 /* const [show, setShow] = useState(false);
 
 const handleClose = () => setShow(false);
@@ -29,7 +29,8 @@ class MainUx extends React.Component {
     this.state = {
       classAnimation: this.props.classAnimation,
       showSuccesfull: false,
-      show: false
+      show: false,
+      data
     };
   }
   handleShow = () => {
@@ -65,11 +66,11 @@ class MainUx extends React.Component {
             xl={6}
             className={`ux-text visible`}
           >
-            {mainContent.map((text, index) => (
+            {data.UX.sectionMain.map((text, index) => (
               <React.Fragment key={index}>
-                <h1>{text.title}</h1>
+                <h1>{text.mainTitle}</h1>
                 <br></br>
-                <p>{text.description}</p>
+                <p>{text.mainText}</p>
                 <Button
                   className="button-talk"
                   id="btnTalk"

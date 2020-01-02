@@ -3,69 +3,12 @@ import "../../style/bodyUx.css";
 import ticket from "../../img/ticket.svg";
 import testimony1 from "../../img/testimony_1.png";
 import { Row, Col, Button, Card, Carousel } from "react-bootstrap";
-
+import data from "../../data/content.json";
 import Image from "react-bootstrap/Image";
 import ModalForm from "./ModalForm";
 
 const back = window.matchMedia("(max-width: 1199px)");
-const plan = {
-  title: [{ title: "We offer plans that fit your needs" }],
 
-  testimony: [
-    {
-      testimony:
-        "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-      name: "Franco Abello",
-      ocupation: "CEO de Why X",
-      img: testimony1
-    },
-    {
-      testimony:
-        "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-      name: "Franco Abello",
-      ocupation: "CEO de Why X",
-      img: testimony1
-    },
-    {
-      testimony:
-        "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-      name: "Franco Abello",
-      ocupation: "CEO de Why X",
-      img: testimony1
-    }
-  ],
-  planSmart: [
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    }
-  ],
-  planCostume: [
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    },
-    {
-      descriptionPlan: "Donec id elit non mi porta gravida at eget metus."
-    }
-  ]
-};
 class PlanUx extends React.Component {
   constructor(props) {
     super(props);
@@ -73,7 +16,8 @@ class PlanUx extends React.Component {
       showSuccesfull: false,
       show: false,
       title: "hidden",
-      titleNormal: "title-plan"
+      titleNormal: "title-plan",
+      data
     };
   }
   componentDidMount() {
@@ -129,10 +73,10 @@ class PlanUx extends React.Component {
           >
             <>
               <h1 className={`${this.state.titleNormal}`}>
-                We offer plans that fit your needs
+                {data.UX.sectionPlan.planTitle}
               </h1>
               <Carousel className="carousel-testimony">
-                {plan.testimony.map((plan, index) => (
+                {data.UX.sectionPlan.testimonyList.map((plan, index) => (
                   <Carousel.Item key={index}>
                     <div>
                       <h4>{plan.testimony}</h4>
@@ -162,7 +106,7 @@ class PlanUx extends React.Component {
             xs={{ span: 10, order: 1 }}
           >
             <h1 className={`${this.state.title}`}>
-              We offer plans that fit your needs
+              {data.UX.sectionPlan.planTitle}
             </h1>
             <Card style={{ width: "100%" }} className="card-plan ">
               <Card.Body>
@@ -171,12 +115,12 @@ class PlanUx extends React.Component {
                 </Card.Title>
                 <p>Our default plan</p>
                 <ul className="ul-plan">
-                  {plan.planSmart.map((plan, index) => (
+                  {data.UX.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
-                      <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                      <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket">
                         <Image src={ticket} className="ticket"></Image>
                       </div>
-                      <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                      <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-ticket">
                         {plan.descriptionPlan}
                       </div>
                     </li>
@@ -207,12 +151,12 @@ class PlanUx extends React.Component {
                 <p>Exclusive tailor-made service</p>
 
                 <ul className="ul-plan">
-                  {plan.planCostume.map((plan, index) => (
+                  {data.UX.sectionPlan.planCostume.map((plan, index) => (
                     <li className="row" key={index}>
-                      <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 ">
+                      <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket ">
                         <Image src={ticket} className="ticket"></Image>
                       </div>
-                      <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+                      <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-ticket">
                         {plan.descriptionPlan}
                       </div>
                     </li>

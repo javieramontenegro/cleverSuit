@@ -101,10 +101,10 @@ class ModalForm extends React.Component {
                   <div className="row row-options">
                     <p>How big is the company you work for?</p>
                   </div>
-                  <div className="row row-check  justify-content-start">
+                  <div className="row row-check  justify-content-center">
                     <ButtonToolbar
                       aria-label="Toolbar with button groups"
-                      className="mt-2 justify-content-start"
+                      className="mt-2 justify-content-center toggle-btn"
                     >
                       <ButtonGroup toggle className="button-check-group ">
                         <ToggleButton

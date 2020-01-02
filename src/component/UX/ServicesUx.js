@@ -1,13 +1,13 @@
 import React from "react";
 import "../../style/bodyUx.css";
 import reel from "../../img/video_back.mp4";
-
+import data from "../../data/content.json";
 import { Row, Col, Button, Image } from "react-bootstrap";
 import YoutubeVideo from "./YoutubeVideo";
 
 import imgBackground from "../../img/bg_mobile.png";
 import ModalForm from "./ModalForm";
-const habilityContent = [
+/* const habilityContent = [
   { hability: "UI / UX Audit" },
   { hability: "Research" },
   { hability: "Brand Identity" },
@@ -16,7 +16,7 @@ const habilityContent = [
   { hability: "Animation" },
   { hability: "2D / 3D Motion Graphics" },
   { hability: "Web design and mobile apps" }
-];
+]; */
 const back = window.matchMedia("(max-width: 1080px)");
 class ServicesUx extends React.Component {
   constructor(props) {
@@ -26,7 +26,8 @@ class ServicesUx extends React.Component {
       showSuccesfull: false,
       show: false,
       imageBackground: "hidden",
-      hideVideo: ""
+      hideVideo: "",
+      data
     };
   }
 
@@ -104,10 +105,12 @@ class ServicesUx extends React.Component {
               xl={12}
               className="content-text"
             >
-              <h2>Our customers support our capacity to boost your project</h2>
+              <h2>{data.UX.sectionServices.servicesTitle}</h2>
+
+              {/*  <h2>Our customers support our capacity to boost your project</h2> */}
               <ul className="ul-section2">
-                {habilityContent.map((hab, index) => {
-                  return (
+                {data.UX.sectionServices.servicesHability.map((hab, index) => (
+                  <>
                     <li key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
                         <svg
@@ -128,8 +131,8 @@ class ServicesUx extends React.Component {
                         {hab.hability}
                       </div>
                     </li>
-                  );
-                })}
+                  </>
+                ))}
               </ul>
               <Row
                 className={` btn-watchvideo justify-content-center ${this.props.classAnimationVideo}`}
@@ -139,12 +142,12 @@ class ServicesUx extends React.Component {
                     className="btn-outline-video"
                     onClick={this.showVideo}
                   >
-                    Watch our reel
+                    {data.UX.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
                 <Col xl={3} lg={4} className="col-button-video">
                   <Button className="btn-color" onClick={this.handleShow}>
-                    Request a Quote
+                    {data.UX.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
               </Row>

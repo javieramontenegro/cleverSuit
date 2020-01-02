@@ -1,0 +1,109 @@
+{
+  "UX": {
+    "sectionMain": [
+      {
+        "mainTitle": "We make complex things simple",
+        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "button": "Request a Quote"
+      }
+    ],
+    "sectionServices": {
+      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesHability": [
+        { "hability": "UI / UX Audit" },
+        { "hability": "Research" },
+        { "hability": "Brand Identity" },
+        { "hability": "Prototyping" },
+        { "hability": "Software" },
+        { "hability": "Animation" },
+        { "hability": "2D / 3D Motion Graphics" },
+        { "hability": "Web design and mobile apps" }
+      ],
+      "servicesButtonReel": "Watch our reel",
+      "servicesButtonRequest": "Request a Quote"
+    },
+    "sectionPortfolio": {
+      "portfolioTitle": "We build your tailored digital products",
+      "cards": [
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Flexit Contrataciones",
+          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/propins.png",
+          "text": "propins",
+          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/WhyX.png",
+          "text": "WHYX App",
+          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development"
+        }
+      ]
+    },
+    "sectionPlan": {
+      "planTitle": "We offer plans that fit your needs",
+      "testimonyList": [
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        }
+      ],
+      "planSmart": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ],
+      "planCostume": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ]
+    }
+  }
+}

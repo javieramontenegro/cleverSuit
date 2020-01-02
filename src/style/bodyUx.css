@@ -330,6 +330,15 @@ ul.ul-section2 {
   align-items: center;
   text-align: center;
   margin-top: 1rem;
+  min-height: 45rem;
+}
+.card-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important ;
+}
+.col-ticket {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 .card-custom {
   border-color: #7e0cf5;
@@ -419,15 +428,15 @@ ul.ul-section2 {
 }
 
 .btn-plan-outline {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 20%;
+  padding-right: 20%;
   color: #7e0cf5;
   border-color: #7e0cf5;
   margin-top: 10rem;
 }
 .btn-plan {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 20%;
+  padding-right: 20%;
   background-color: #7e0cf5;
   border-color: #7e0cf5;
   margin-top: 5rem;
@@ -603,6 +612,11 @@ h5 {
 .button-check-group {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
+}
+.toggle-btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* """""""""MEDIUM SIZE""""""""" ------------------------------------------------ */
