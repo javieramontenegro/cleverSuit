@@ -18,7 +18,7 @@ import ModalForm from "./ModalForm";
   { hability: "Web design and mobile apps" }
 ]; */
 const back = window.matchMedia("(max-width: 1080px)");
-class ServicesUx extends React.Component {
+class ServicesDevOps extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -115,7 +115,7 @@ class ServicesUx extends React.Component {
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
                         <svg
                           version="1.1"
-                          id="circleUx"
+                          id="circleDevOps"
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
@@ -139,14 +139,17 @@ class ServicesUx extends React.Component {
               >
                 <Col xl={3} lg={4} className="col-button-video">
                   <Button
-                    className="btn-outline-video-Ux"
+                    className="btn-outline-video-DevOps"
                     onClick={this.showVideo}
                   >
                     {data.UX.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
                 <Col xl={3} lg={4} className="col-button-video">
-                  <Button className="btn-color-Ux" onClick={this.handleShow}>
+                  <Button
+                    className="btn-color-DevOps"
+                    onClick={this.handleShow}
+                  >
                     {data.UX.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
@@ -158,4 +161,4 @@ class ServicesUx extends React.Component {
     );
   }
 }
-export default ServicesUx;
+export default ServicesDevOps;

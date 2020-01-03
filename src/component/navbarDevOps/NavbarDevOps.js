@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import Brand from "./BrandDevOps";
 import BurgerMenu from "./BurgerMenuDevOps";
 import CollapseMenu from "./CollapseMenuDevOps";
-import "../../style/navUx.css";
+import "../../style/DevOps/navDevOps.css";
 
 import ModalForm from "../UX/ModalForm";
 

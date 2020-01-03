@@ -115,7 +115,7 @@ class PlanUx extends React.Component {
                   Standard Plan
                 </Card.Title>
                 <p>Our default plan</p>
-                <ul className="ul-plan-Ux">
+                <ul className="ul-plan">
                   {data.UX.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket">
@@ -148,15 +148,15 @@ class PlanUx extends React.Component {
           >
             <Card
               style={{ width: "100%" }}
-              className="card-plan card-custom-Ux h-100"
+              className="card-plan card-custom-Ux"
             >
               <Card.Body className="card-body-plan">
-                <Card.Title className="card-title-plan ">
+                <Card.Title className="card-title-plan h-100">
                   Custom-made plan
                 </Card.Title>
                 <p>Exclusive tailor-made service</p>
 
-                <ul className="ul-plan-Ux">
+                <ul className="ul-plan">
                   {data.UX.sectionPlan.planCostume.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket ">

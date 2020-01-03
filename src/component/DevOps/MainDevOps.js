@@ -4,7 +4,7 @@ import data from "../../data/content.json";
 
 import { Row, Col, Button } from "react-bootstrap";
 
-import Animation from "./AnimationUx";
+import Animation from "./AnimationDevOps";
 import ModalForm from "./ModalForm";
 
 /* const mainContent = [
@@ -23,7 +23,7 @@ const [showSuccesfull, setSuccesfull] = useState(false);
 const handleCloseSuccesful = () => setSuccesfull(false);
 const handleShowSuccesfull = () => setSuccesfull(true); */
 
-class MainUx extends React.Component {
+class MainDevOps extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -72,7 +72,7 @@ class MainUx extends React.Component {
                 <br></br>
                 <p>{text.mainText}</p>
                 <Button
-                  className="button-talk-Ux"
+                  className="button-talk-DevOps"
                   id="btnTalk"
                   onClick={this.handleShow}
                 >
@@ -98,4 +98,4 @@ class MainUx extends React.Component {
     );
   }
 }
-export default MainUx;
+export default MainDevOps;

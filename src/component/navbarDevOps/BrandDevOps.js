@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../style/navDevOps.css";
+import "../../style/DevOps/navDevOps.css";
 import logo from "../../img/logoCleverDevOps.svg";
 import { Image } from "react-bootstrap";
 const BrandDevOps = () => {

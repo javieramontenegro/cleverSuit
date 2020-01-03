@@ -1,18 +1,17 @@
 import React from "react";
-import "../style/UX/bodyUx.css";
-import Navbar from "../component/navbarUx/Navbar";
-import GlobalStyle from "../style/NavbarStyle";
+import "../style/DevOps/bodyDevOps.css";
+import Navbar from "../component/navbarDevOps/NavbarDevOps";
 
 import { Container } from "react-bootstrap";
-import Main from "../component/UX/MainUx";
-import Services from "../component/UX/ServicesUx";
-import CardsPortfolio from "../component/UX/PortfolioUx";
-import Companies from "../component/UX/Companies";
-import Plan from "../component/UX/PlanUx";
-import Photos from "../component/UX/Photos";
-import Footer from "../component/UX/FooterUx";
+import Main from "../component/DevOps/MainDevOps";
+import Services from "../component/DevOps/ServicesDevOps";
+/* import CardsPortfolio from "../component/UX/PortfolioUx"; */
+/* import Companies from "../component/UX/Companies"; */
+/* import Plan from "../component/UX/PlanUx"; */
+/* import Photos from "../component/UX/Photos"; */
+/* import Footer from "../component/UX/FooterUx"; */
 
-class CleverExTheme extends React.Component {
+class CleverDevOpsTheme extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -83,33 +82,33 @@ class CleverExTheme extends React.Component {
               classAnimationVideo={this.state.classAnimationVideo}
             ></Services>
           </section>
-          <section className="section-companies">
-            <Companies
-              classAnimationCompanies={this.state.classAnimationCompanies}
-            ></Companies>
-          </section>
-          <section className="section-portfolio" id="section-portfolio">
-            <CardsPortfolio
-              classAnimationPortfolio={this.state.classAnimationPortfolio}
-            ></CardsPortfolio>
-          </section>
-          <section className="section-plan" id="section-plan">
-            <Plan classAnimationPlan={this.state.classAnimationPlan}></Plan>
-          </section>
-          <section className="section-photos" id="section-photos">
-            <Photos
-              classAnimationPhoto={this.state.classAnimationPhoto}
-            ></Photos>
-          </section>
+          {/*  <section className="section-companies">
+              <Companies
+                classAnimationCompanies={this.state.classAnimationCompanies}
+              ></Companies>
+            </section> */}
+          {/* <section className="section-portfolio" id="section-portfolio">
+              <CardsPortfolio
+                classAnimationPortfolio={this.state.classAnimationPortfolio}
+              ></CardsPortfolio>
+            </section> */}
+          {/*  <section className="section-plan" id="section-plan">
+              <Plan classAnimationPlan={this.state.classAnimationPlan}></Plan>
+            </section> */}
+          {/*  <section className="section-photos" id="section-photos">
+              <Photos
+                classAnimationPhoto={this.state.classAnimationPhoto}
+              ></Photos>
+            </section> */}
 
-          <section className="section-footer" id="section-footer">
-            <Footer
-              classAnimationFooter={this.state.classAnimationFooter}
-            ></Footer>
-          </section>
+          {/*  <section className="section-footer" id="section-footer">
+              <Footer
+                classAnimationFooter={this.state.classAnimationFooter}
+              ></Footer>
+            </section> */}
         </Container>
       </div>
     );
   }
 }
-export default CleverExTheme;
+export default CleverDevOpsTheme;

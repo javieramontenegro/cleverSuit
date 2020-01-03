@@ -31,6 +31,14 @@ html {
   margin-left: auto;
   margin-right: 1rem;
 }
+.btn-navDevOps:hover,
+.btn-navDevOps:focus,
+.btn-navDevOps:active,
+.btn-navDevOps:visited {
+  background-color: #eb6178 !important;
+  border-color: #eb6178 !important;
+  box-shadow: 0 0 0 0.2rem #eb6178 !important;
+}
 /* LANGUAGE */
 .select-lang {
   border-color: white;

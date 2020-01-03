@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import Brand from "./Brand";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
-import "../../style/navUx.css";
+import "../../style/UX/navUx.css";
 
 import ModalForm from "../UX/ModalForm";
 
@@ -49,7 +49,7 @@ const Navbar = props => {
             <a href="#section-photos">Team</a>
             <a href="#section-footer">Let's talk</a>
 
-            <Button className="btn-nav" onClick={handleShow}>
+            <Button className="btn-nav-Ux" onClick={handleShow}>
               Request a Quote
             </Button>
 

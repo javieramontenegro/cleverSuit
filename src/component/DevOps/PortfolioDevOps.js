@@ -9,7 +9,7 @@ import data from "../../data/content.json";
 
 const { Body, Title, Text } = Card;
 
-class PortfolioUx extends React.Component {
+class PortfolioDevOps extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -63,7 +63,7 @@ class PortfolioUx extends React.Component {
                     <Body className="card-body-portfolio">
                       <Title>{card.text}</Title>
                       <Text>{card.description}</Text>
-                      <Text className="area-text-Ux">{card.area}</Text>
+                      <Text className="area-text-DevOps">{card.area}</Text>
                     </Body>
                   </Card>
                 </div>
@@ -74,7 +74,10 @@ class PortfolioUx extends React.Component {
           className={`  justify-content-center ${this.props.classAnimationPortfolio} `}
         >
           {this.state.visible < data.UX.sectionPortfolio.cards.length && (
-            <Button onClick={() => this.loadMore()} className="btn-loadMore">
+            <Button
+              onClick={() => this.loadMore()}
+              className="btn-loadMore-DevOps"
+            >
               {" "}
               load more
             </Button>
@@ -84,4 +87,4 @@ class PortfolioUx extends React.Component {
     );
   }
 }
-export default PortfolioUx;
+export default PortfolioDevOps;

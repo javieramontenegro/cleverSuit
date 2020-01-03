@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../style/navUx.css";
+import "../../style/UX/navUx.css";
 import logo from "../../img/logoCleverEx.svg";
 import { Image } from "react-bootstrap";
 const Brand = () => {
