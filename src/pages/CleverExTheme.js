@@ -72,7 +72,7 @@ class CleverExTheme extends React.Component {
     return (
       <div>
         <Navbar navbarState={navbarOpen} handleNavbar={this.handleNavbar} />
-        <GlobalStyle />
+
         <Container fluid>
           <section className="section-main" id="section-main">
             <Main classAnimation={this.state.classAnimation}></Main>

@@ -2,7 +2,7 @@ import React from "react";
 import "../../style/bodyUx.css";
 import logoCleverit from "../../img/logo_cleverit.svg";
 import { Row, Col, Button } from "react-bootstrap";
-
+import { Link } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 
 import ModalForm from "./ModalForm";
@@ -55,7 +55,7 @@ class FooterUx extends React.Component {
             >
               <ul>
                 <li>
-                  <a href="">Clever DeveOps</a>
+                  <Link to="/devOps"> clever devOps</Link>
                 </li>
                 <li>
                   <a href="">Clever Development</a>

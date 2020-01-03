@@ -21,7 +21,7 @@ html {
 .margintext {
   margin-right: 2rem;
 }
-.btn-nav {
+.btn-navDevOps {
   font-size: 1rem;
   color: #f73859;
   border-color: #f73859;
@@ -46,7 +46,7 @@ html {
 .dropdown-item {
   color: #818a91 !important;
 }
-.btn-nav-mobile {
+.btn-nav-mobile-devOps {
   font-size: 1rem;
   color: white;
   border-color: #f73859;

@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import { Button } from "react-bootstrap";
-import Brand from "./Brand";
-import BurgerMenu from "./BurgerMenu";
-import CollapseMenu from "./CollapseMenu";
+import Brand from "./BrandDevOps";
+import BurgerMenu from "./BurgerMenuDevOps";
+import CollapseMenu from "./CollapseMenuDevOps";
 import "../../style/navUx.css";
 
 import ModalForm from "../UX/ModalForm";
 
-const Navbar = props => {
+const NavbarDevOps = props => {
   const barAnimation = useSpring({
     from: { transform: "translate3d(0, -10rem, 0)" },
     transform: "translate3d(0, 0, 0)"
@@ -49,7 +49,7 @@ const Navbar = props => {
             <a href="#section-photos">Team</a>
             <a href="#section-footer">Let's talk</a>
 
-            <Button className="btn-nav" onClick={handleShow}>
+            <Button className="btn-navDevOps" onClick={handleShow}>
               Request a Quote
             </Button>
 
@@ -91,7 +91,7 @@ const Navbar = props => {
   );
 };
 
-export default Navbar;
+export default NavbarDevOps;
 
 const NavBar = styled(animated.nav)`
   position: fixed;

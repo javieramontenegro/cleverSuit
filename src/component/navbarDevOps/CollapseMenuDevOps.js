@@ -5,7 +5,7 @@ import { useSpring, animated } from "react-spring";
 
 import ModalForm from "../UX/ModalForm";
 
-const CollapseMenu = props => {
+const CollapseMenuDevOps = props => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
   const [show, setShow] = useState(false);
 
@@ -87,7 +87,7 @@ const CollapseMenu = props => {
             </select>
           </div>
           <div className="aling-content">
-            <Button className="btn-nav-mobile" onClick={handleShow}>
+            <Button className="btn-nav-mobile-devOps" onClick={handleShow}>
               Request a Quote
             </Button>
           </div>
@@ -98,7 +98,7 @@ const CollapseMenu = props => {
   return null;
 };
 
-export default CollapseMenu;
+export default CollapseMenuDevOps;
 
 const CollapseWrapper = styled(animated.div)`
   background: white;

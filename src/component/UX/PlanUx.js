@@ -104,11 +104,12 @@ class PlanUx extends React.Component {
             md={{ span: 8, order: 1 }}
             sm={{ span: 10, order: 1 }}
             xs={{ span: 10, order: 1 }}
+            className="col-card-plan"
           >
             <h1 className={`${this.state.title}`}>
               {data.UX.sectionPlan.planTitle}
             </h1>
-            <Card style={{ width: "100%" }} className="card-plan ">
+            <Card style={{ width: "100%" }} className="card-plan h-100">
               <Card.Body>
                 <Card.Title className="card-title-plan">
                   Standard Plan
@@ -126,6 +127,7 @@ class PlanUx extends React.Component {
                     </li>
                   ))}
                 </ul>
+
                 <Button
                   variant="outline-primary"
                   className="btn-plan-outline"
@@ -142,10 +144,11 @@ class PlanUx extends React.Component {
             md={{ span: 8, order: 2 }}
             sm={{ span: 10, order: 2 }}
             xs={{ span: 10, order: 2 }}
+            className="col-card-plan"
           >
             <Card style={{ width: "100%" }} className="card-plan card-custom">
-              <Card.Body>
-                <Card.Title className="card-title-plan">
+              <Card.Body className="card-body-plan">
+                <Card.Title className="card-title-plan h-100">
                   Custom-made plan
                 </Card.Title>
                 <p>Exclusive tailor-made service</p>

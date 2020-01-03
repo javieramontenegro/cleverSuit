@@ -292,7 +292,10 @@ ul.ul-section2 {
   padding-right: 45%;
   font-weight: bold;
 }
-
+.card-body-portfolio {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
 .card {
   border-radius: 0.3rem;
   padding-bottom: 1rem;
@@ -329,16 +332,25 @@ ul.ul-section2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
+
   min-height: 45rem;
 }
-.card-body {
+/* .card-body-plan {
   padding-left: 0 !important;
   padding-right: 0 !important ;
+} */
+.card-body {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.col-card-plan {
+  margin-top: 10rem;
 }
 .col-ticket {
   padding-right: 0 !important;
   padding-left: 0 !important;
+  font-size: 1.02rem;
 }
 .card-custom {
   border-color: #7e0cf5;
@@ -350,7 +362,9 @@ ul.ul-section2 {
 }
 .ul-plan {
   list-style-type: none;
-
+  min-height: 32rem;
+  padding-left: 0;
+  padding-right: 0;
   font-size: 1.2rem;
   text-align: left;
 }
@@ -375,13 +389,13 @@ ul.ul-section2 {
 .row-plan {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 8rem;
+
   padding-bottom: 5rem;
   width: 100%;
   margin-left: 0rem;
 }
 .section-plan {
-  margin-top: 6rem;
+  margin-top: 5rem;
   background-color: #eeeeee;
 }
 .text-help p {
@@ -432,14 +446,12 @@ ul.ul-section2 {
   padding-right: 20%;
   color: #7e0cf5;
   border-color: #7e0cf5;
-  margin-top: 10rem;
 }
 .btn-plan {
   padding-left: 20%;
   padding-right: 20%;
   background-color: #7e0cf5;
   border-color: #7e0cf5;
-  margin-top: 5rem;
 }
 .btn-plan:hover,
 .btn-plan:active {

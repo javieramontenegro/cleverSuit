@@ -53,14 +53,14 @@ class PortfolioUx extends React.Component {
             .map((card, index) => {
               return (
                 <div
-                  className="col-10 col-sm-10 col-md-8 col-lg-8 col-xl-5  card-portfolio"
+                  className="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-5  card-portfolio"
                   key={index}
                 >
                   <Card style={{ width: "100%" }}>
                     <div className="inner">
                       <Card.Img variant="top" src={card.img} />
                     </div>
-                    <Body>
+                    <Body className="card-body-portfolio">
                       <Title>{card.text}</Title>
                       <Text>{card.description}</Text>
                       <Text className="area-text">{card.area}</Text>
