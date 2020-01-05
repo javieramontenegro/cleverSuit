@@ -7,7 +7,7 @@ import Image from "react-bootstrap/Image";
 
 import ModalForm from "./ModalForm";
 
-class FooterUx extends React.Component {
+class FooterDev extends React.Component {
   constructor(props) {
     super(props);
     this.state = { showSuccesfull: false, show: false };
@@ -36,7 +36,7 @@ class FooterUx extends React.Component {
           showSuccesfull={this.state.showSuccesfull}
         ></ModalForm>
         <Row
-          className={` container-footer-Ux  ${this.props.classAnimationFooter}`}
+          className={` container-footer-dev  ${this.props.classAnimationFooter}`}
         >
           <Row className="title-footer">
             <h1>Let's Talk</h1>
@@ -58,7 +58,7 @@ class FooterUx extends React.Component {
                   <Link to="/devOps"> clever devOps</Link>
                 </li>
                 <li>
-                  <a href="">Clever Development</a>
+                  <a href="">Clever development</a>
                 </li>
                 <li>
                   <a href="">Clever XR</a>
@@ -74,7 +74,7 @@ class FooterUx extends React.Component {
             >
               <ul>
                 <li>
-                  <a href="">Clever Agile</a>
+                  <a href="">Clever agile</a>
                 </li>
                 <li>
                   <a href="">Clever QA</a>
@@ -127,7 +127,7 @@ class FooterUx extends React.Component {
               xs={{ span: 12, order: 1 }}
               className=""
             >
-              <Button className="btn-footer-Ux" onClick={this.handleShow}>
+              <Button className="btn-footer-dev" onClick={this.handleShow}>
                 I want to know more!
               </Button>
             </Col>
@@ -200,4 +200,4 @@ class FooterUx extends React.Component {
     );
   }
 }
-export default FooterUx;
+export default FooterDev;

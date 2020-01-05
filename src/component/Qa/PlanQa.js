@@ -9,14 +9,14 @@ import ModalForm from "./ModalForm";
 
 const back = window.matchMedia("(max-width: 1199px)");
 
-class PlanUx extends React.Component {
+class PlanQa extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       showSuccesfull: false,
       show: false,
       title: "hidden",
-      titleNormal: "title-plan-Ux",
+      titleNormal: "title-plan-qa",
       data
     };
   }
@@ -39,13 +39,13 @@ class PlanUx extends React.Component {
   handleTitle = () => {
     if (back.matches) {
       this.setState({
-        title: "title-plan-mobile-Ux",
+        title: "title-plan-mobile-qa",
         titleNormal: "hidden"
       });
     } else {
       this.setState({
         title: "hidden",
-        titleNormal: "title-plan-Ux"
+        titleNormal: "title-plan-qa"
       });
     }
   };
@@ -109,13 +109,13 @@ class PlanUx extends React.Component {
             <h1 className={`${this.state.title}`}>
               {data.UX.sectionPlan.planTitle}
             </h1>
-            <Card style={{ width: "100%" }} className="card-plan-Ux">
-              <Card.Body className="card-body-plan-Ux">
-                <Card.Title className="card-title-plan-Ux">
+            <Card style={{ width: "100%" }} className="card-plan-qa">
+              <Card.Body className="card-body-plan-qa">
+                <Card.Title className="card-title-plan-qa">
                   Standard Plan
                 </Card.Title>
                 <p>Our default plan</p>
-                <ul className="ul-plan-Ux">
+                <ul className="ul-plan-qa">
                   {data.UX.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket">
@@ -131,7 +131,7 @@ class PlanUx extends React.Component {
               <Card.Footer>
                 <Button
                   variant="outline-primary"
-                  className="btn-plan-outline-Ux"
+                  className="btn-plan-outline-qa"
                   onClick={this.handleShow}
                 >
                   We' ll Contact You!
@@ -149,15 +149,15 @@ class PlanUx extends React.Component {
           >
             <Card
               style={{ width: "100%" }}
-              className="card-plan-Ux card-custom-Ux  "
+              className="card-plan-qa card-custom-qa  "
             >
-              <Card.Body className="card-body-plan-Ux">
-                <Card.Title className="card-title-plan-Ux ">
+              <Card.Body className="card-body-plan-qa">
+                <Card.Title className="card-title-plan-qa ">
                   Custom-made plan
                 </Card.Title>
                 <p>Exclusive tailor-made service</p>
 
-                <ul className="ul-plan-Ux">
+                <ul className="ul-plan-qa">
                   {data.UX.sectionPlan.planCostume.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket ">
@@ -173,7 +173,7 @@ class PlanUx extends React.Component {
               <Card.Footer>
                 <Button
                   variant="primary"
-                  className="btn-plan-Ux"
+                  className="btn-plan-qa"
                   onClick={this.handleShow}
                 >
                   We' ll Contact You!
@@ -184,7 +184,7 @@ class PlanUx extends React.Component {
         </Row>
         <Row className={`${this.props.classAnimationPlan}`}>
           <Col xl={5} lg={3} md={3} sm={2} xs={1}></Col>
-          <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-Ux">
+          <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-qa">
             <p>
               Do you have any additional questions? ,
               <span>We'll call you!</span>?{" "}
@@ -195,4 +195,4 @@ class PlanUx extends React.Component {
     );
   }
 }
-export default PlanUx;
+export default PlanQa;

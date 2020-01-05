@@ -1,17 +1,18 @@
 import React from "react";
-import "../style/DevOps/bodyDevOps.css";
-import Navbar from "../component/navbarDevOps/NavbarDevOps";
+import "../style/Dev/bodyDev.css";
+import Navbar from "../component/navbarDev/NavbarDev";
+import GlobalStyle from "../style/NavbarStyle";
 
 import { Container } from "react-bootstrap";
-import Main from "../component/DevOps/MainDevOps";
-import Services from "../component/DevOps/ServicesDevOps";
-import CardsPortfolio from "../component/DevOps/PortfolioDevOps";
-import Companies from "../component/DevOps/Companies";
-import Plan from "../component/DevOps/PlanDevOps";
-import Photos from "../component/DevOps/Photos";
-import Footer from "../component/DevOps/FooterDevOps";
+import Main from "../component/Dev/MainDev";
+import Services from "../component/Dev/ServicesDev";
+import CardsPortfolio from "../component/Dev/PortfolioDev";
+import Companies from "../component/Dev/Companies";
+import Plan from "../component/Dev/PlanDev";
+import Photos from "../component/Dev/Photos";
+import Footer from "../component/Dev/FooterDev";
 
-class CleverDevOpsTheme extends React.Component {
+class CleverDevelopmentTheme extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -111,4 +112,4 @@ class CleverDevOpsTheme extends React.Component {
     );
   }
 }
-export default CleverDevOpsTheme;
+export default CleverDevelopmentTheme;

@@ -9,8 +9,8 @@ html {
   max-width: 100%;
   scroll-behavior: smooth;
 }
-.color-def-DevOps {
-  background-color: #d43b58 !important;
+.color-def-agile {
+  background-color: #faa03a !important;
 }
 
 .row {
@@ -23,7 +23,7 @@ html {
   padding: 0;
 }
 
-.btn-outline-video-DevOps {
+.btn-outline-video-agile {
   color: white;
   border-color: white;
   background-color: transparent;
@@ -31,13 +31,13 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-.btn-outline-video-DevOps:hover,
-.btn-outline-video-DevOps:focus,
-.btn-outline-video-DevOps:active,
-.btn-outline-video-DevOps:visited {
-  background-color: #da536c !important;
-  border-color: #da536c !important;
-  box-shadow: 0 0 0 0.2rem #da536c !important;
+.btn-outline-video-agile:hover,
+.btn-outline-video-agile:focus,
+.btn-outline-video-agile:active,
+.btn-outline-video-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 /* """"""SECTION MAIN """"""""------------------------------------------------- */
 .hidden {
@@ -49,17 +49,17 @@ html {
   animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
-.btn-color-DevOps {
-  background-color: #d43b58;
+.btn-color-agile {
+  background-color: #faa03a;
   border-width: 0px;
 }
-.btn-color-DevOps:hover,
-.btn-color-DevOps:focus,
-.btn-color-DevOps:active,
-.btn-color-DevOps:visited {
-  background-color: #da536c !important;
-  border-color: #da536c !important;
-  box-shadow: 0 0 0 0.2rem #da536c !important;
+.btn-color-agile:hover,
+.btn-color-agile:focus,
+.btn-color-agile:active,
+.btn-color-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 .section-main {
   width: 100%;
@@ -70,7 +70,7 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-.DevOps-text {
+.agile-text {
   padding-left: 6rem;
   padding-top: 5rem;
 }
@@ -98,8 +98,8 @@ html {
   justify-content: left;
 }
 
-.button-talk-DevOps {
-  background-color: #d43b58;
+.button-talk-agile {
+  background-color: #faa03a;
   text-align: center;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
@@ -110,30 +110,30 @@ html {
   border-width: 0px;
   margin-top: 2rem;
 }
-.button-talk-DevOps:hover,
-.button-talk_DevOps:focus,
-.button-talk-DevOps:active,
-.button-talk-DevOps:visited {
-  background-color: #da536c !important;
-  border-color: #da536c !important;
-  box-shadow: 0 0 0 0.2rem #da536c !important;
+.button-talk-agile:hover,
+.button-talk-agile:focus,
+.button-talk-agile:active,
+.button-talk-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 /* .focus {
-    background-color: #8e05ff !important;
-    border-color: #d43b58 !important;
-    box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
-  } */
+  background-color: #8e05ff !important;
+  border-color: #FAA03A !important;
+  box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
+} */
 
-/* .DevOps-image img {
-    width: 80%;
-  } */
-.DevOps-image-img {
+/* .agile-image img {
+  width: 80%;
+} */
+.agile-image-img {
   width: 80%;
 }
 #lottie {
   width: 80%;
 }
-.DevOps-image {
+.agile-image {
   justify-content: center;
   text-align: center;
   padding-left: 6%;
@@ -258,13 +258,13 @@ ul.ul-section2 {
 }
 
 /* .fa-circle {
-    color: red;
-    padding-right: 1rem;
-  } */
-#circleDevOps {
+  color: red;
+  padding-right: 1rem;
+} */
+#circleAgile {
   width: 10px;
 
-  fill: #d43b58;
+  fill: #faa03a;
 }
 
 .position-text {
@@ -339,13 +339,21 @@ ul.ul-section2 {
   margin-top: 15%;
   padding-bottom: 3rem;
 }
-.btn-loadMore {
+.btn-loadMore-agile {
   margin-top: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
   border-radius: 4px;
-  background-color: #d43b58;
-  border-color: #d43b58;
+  background-color: #faa03a;
+  border-color: #faa03a;
+}
+.btn-loadMore-agile:hover,
+.btn-loadMore-agile:focus,
+.btn-loadMore-agile:active,
+.btn-loadMore-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 .inner {
   overflow: hidden;
@@ -358,25 +366,25 @@ ul.ul-section2 {
 .inner:hover img {
   transform: scale(1.5);
 }
-.area-text-DevOps {
-  color: #d43b58;
+.area-text-agile {
+  color: #faa03a;
 }
 
 /* SECTION PLAN -------------------------------------------------------------------- */
-.card-plan-DevOps {
+.card-plan-agile {
   justify-content: center;
   align-items: center;
   text-align: center;
 
   height: 40rem;
 }
-.card-body-plan-DevOps {
+.card-body-plan-agile {
   padding-left: 0 !important;
   padding-right: 0 !important ;
   width: 100% !important;
 }
 
-.col-card-plan-DevOps {
+.col-card-plan-agile {
   padding-top: 5rem;
 }
 .card-footer {
@@ -389,15 +397,15 @@ ul.ul-section2 {
   padding-left: 0 !important;
   font-size: 1.02rem;
 }
-.card-custom-DevOps {
-  border-color: #d43b58;
+.card-custom-agile {
+  border-color: #faa03a;
 }
-.card-title-plan-DevOps {
+.card-title-plan-agile {
   font-weight: bold;
   color: #373a3c;
   font-size: 1.5rem;
 }
-.ul-plan-DevOps {
+.ul-plan-agile {
   list-style-type: none;
   /* min-height: 32rem; */
   padding-left: 0;
@@ -405,15 +413,15 @@ ul.ul-section2 {
   font-size: 1.2rem;
   text-align: left;
 }
-.title-plan-mobile-DevOps {
+.title-plan-mobile-agile {
   display: block;
   justify-content: left;
   text-align: left;
   margin-bottom: 3rem;
   font-weight: bold;
-  color: #d43b58;
+  color: #faa03a;
 }
-.ul-plan-DevOps li {
+.ul-plan-agile li {
   margin-top: 1.5rem;
   justify-content: center;
   margin-left: auto;
@@ -436,13 +444,13 @@ ul.ul-section2 {
   padding-top: 5rem;
   background-color: #eeeeee;
 }
-.text-help-DevOps p {
+.text-help-agile p {
   padding-left: 7rem;
   margin-bottom: 5rem;
 }
-.text-help-DevOps span {
+.text-help-agile span {
   font-weight: bold;
-  color: #d43b58;
+  color: #faa03a;
 }
 .carousel-testimony {
   margin-top: 4rem;
@@ -474,38 +482,38 @@ ul.ul-section2 {
 .row-testimony span {
   color: grey;
 }
-.title-plan-DevOps {
+.title-plan-agile {
   font-weight: bold;
-  color: #d43b58;
+  color: #faa03a;
 }
 
-.btn-plan-outline-DevOps {
+.btn-plan-outline-agile {
   padding-left: 20%;
   padding-right: 20%;
-  color: #d43b58;
-  border-color: #d43b58;
+  color: #faa03a;
+  border-color: #faa03a;
 }
-.btn-plan-outline-DevOps:hover,
-.btn-plan-outline_DevOps:focus,
-.btn-plan-outline-DevOps:active,
-.btn-plan-outline-DevOps:visited {
-  background-color: #da536c !important;
-  border-color: #da536c !important;
-  box-shadow: 0 0 0 0.2rem #da536c !important;
-}
-.btn-plan-DevOps {
+.btn-plan-agile {
   padding-left: 20%;
   padding-right: 20%;
-  background-color: #d43b58;
-  border-color: #d43b58;
+  background-color: #faa03a;
+  border-color: #faa03a;
 }
-.btn-plan-DevOps:hover,
-.btn-plan-DevOps:focus,
-.btn-plan-DevOps:active,
-.btn-plan-DevOps:visited {
-  background-color: #da536c !important;
-  border-color: #da536c !important;
-  box-shadow: 0 0 0 0.2rem #da536c !important;
+.btn-plan-agile:hover,
+.btn-plan-agile:focus,
+.btn-plan-agile:active,
+.btn-plan-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
+}
+.btn-plan-outline-agile:hover,
+.btn-plan-outline-agile:focus,
+.btn-plan-outline-agile:hover,
+.btn-plan-outline-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 
 /* SECTION PHOTOS -----------------------------------------------------------*/
@@ -569,8 +577,8 @@ ul.ul-section2 {
   left: 0;
 }
 /* SECTION FOOTER ------------------------------------------------------------------*/
-.container-footer-DevOps {
-  background-color: #d43b58;
+.container-footer-agile {
+  background-color: #faa03a;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -579,6 +587,7 @@ ul.ul-section2 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+
 .title-footer {
   width: 100%;
 }
@@ -601,7 +610,7 @@ h5 {
 .clerverSuit-footer li {
   margin-bottom: 1rem;
 }
-.btn-footer-DevOps {
+.btn-footer-agile {
   font-size: 1.2rem;
   color: white;
   border-color: white;
@@ -611,13 +620,13 @@ h5 {
   margin-left: auto;
   margin-right: auto;
 }
-.btn-footer-DevOps:hover,
-.btn-footer-DevOps:focus,
-.btn-footer-DevOps:active,
-.btn-footer-DevOps:visited {
-  background-color: #da536c !important;
-  border-color: #da536c !important;
-  box-shadow: 0 0 0 0.2rem #da536c !important;
+.btn-footer-agile:hover,
+.btn-footer-agile:focus,
+.btn-footer-agile:active,
+.btn-footer-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 .fa-instagram,
 .fa-linkedin-in,
@@ -647,39 +656,21 @@ h5 {
 .section-footer {
   margin-top: 4rem;
 }
-/* .btn-primary:hover,
-  .btn-primary:focus,
-  .btn-primary:active,
-  .btn-primary:visited {
-    background-color: #d43b58 !important;
-    border-color: #d43b58 !important;
-    box-shadow: 0 0 0 0.2rem #d43b58;
-  }
-  .focus {
-    background-color: #8e05ff !important;
-    border-color: #d43b58 !important;
-    box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
-  }
-  
-  .btn-primary.active {
-    background-color: #8e05ff !important;
-    border-color: #d43b58 !important;
-    box-shadow: 0 0 0 0.2rem #d43b58;
-  } */
+
 /* MODAL ---------------------------- */
-.button-check-DevOps {
+.button-check-agile {
   background-color: white;
   border-color: rgb(156, 9, 253);
   color: rgb(156, 9, 253);
   padding: 1rem;
 }
-.button-check-DevOps:hover,
-.button-check_DevOps:focus,
-.button-check-DevOps:active,
-.button-check-DevOps:visited {
-  background-color: #d43b58 !important;
-  border-color: #d43b58 !important;
-  box-shadow: 0 0 0 0.2rem #d43b58 !important;
+.button-check-agile:hover,
+.button-check_agile:focus,
+.button-check-agile:active,
+.button-check-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 
 .button-check-group {
@@ -700,7 +691,7 @@ h5 {
     margin-right: 0;
   }
   /*  SECCION MAIN --------------------------------------------------------*/
-  .DevOps-text {
+  .agile-text {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
@@ -708,7 +699,7 @@ h5 {
   .section-main {
     margin-top: 4rem;
   }
-  .DevOps-image {
+  .agile-image {
     justify-content: center;
     text-align: center;
     margin-top: 3rem;
@@ -747,11 +738,11 @@ h5 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  #circleDevOps {
+  #circleagile {
     width: 10px;
 
     margin-right: 1rem;
-    fill: #d43b58;
+    fill: #faa03a;
   }
   .col-button-video {
     margin-top: 1rem;
@@ -827,14 +818,14 @@ h5 {
     padding-right: 10%;
     font-weight: bold;
   }
-  .text-help-DevOps p {
+  .text-help-agile p {
     padding-left: 0rem;
   }
   .section-portfolio {
     margin-top: 25%;
   }
 
-  .btn-footer-DevOps {
+  .btn-footer-agile {
     font-size: 1.2rem;
     color: white;
     border-color: white;
@@ -853,8 +844,8 @@ h5 {
   .row-logo img {
     width: 8rem;
   }
-  .container-footer-DevOps {
-    background-color: #d43b58;
+  .container-footer-agile {
+    background-color: #faa03a;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -891,16 +882,16 @@ h5 {
     text-align: left;
     justify-content: left;
   }
-  .DevOps-text {
+  .agile-text {
     padding-left: 2rem;
     padding-top: 0rem;
   }
 
-  .DevOps-text p {
+  .agile-text p {
     font-size: 1rem;
   }
-  .button-talk-DevOps {
-    background-color: #d43b58;
+  .button-talk-agile {
+    background-color: #faa03a;
     text-align: center;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
@@ -1017,30 +1008,30 @@ h5 {
   .section-portfolio {
     margin-top: 25%;
   }
-  .title-plan-mobile-DevOps {
+  .title-plan-mobile-agile {
     display: block;
     justify-content: left;
     text-align: left;
     margin-bottom: 3rem;
     font-weight: bold;
-    color: #d43b58;
+    color: #faa03a;
     font-size: 1.5rem;
   }
 
-  .btn-plan-DevOps {
+  .btn-plan-agile {
     padding-left: 15%;
     padding-right: 15%;
   }
-  .btn-plan-outline-DevOps {
+  .btn-plan-outline-agile {
     padding-left: 15%;
     padding-right: 15%;
-    color: #d43b58;
-    border-color: #d43b58;
+    color: #faa03a;
+    border-color: #faa03a;
   }
-  .title-plan-DevOps {
+  .title-plan-agile {
     display: none;
   }
-  .text-help-DevOps p {
+  .text-help-agile p {
     padding-left: 0rem;
   }
   /* SECTION FOOTER --------------------------*/
@@ -1053,8 +1044,8 @@ h5 {
   .row-logo img {
     width: 8rem;
   }
-  .container-footer-DevOps {
-    background-color: #d43b58;
+  .container-footer-agile {
+    background-color: #faa03a;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -1068,7 +1059,7 @@ h5 {
     justify-content: center;
     text-align: center;
   }
-  .btn-footer-DevOps {
+  .btn-footer-agile {
     font-size: 1rem;
     color: white;
     border-color: white;
@@ -1087,8 +1078,8 @@ h5 {
     margin-bottom: 2rem;
   }
   /*  .clerverSuit-footer li {
-      margin-bottom: 0rem;
-    } */
+    margin-bottom: 0rem;
+  } */
 }
 
 /* ONLY FOR PHOTOS IN COROUSEL */

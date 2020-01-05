@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { useSpring, animated, config } from "react-spring";
 import { Button } from "react-bootstrap";
-import Brand from "./BrandDevOps";
-import BurgerMenu from "./BurgerMenuDevOps";
-import CollapseMenu from "./CollapseMenuDevOps";
-import "../../style/DevOps/navDevOps.css";
+import Brand from "./BrandDev";
+import BurgerMenu from "./BurgerMenuDev";
+import CollapseMenu from "./CollapseMenuDev";
+import "../../style/Dev/navDev.css";
 
 import ModalForm from "../UX/ModalForm";
 
-const NavbarDevOps = props => {
+const NavbarDev = props => {
   const barAnimation = useSpring({
     from: { transform: "translate3d(0, -10rem, 0)" },
     transform: "translate3d(0, 0, 0)"
@@ -49,7 +49,7 @@ const NavbarDevOps = props => {
             <a href="#section-photos">Team</a>
             <a href="#section-footer">Let's talk</a>
 
-            <Button className="btn-navDevOps" onClick={handleShow}>
+            <Button className="btn-nav-dev" onClick={handleShow}>
               Request a Quote
             </Button>
 
@@ -91,7 +91,7 @@ const NavbarDevOps = props => {
   );
 };
 
-export default NavbarDevOps;
+export default NavbarDev;
 
 const NavBar = styled(animated.nav)`
   position: fixed;
@@ -130,7 +130,7 @@ const NavLinks = styled(animated.ul)`
     cursor: pointer;
 
     &:hover {
-      color: #f73859;
+      color: #faa03a;
       /* border-bottom: 1px solid #fdcb6e; */
     }
 

@@ -320,6 +320,7 @@ ul.ul-section2 {
 .card-body-portfolio {
   padding-left: 3rem !important;
   padding-right: 3rem !important;
+  height: 10rem;
 }
 .card {
   border-radius: 0.3rem;
@@ -328,6 +329,7 @@ ul.ul-section2 {
 
 .section-portfolio {
   margin-top: 15%;
+  padding-bottom: 3rem;
 }
 .btn-loadMore {
   margin-top: 2rem;
@@ -482,13 +484,17 @@ ul.ul-section2 {
   border-color: #7e0cf5;
 }
 .btn-plan-Ux:hover,
-.btn-plan-Ux:active {
+.btn-plan-Ux:focus,
+.btn-plan-Ux:active,
+.btn-plan-Ux:visited {
   background-color: #7d4eaf !important;
-  border-color: rgb(156, 9, 253) !important;
+  border-color: #7d4eaf !important;
   box-shadow: 0 0 0 0.2rem #7d4eaf !important;
 }
 .btn-plan-outline-Ux:hover,
-.btn-plan-outline-Ux:active {
+.btn-plan-outline-Ux:focus,
+.btn-plan-outline-Ux:hover,
+.btn-plan-outline-Ux:visited {
   background-color: #7d4eaf !important;
   border-color: rgb(156, 9, 253) !important;
   box-shadow: 0 0 0 0.2rem #7d4eaf !important;
@@ -633,25 +639,7 @@ h5 {
 .section-footer {
   margin-top: 4rem;
 }
-/* .btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary:visited {
-  background-color: #7d4eaf !important;
-  border-color: #7d4eaf !important;
-  box-shadow: 0 0 0 0.2rem #7d4eaf;
-}
-.focus {
-  background-color: #8e05ff !important;
-  border-color: #7d4eaf !important;
-  box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
-}
 
-.btn-primary.active {
-  background-color: #8e05ff !important;
-  border-color: #7d4eaf !important;
-  box-shadow: 0 0 0 0.2rem #7d4eaf;
-} */
 /* MODAL ---------------------------- */
 .button-check-Ux {
   background-color: white;

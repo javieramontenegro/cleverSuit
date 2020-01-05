@@ -1,5 +1,5 @@
 import React from "react";
-/* import "../../style/DevOps/bodyDevOps.css"; */
+/* import "../../style/UX/bodyUx.css"; */
 import arauco from "../../img/arauco_logo.svg";
 import adt from "../../img/adt_logo.svg";
 import propins from "../../img/propins_logo.svg";

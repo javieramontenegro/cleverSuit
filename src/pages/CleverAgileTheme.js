@@ -1,17 +1,18 @@
 import React from "react";
-import "../style/DevOps/bodyDevOps.css";
-import Navbar from "../component/navbarDevOps/NavbarDevOps";
+import "../style/Agile/bodyAgile.css";
+import Navbar from "../component/navbarAgile/NavbarAgile";
+import GlobalStyle from "../style/NavbarStyle";
 
 import { Container } from "react-bootstrap";
-import Main from "../component/DevOps/MainDevOps";
-import Services from "../component/DevOps/ServicesDevOps";
-import CardsPortfolio from "../component/DevOps/PortfolioDevOps";
-import Companies from "../component/DevOps/Companies";
-import Plan from "../component/DevOps/PlanDevOps";
-import Photos from "../component/DevOps/Photos";
-import Footer from "../component/DevOps/FooterDevOps";
+import Main from "../component/Agile/MainAgile";
+import Services from "../component/Agile/ServicesAgile";
+import CardsPortfolio from "../component/Agile/PortfolioAgile";
+import Companies from "../component/Agile/Companies";
+import Plan from "../component/Agile/PlanAgile";
+import Photos from "../component/Agile/Photos";
+import Footer from "../component/Agile/FooterAgile";
 
-class CleverDevOpsTheme extends React.Component {
+class CleverAgileTheme extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -111,4 +112,4 @@ class CleverDevOpsTheme extends React.Component {
     );
   }
 }
-export default CleverDevOpsTheme;
+export default CleverAgileTheme;

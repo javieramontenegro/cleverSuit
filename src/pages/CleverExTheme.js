@@ -56,7 +56,7 @@ class CleverExTheme extends React.Component {
         classAnimationPhoto: "visible"
       });
     }
-    if (document.documentElement.scrollTop > 4300) {
+    if (document.documentElement.scrollTop > 4000) {
       this.setState({
         classAnimationFooter: "visible"
       });

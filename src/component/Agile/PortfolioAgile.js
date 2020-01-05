@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../style/Agile/bodyAgile.css";
 import flexit from "../../img/flexit.jpg";
 import propins from "../../img/propins.png";
 import whyX from "../../img/whyX.png";
@@ -9,7 +9,7 @@ import data from "../../data/content.json";
 
 const { Body, Title, Text } = Card;
 
-class PortfolioDevOps extends React.Component {
+class PortfolioAgile extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -63,7 +63,7 @@ class PortfolioDevOps extends React.Component {
                     <Body className="card-body-portfolio">
                       <Title>{card.text}</Title>
                       <Text>{card.description}</Text>
-                      <Text className="area-text-DevOps">{card.area}</Text>
+                      <Text className="area-text-agile">{card.area}</Text>
                     </Body>
                   </Card>
                 </div>
@@ -76,7 +76,7 @@ class PortfolioDevOps extends React.Component {
           {this.state.visible < data.UX.sectionPortfolio.cards.length && (
             <Button
               onClick={() => this.loadMore()}
-              className="btn-loadMore-DevOps"
+              className="btn-loadMore-agile"
             >
               {" "}
               load more
@@ -87,4 +87,4 @@ class PortfolioDevOps extends React.Component {
     );
   }
 }
-export default PortfolioDevOps;
+export default PortfolioAgile;

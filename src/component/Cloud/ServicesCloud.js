@@ -1,5 +1,5 @@
 import React from "react";
-/* import "../../style/UX/bodyUx.css"; */
+
 import reel from "../../img/video_back.mp4";
 import data from "../../data/content.json";
 import { Row, Col, Button, Image } from "react-bootstrap";
@@ -7,18 +7,9 @@ import YoutubeVideo from "./YoutubeVideo";
 
 import imgBackground from "../../img/bg_mobile.png";
 import ModalForm from "./ModalForm";
-/* const habilityContent = [
-  { hability: "UI / UX Audit" },
-  { hability: "Research" },
-  { hability: "Brand Identity" },
-  { hability: "Prototyping" },
-  { hability: "Software" },
-  { hability: "Animation" },
-  { hability: "2D / 3D Motion Graphics" },
-  { hability: "Web design and mobile apps" }
-]; */
+
 const back = window.matchMedia("(max-width: 1080px)");
-class ServicesUx extends React.Component {
+class ServicesCloud extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -115,7 +106,7 @@ class ServicesUx extends React.Component {
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
                         <svg
                           version="1.1"
-                          id="circleUx"
+                          id="circlecloud"
                           xmlns="http://www.w3.org/2000/svg"
                           x="0px"
                           y="0px"
@@ -139,14 +130,14 @@ class ServicesUx extends React.Component {
               >
                 <Col xl={3} lg={4} className="col-button-video">
                   <Button
-                    className="btn-outline-video-Ux"
+                    className="btn-outline-video-cloud"
                     onClick={this.showVideo}
                   >
                     {data.UX.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
                 <Col xl={3} lg={4} className="col-button-video">
-                  <Button className="btn-color-Ux" onClick={this.handleShow}>
+                  <Button className="btn-color-cloud" onClick={this.handleShow}>
                     {data.UX.sectionServices.servicesButtonRequest}
                   </Button>
                 </Col>
@@ -158,4 +149,4 @@ class ServicesUx extends React.Component {
     );
   }
 }
-export default ServicesUx;
+export default ServicesCloud;

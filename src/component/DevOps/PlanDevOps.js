@@ -1,5 +1,5 @@
 import React from "react";
-/* import "../../style/UX/bodyUx.css"; */
+
 import ticket from "../../img/ticket.svg";
 import testimony1 from "../../img/testimony_1.png";
 import { Row, Col, Button, Card, Carousel } from "react-bootstrap";
@@ -9,14 +9,14 @@ import ModalForm from "./ModalForm";
 
 const back = window.matchMedia("(max-width: 1199px)");
 
-class PlanUx extends React.Component {
+class PlanDevOps extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       showSuccesfull: false,
       show: false,
       title: "hidden",
-      titleNormal: "title-plan-Ux",
+      titleNormal: "title-plan-DevOps",
       data
     };
   }
@@ -39,13 +39,13 @@ class PlanUx extends React.Component {
   handleTitle = () => {
     if (back.matches) {
       this.setState({
-        title: "title-plan-mobile-Ux",
+        title: "title-plan-mobile-DevOps",
         titleNormal: "hidden"
       });
     } else {
       this.setState({
         title: "hidden",
-        titleNormal: "title-plan-Ux"
+        titleNormal: "title-plan-DevOps"
       });
     }
   };
@@ -104,18 +104,18 @@ class PlanUx extends React.Component {
             md={{ span: 8, order: 1 }}
             sm={{ span: 12, order: 1 }}
             xs={{ span: 12, order: 1 }}
-            className="col-card-plan-Ux"
+            className="col-card-plan-DevOps"
           >
             <h1 className={`${this.state.title}`}>
               {data.UX.sectionPlan.planTitle}
             </h1>
-            <Card style={{ width: "100%" }} className="card-plan-Ux">
-              <Card.Body className="card-body-plan-Ux">
-                <Card.Title className="card-title-plan-Ux">
+            <Card style={{ width: "100%" }} className="card-plan-DevOps">
+              <Card.Body className="card-body-plan-DevOps">
+                <Card.Title className="card-title-plan-DevOps">
                   Standard Plan
                 </Card.Title>
                 <p>Our default plan</p>
-                <ul className="ul-plan-Ux">
+                <ul className="ul-plan-DevOps">
                   {data.UX.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket">
@@ -131,7 +131,7 @@ class PlanUx extends React.Component {
               <Card.Footer>
                 <Button
                   variant="outline-primary"
-                  className="btn-plan-outline-Ux"
+                  className="btn-plan-outline-DevOps"
                   onClick={this.handleShow}
                 >
                   We' ll Contact You!
@@ -145,19 +145,19 @@ class PlanUx extends React.Component {
             md={{ span: 8, order: 2 }}
             sm={{ span: 12, order: 2 }}
             xs={{ span: 12, order: 2 }}
-            className="col-card-plan-Ux"
+            className="col-card-plan-DevOps"
           >
             <Card
               style={{ width: "100%" }}
-              className="card-plan-Ux card-custom-Ux  "
+              className="card-plan-DevOps card-custom-DevOps  "
             >
-              <Card.Body className="card-body-plan-Ux">
-                <Card.Title className="card-title-plan-Ux ">
+              <Card.Body className="card-body-plan-DevOps">
+                <Card.Title className="card-title-plan-DevOps ">
                   Custom-made plan
                 </Card.Title>
                 <p>Exclusive tailor-made service</p>
 
-                <ul className="ul-plan-Ux">
+                <ul className="ul-plan-DevOps">
                   {data.UX.sectionPlan.planCostume.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket ">
@@ -173,7 +173,7 @@ class PlanUx extends React.Component {
               <Card.Footer>
                 <Button
                   variant="primary"
-                  className="btn-plan-Ux"
+                  className="btn-plan-DevOps"
                   onClick={this.handleShow}
                 >
                   We' ll Contact You!
@@ -184,7 +184,7 @@ class PlanUx extends React.Component {
         </Row>
         <Row className={`${this.props.classAnimationPlan}`}>
           <Col xl={5} lg={3} md={3} sm={2} xs={1}></Col>
-          <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-Ux">
+          <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-DevOps">
             <p>
               Do you have any additional questions? ,
               <span>We'll call you!</span>?{" "}
@@ -195,4 +195,4 @@ class PlanUx extends React.Component {
     );
   }
 }
-export default PlanUx;
+export default PlanDevOps;

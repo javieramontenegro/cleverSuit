@@ -1,5 +1,5 @@
 import React from "react";
-
+/* import "../../style/UX/bodyUx.css"; */
 import photo1 from "../../img/team_01.png";
 import photo2 from "../../img/team_02.png";
 import photo3 from "../../img/team_03.png";

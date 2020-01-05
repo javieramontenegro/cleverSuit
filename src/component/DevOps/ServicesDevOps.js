@@ -150,7 +150,7 @@ class ServicesDevOps extends React.Component {
                     className="btn-color-DevOps"
                     onClick={this.handleShow}
                   >
-                    {data.UX.sectionServices.servicesButtonReel}
+                    {data.UX.sectionServices.servicesButtonRequest}
                   </Button>
                 </Col>
               </Row>

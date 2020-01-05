@@ -1,0 +1,204 @@
+html {
+  scroll-behavior: smooth;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+.img-nav {
+  height: 85%;
+  margin: auto 0;
+}
+@media (max-width: 868px) {
+  .img-nav {
+    height: 60%;
+  }
+}
+
+.logo {
+  width: 4rem;
+  margin-left: 2rem;
+}
+.margintext {
+  margin-right: 2rem;
+}
+.btn-nav-agile {
+  font-size: 1rem;
+  color: #faa03a;
+  border-color: #faa03a;
+  background-color: transparent;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+.btn-nav-agile:hover,
+.btn-nav-agile:focus,
+.btn-nav-agile:active,
+.btn-nav-agile:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
+}
+/* .focus {
+  background-color: #8e05ff !important;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
+} */
+
+/* .btn-primary.active {
+  background-color: #8e05ff !important;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem #7d4eaf;
+} */
+/* LANGUAGE */
+.select-lang {
+  border-color: white;
+}
+.anchor-option {
+  margin: 0 0 !important;
+}
+.btn-light {
+  background-color: white;
+  border-color: white;
+  color: #818a91;
+}
+.dropdown-item {
+  color: #818a91 !important;
+}
+.btn-nav-mobile-agile {
+  font-size: 1rem;
+  color: white;
+  border-color: #faa03a;
+  background-color: #faa03a;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.btn-nav-mobile-agile:hover,
+.btn-nav-mobile-agile:focus,
+.btn-nav-mobile-agile:active,
+.btn-nav-mobile-agile:visited {
+  background-color: #7d4eaf !important;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem #7d4eaf !important;
+}
+
+.aling-content {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+.row-title h3 {
+  font-size: 2rem;
+  color: #373a3c;
+}
+.row-title p {
+  margin-bottom: 0.5rem;
+}
+.container-modal {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.row-name p {
+  font-size: 0.8rem;
+  color: #818a91;
+}
+
+.row-company p {
+  margin-bottom: 0.5rem;
+}
+.row-industry {
+  margin-top: 2rem;
+}
+.row-industry p {
+  padding-right: 2rem;
+  margin-bottom: 0;
+}
+.row-options {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.row-options p {
+  font-size: 1.4rem;
+}
+.row-check {
+  justify-content: space-between;
+  width: 100%;
+}
+.btn-close button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3.4rem;
+  padding-left: 3.4rem;
+}
+.row-btn-submit {
+  margin-top: 2rem;
+}
+.modal-body {
+  padding-bottom: 3rem;
+}
+.modal-body img {
+  width: 100%;
+}
+/* .modal-form {
+  z-index: 200;
+} */
+.modal-body-succes {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.formik-display-off {
+  display: none;
+}
+.formik-display-on {
+  display: block;
+}
+.succesfull-display-on {
+  display: block;
+}
+.succesfull-display-off {
+  display: none;
+}
+.row-img-sucess {
+  width: 100%;
+  padding: 5rem;
+}
+.row-sucess-text {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.row-succes-btn-agile button {
+  font-size: 1rem;
+  color: white;
+  border-color: #faa03a;
+  background-color: #faa03a;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.input {
+  width: 100%;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+@media (max-width: 868px) {
+  .btn-nav-agile {
+    display: none;
+  }
+  .select-web {
+    display: none !important;
+  }
+}

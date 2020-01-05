@@ -9,14 +9,14 @@ import ModalForm from "./ModalForm";
 
 const back = window.matchMedia("(max-width: 1199px)");
 
-class PlanUx extends React.Component {
+class PlanAgile extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       showSuccesfull: false,
       show: false,
       title: "hidden",
-      titleNormal: "title-plan-Ux",
+      titleNormal: "title-plan-agile",
       data
     };
   }
@@ -39,13 +39,13 @@ class PlanUx extends React.Component {
   handleTitle = () => {
     if (back.matches) {
       this.setState({
-        title: "title-plan-mobile-Ux",
+        title: "title-plan-mobile-agile",
         titleNormal: "hidden"
       });
     } else {
       this.setState({
         title: "hidden",
-        titleNormal: "title-plan-Ux"
+        titleNormal: "title-plan-agile"
       });
     }
   };
@@ -100,22 +100,22 @@ class PlanUx extends React.Component {
           </Col>
           <Col
             xl={{ span: 3, order: 2 }}
-            lg={{ span: 8, order: 1 }}
+            lg={{ span: 7, order: 1 }}
             md={{ span: 8, order: 1 }}
-            sm={{ span: 10, order: 1 }}
-            xs={{ span: 10, order: 1 }}
-            className="col-card-plan"
+            sm={{ span: 12, order: 1 }}
+            xs={{ span: 12, order: 1 }}
+            className="col-card-plan-Ux"
           >
             <h1 className={`${this.state.title}`}>
               {data.UX.sectionPlan.planTitle}
             </h1>
-            <Card style={{ width: "100%" }} className="card-plan h-100">
-              <Card.Body>
-                <Card.Title className="card-title-plan">
+            <Card style={{ width: "100%" }} className="card-plan-agile">
+              <Card.Body className="card-body-plan-agile">
+                <Card.Title className="card-title-plan-agile">
                   Standard Plan
                 </Card.Title>
                 <p>Our default plan</p>
-                <ul className="ul-plan">
+                <ul className="ul-plan-agile">
                   {data.UX.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket">
@@ -127,36 +127,37 @@ class PlanUx extends React.Component {
                     </li>
                   ))}
                 </ul>
-
+              </Card.Body>
+              <Card.Footer>
                 <Button
                   variant="outline-primary"
-                  className="btn-plan-outline-Ux"
+                  className="btn-plan-outline-agile"
                   onClick={this.handleShow}
                 >
                   We' ll Contact You!
                 </Button>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
           <Col
             xl={{ span: 3, order: 3 }}
-            lg={{ span: 8, order: 2 }}
+            lg={{ span: 7, order: 2 }}
             md={{ span: 8, order: 2 }}
-            sm={{ span: 10, order: 2 }}
-            xs={{ span: 10, order: 2 }}
-            className="col-card-plan"
+            sm={{ span: 12, order: 2 }}
+            xs={{ span: 12, order: 2 }}
+            className="col-card-plan-Ux"
           >
             <Card
               style={{ width: "100%" }}
-              className="card-plan card-custom-Ux"
+              className="card-plan-agile card-custom-agile  "
             >
-              <Card.Body className="card-body-plan">
-                <Card.Title className="card-title-plan h-100">
+              <Card.Body className="card-body-plan-agile">
+                <Card.Title className="card-title-plan-agile ">
                   Custom-made plan
                 </Card.Title>
                 <p>Exclusive tailor-made service</p>
 
-                <ul className="ul-plan">
+                <ul className="ul-plan-agile">
                   {data.UX.sectionPlan.planCostume.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket ">
@@ -168,21 +169,22 @@ class PlanUx extends React.Component {
                     </li>
                   ))}
                 </ul>
-
+              </Card.Body>
+              <Card.Footer>
                 <Button
                   variant="primary"
-                  className="btn-plan-Ux"
+                  className="btn-plan-agile"
                   onClick={this.handleShow}
                 >
                   We' ll Contact You!
                 </Button>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
         </Row>
         <Row className={`${this.props.classAnimationPlan}`}>
-          <Col xl={6} lg={3} md={3} sm={2} xs={1}></Col>
-          <Col xl={6} lg={9} md={9} sm={10} xs={10} className="text-help-Ux">
+          <Col xl={5} lg={3} md={3} sm={2} xs={1}></Col>
+          <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-agile">
             <p>
               Do you have any additional questions? ,
               <span>We'll call you!</span>?{" "}
@@ -193,4 +195,4 @@ class PlanUx extends React.Component {
     );
   }
 }
-export default PlanUx;
+export default PlanAgile;
