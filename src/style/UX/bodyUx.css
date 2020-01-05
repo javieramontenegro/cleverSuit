@@ -9,6 +9,10 @@ html {
   max-width: 100%;
   scroll-behavior: smooth;
 }
+.color-def-UX {
+  background-color: #7d4eaf !important;
+}
+
 .row {
   width: 100%;
   margin-left: 0;
@@ -349,24 +353,26 @@ ul.ul-section2 {
 }
 
 /* SECTION PLAN -------------------------------------------------------------------- */
-.card-plan {
+.card-plan-Ux {
   justify-content: center;
   align-items: center;
   text-align: center;
 
-  min-height: 45rem;
+  height: 40rem;
 }
-/* .card-body-plan {
+.card-body-plan-Ux {
   padding-left: 0 !important;
   padding-right: 0 !important ;
-} */
-.card-body {
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
+  width: 100% !important;
 }
-.col-card-plan {
-  margin-top: 10rem;
+
+.col-card-plan-Ux {
+  padding-top: 5rem;
+}
+.card-footer {
+  background-color: white;
+  border-top: none;
+  width: 100%;
 }
 .col-ticket {
   padding-right: 0 !important;
@@ -376,14 +382,14 @@ ul.ul-section2 {
 .card-custom-Ux {
   border-color: #7e0cf5;
 }
-.card-title-plan {
+.card-title-plan-Ux {
   font-weight: bold;
   color: #373a3c;
   font-size: 1.5rem;
 }
 .ul-plan-Ux {
   list-style-type: none;
-  min-height: 32rem;
+  /* min-height: 32rem; */
   padding-left: 0;
   padding-right: 0;
   font-size: 1.2rem;
@@ -416,7 +422,8 @@ ul.ul-section2 {
   margin-left: 0rem;
 }
 .section-plan {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
+  padding-top: 5rem;
   background-color: #eeeeee;
 }
 .text-help-Ux p {
@@ -1016,7 +1023,7 @@ h5 {
     color: #7e0cf5;
     border-color: #7e0cf5;
   }
-  .title-plan {
+  .title-plan-Ux {
     display: none;
   }
   .text-help-Ux p {

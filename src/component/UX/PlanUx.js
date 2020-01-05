@@ -100,18 +100,18 @@ class PlanUx extends React.Component {
           </Col>
           <Col
             xl={{ span: 3, order: 2 }}
-            lg={{ span: 8, order: 1 }}
+            lg={{ span: 7, order: 1 }}
             md={{ span: 8, order: 1 }}
             sm={{ span: 10, order: 1 }}
             xs={{ span: 10, order: 1 }}
-            className="col-card-plan"
+            className="col-card-plan-Ux"
           >
             <h1 className={`${this.state.title}`}>
               {data.UX.sectionPlan.planTitle}
             </h1>
-            <Card style={{ width: "100%" }} className="card-plan h-100">
-              <Card.Body>
-                <Card.Title className="card-title-plan">
+            <Card style={{ width: "100%" }} className="card-plan-Ux">
+              <Card.Body className="card-body-plan-Ux">
+                <Card.Title className="card-title-plan-Ux">
                   Standard Plan
                 </Card.Title>
                 <p>Our default plan</p>
@@ -127,7 +127,8 @@ class PlanUx extends React.Component {
                     </li>
                   ))}
                 </ul>
-
+              </Card.Body>
+              <Card.Footer>
                 <Button
                   variant="outline-primary"
                   className="btn-plan-outline-Ux"
@@ -135,23 +136,23 @@ class PlanUx extends React.Component {
                 >
                   We' ll Contact You!
                 </Button>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
           <Col
             xl={{ span: 3, order: 3 }}
-            lg={{ span: 8, order: 2 }}
+            lg={{ span: 7, order: 2 }}
             md={{ span: 8, order: 2 }}
             sm={{ span: 10, order: 2 }}
             xs={{ span: 10, order: 2 }}
-            className="col-card-plan"
+            className="col-card-plan-Ux"
           >
             <Card
               style={{ width: "100%" }}
-              className="card-plan card-custom-Ux h-100"
+              className="card-plan-Ux card-custom-Ux  "
             >
-              <Card.Body className="card-body-plan">
-                <Card.Title className="card-title-plan ">
+              <Card.Body className="card-body-plan-Ux">
+                <Card.Title className="card-title-plan-Ux ">
                   Custom-made plan
                 </Card.Title>
                 <p>Exclusive tailor-made service</p>
@@ -168,7 +169,8 @@ class PlanUx extends React.Component {
                     </li>
                   ))}
                 </ul>
-
+              </Card.Body>
+              <Card.Footer>
                 <Button
                   variant="primary"
                   className="btn-plan-Ux"
@@ -176,7 +178,7 @@ class PlanUx extends React.Component {
                 >
                   We' ll Contact You!
                 </Button>
-              </Card.Body>
+              </Card.Footer>
             </Card>
           </Col>
         </Row>
