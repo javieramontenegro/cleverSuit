@@ -5,7 +5,7 @@ import testimony1 from "../../img/testimony_1.png";
 import { Row, Col, Button, Card, Carousel } from "react-bootstrap";
 import data from "../../data/content.json";
 import Image from "react-bootstrap/Image";
-import ModalForm from "./ModalForm";
+import ModalForm from "./ModalFormCloud";
 
 const back = window.matchMedia("(max-width: 1199px)");
 

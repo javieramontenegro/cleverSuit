@@ -6,7 +6,7 @@ import { Row, Col, Button, Image } from "react-bootstrap";
 import YoutubeVideo from "./YoutubeVideo";
 
 import imgBackground from "../../img/bg_mobile.png";
-import ModalForm from "./ModalForm";
+import ModalForm from "./ModalFormCloud";
 
 const back = window.matchMedia("(max-width: 1080px)");
 class ServicesCloud extends React.Component {

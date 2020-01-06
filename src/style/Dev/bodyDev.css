@@ -660,8 +660,8 @@ h5 {
 /* MODAL ---------------------------- */
 .button-check-dev {
   background-color: white;
-  border-color: rgb(156, 9, 253);
-  color: rgb(156, 9, 253);
+  border-color: #10ddc2;
+  color: #10ddc2;
   padding: 1rem;
 }
 .button-check-dev:hover,
@@ -858,6 +858,11 @@ h5 {
     width: 100%;
     justify-content: center;
     text-align: center;
+  }
+  .clerverSuit-footer ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    padding-left: 0;
   }
 }
 
@@ -1076,6 +1081,7 @@ h5 {
   .clerverSuit-footer ul {
     list-style-type: none;
     margin-bottom: 2rem;
+    padding-left: 0;
   }
   /*  .clerverSuit-footer li {
     margin-bottom: 0rem;

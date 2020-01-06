@@ -7,7 +7,7 @@ import BurgerMenu from "./BurgerMenuQa";
 import CollapseMenu from "./CollapseMenuQa";
 import "../../style/Qa/navQa.css";
 
-import ModalForm from "../UX/ModalForm";
+import ModalForm from "../Qa/ModalFormQa";
 
 const NavbarQa = props => {
   const barAnimation = useSpring({
@@ -130,7 +130,7 @@ const NavLinks = styled(animated.ul)`
     cursor: pointer;
 
     &:hover {
-      color: #faa03a;
+      color: #2af598;
       /* border-bottom: 1px solid #fdcb6e; */
     }
 

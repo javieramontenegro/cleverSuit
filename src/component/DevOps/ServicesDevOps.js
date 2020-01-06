@@ -6,7 +6,7 @@ import { Row, Col, Button, Image } from "react-bootstrap";
 import YoutubeVideo from "./YoutubeVideo";
 
 import imgBackground from "../../img/bg_mobile.png";
-import ModalForm from "./ModalForm";
+import ModalForm from "./ModalFormDevOps";
 /* const habilityContent = [
   { hability: "UI / UX Audit" },
   { hability: "Research" },

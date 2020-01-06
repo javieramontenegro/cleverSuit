@@ -189,6 +189,15 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.row-succes-btn-Ux button:hover,
+.row-succes-btn-Ux button:focus,
+.row-succes-btn-Ux button:active,
+.row-succes-btn-Ux button:visited {
+  background-color: #7d4eaf !important;
+  border-color: #7d4eaf !important;
+  box-shadow: 0 0 0 0.2rem #7d4eaf !important;
+}
+
 .input {
   width: 100%;
   padding-top: 0.3rem;

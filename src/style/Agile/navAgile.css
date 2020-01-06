@@ -81,9 +81,9 @@ html {
 .btn-nav-mobile-agile:focus,
 .btn-nav-mobile-agile:active,
 .btn-nav-mobile-agile:visited {
-  background-color: #7d4eaf !important;
-  border-color: #7d4eaf !important;
-  box-shadow: 0 0 0 0.2rem #7d4eaf !important;
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 
 .aling-content {
@@ -188,6 +188,14 @@ html {
   margin-right: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.row-succes-btn-agile button:hover,
+.row-succes-btn-agile button:focus,
+.row-succes-btn-agile button:active,
+.row-succes-btn-agile button:visited {
+  background-color: #faa03a !important;
+  border-color: #faa03a !important;
+  box-shadow: 0 0 0 0.2rem #faa03a !important;
 }
 .input {
   width: 100%;

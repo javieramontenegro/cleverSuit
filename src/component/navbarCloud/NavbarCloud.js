@@ -7,7 +7,7 @@ import BurgerMenu from "./BurgerMenuCloud";
 import CollapseMenu from "./CollapseMenuCloud";
 import "../../style/Cloud/navCloud.css";
 
-import ModalForm from "../UX/ModalForm";
+import ModalForm from "../Cloud/ModalFormCloud";
 
 const NavbarCloud = props => {
   const barAnimation = useSpring({

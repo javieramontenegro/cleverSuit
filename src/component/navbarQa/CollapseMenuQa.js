@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Button } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
 
-import ModalForm from "../UX/ModalForm";
+import ModalForm from "../Qa/ModalFormQa";
 
 const CollapseMenuqa = props => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });

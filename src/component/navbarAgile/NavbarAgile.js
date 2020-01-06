@@ -7,7 +7,7 @@ import BurgerMenu from "./BurgerMenuAgile";
 import CollapseMenu from "./CollapseMenuAgile";
 import "../../style/Agile/navAgile.css";
 
-import ModalForm from "../UX/ModalForm";
+import ModalForm from "../Agile/ModalFormAgile";
 
 const NavbarAgile = props => {
   const barAnimation = useSpring({

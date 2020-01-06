@@ -81,9 +81,9 @@ html {
 .btn-nav-mobile-qa:focus,
 .btn-nav-mobile-qa:active,
 .btn-nav-mobile-qa:visited {
-  background-color: #7d4eaf !important;
-  border-color: #7d4eaf !important;
-  box-shadow: 0 0 0 0.2rem #7d4eaf !important;
+  background-color: #2af598 !important;
+  border-color: #2af598 !important;
+  box-shadow: 0 0 0 0.2rem #2af598 !important;
 }
 
 .aling-content {
@@ -188,6 +188,14 @@ html {
   margin-right: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.row-succes-btn-qa button:hover,
+.row-succes-btn-qa button:focus,
+.row-succes-btn-qa button:active,
+.row-succes-btn-qa button:visited {
+  background-color: #2af598 !important;
+  border-color: #2af598 !important;
+  box-shadow: 0 0 0 0.2rem #2af598 !important;
 }
 .input {
   width: 100%;

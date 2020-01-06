@@ -662,8 +662,8 @@ h5 {
 /* MODAL ---------------------------- */
 .button-check-cloud {
   background-color: white;
-  border-color: rgb(156, 9, 253);
-  color: rgb(156, 9, 253);
+  border-color: #499ee3;
+  color: #499ee3;
   padding: 1rem;
 }
 .button-check-cloud:hover,
@@ -860,6 +860,11 @@ h5 {
     width: 100%;
     justify-content: center;
     text-align: center;
+  }
+  .clerverSuit-footer ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    padding-left: 0;
   }
 }
 
@@ -1078,6 +1083,7 @@ h5 {
   .clerverSuit-footer ul {
     list-style-type: none;
     margin-bottom: 2rem;
+    padding-left: 0;
   }
   /*  .clerverSuit-footer li {
     margin-bottom: 0rem;

@@ -7,7 +7,7 @@ import BurgerMenu from "./BurgerMenuDevOps";
 import CollapseMenu from "./CollapseMenuDevOps";
 import "../../style/DevOps/navDevOps.css";
 
-import ModalForm from "../UX/ModalForm";
+import ModalForm from "../DevOps/ModalFormDevOps";
 
 const NavbarDevOps = props => {
   const barAnimation = useSpring({

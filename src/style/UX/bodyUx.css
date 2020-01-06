@@ -842,6 +842,11 @@ h5 {
     justify-content: center;
     text-align: center;
   }
+  .clerverSuit-footer ul {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    padding-left: 0;
+  }
 }
 
 /* """"""SMALL SIZE"""""""------------------------------------------------- */
@@ -1059,6 +1064,7 @@ h5 {
   .clerverSuit-footer ul {
     list-style-type: none;
     margin-bottom: 2rem;
+    padding-left: 0;
   }
   /*  .clerverSuit-footer li {
     margin-bottom: 0rem;

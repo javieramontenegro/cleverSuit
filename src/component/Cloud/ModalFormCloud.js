@@ -1,6 +1,6 @@
 import React from "react";
-import "../../style/UX/bodyUx.css";
-import "../../style/UX/navUx.css";
+import "../../style/Cloud/bodyCloud.css";
+import "../../style/Cloud/navCloud.css";
 
 import {
   Button,
@@ -14,7 +14,7 @@ import Image from "react-bootstrap/Image";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import succes from "../../img/succes.svg";
 
-class ModalForm extends React.Component {
+class ModalFormCloud extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -112,7 +112,7 @@ class ModalForm extends React.Component {
                           type="radio"
                           name="radio"
                           value="1"
-                          className="button-check-Ux "
+                          className="button-check-cloud "
                         >
                           only me
                         </ToggleButton>
@@ -122,7 +122,7 @@ class ModalForm extends React.Component {
                           type="radio"
                           name="radio"
                           value="2"
-                          className="button-check-Ux"
+                          className="button-check-cloud"
                         >
                           0-50
                         </ToggleButton>
@@ -133,7 +133,7 @@ class ModalForm extends React.Component {
                           type="radio"
                           name="radio"
                           value="3"
-                          className="button-check-Ux"
+                          className="button-check-cloud"
                         >
                           50 - 250
                         </ToggleButton>
@@ -143,7 +143,7 @@ class ModalForm extends React.Component {
                           type="radio"
                           name="radio"
                           value="4"
-                          className="button-check-Ux"
+                          className="button-check-cloud"
                         >
                           +250
                         </ToggleButton>
@@ -152,7 +152,7 @@ class ModalForm extends React.Component {
                   </div>
                   <div className="row row-btn-submit">
                     <Button
-                      className="btn-nav-mobile-Ux"
+                      className="btn-nav-mobile-cloud"
                       data-toggle="modal"
                       data-target="#myModal2"
                       onClick={this.props.handleShowSuccesfull}
@@ -187,7 +187,7 @@ class ModalForm extends React.Component {
             <div className="row row-sucess-text">
               <h3>Your application has been successfully submitted!</h3>
             </div>
-            <div className="row row-succes-btn-Ux">
+            <div className="row row-succes-btn-cloud">
               <Button
                 onClick={
                   this.props.handleClose && this.props.handleCloseSuccesful
@@ -202,4 +202,4 @@ class ModalForm extends React.Component {
     );
   }
 }
-export default ModalForm;
+export default ModalFormCloud;

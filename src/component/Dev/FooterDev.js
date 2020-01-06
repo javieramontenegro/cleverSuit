@@ -5,7 +5,7 @@ import { Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Image from "react-bootstrap/Image";
 
-import ModalForm from "./ModalForm";
+import ModalForm from "./ModalFormDev";
 
 class FooterDev extends React.Component {
   constructor(props) {
@@ -55,13 +55,13 @@ class FooterDev extends React.Component {
             >
               <ul>
                 <li>
-                  <Link to="/devOps"> clever devOps</Link>
+                  <Link to="/devOps"> clever DevOps</Link>
                 </li>
                 <li>
-                  <a href="">Clever development</a>
+                  <Link to="/ex">Clever Experience</Link>
                 </li>
                 <li>
-                  <a href="">Clever XR</a>
+                  <Link to="xr">Clever XR</Link>
                 </li>
               </ul>
             </Col>
@@ -74,10 +74,13 @@ class FooterDev extends React.Component {
             >
               <ul>
                 <li>
-                  <a href="">Clever agile</a>
+                  <Link to="/agile">Clever Agile</Link>
                 </li>
                 <li>
-                  <a href="">Clever QA</a>
+                  <Link to="/qa">Clever QA</Link>
+                </li>
+                <li>
+                  <Link to="/cloud">Clever Cloud</Link>
                 </li>
               </ul>
             </Col>
@@ -90,13 +93,13 @@ class FooterDev extends React.Component {
             >
               <ul>
                 <li>
-                  <a href="">FAQ's</a>
+                  <Link to="">FAQ's</Link>
                 </li>
                 <li>
-                  <a href="">Terms and Conditions</a>
+                  <Link to="">Terms and Conditions</Link>
                 </li>
                 <li>
-                  <a href="">About us</a>
+                  <Link to="">About us</Link>
                 </li>
               </ul>
             </Col>
@@ -109,13 +112,13 @@ class FooterDev extends React.Component {
             >
               <ul>
                 <li>
-                  <a href="">Join us today!</a>
+                  <Link to="">Join us today!</Link>
                 </li>
                 <li>
-                  <a href="">Blog & articles</a>
+                  <Link to="">Blog & articles</Link>
                 </li>
                 <li>
-                  <a href="">Webinar</a>
+                  <Link to="">Webinar</Link>
                 </li>
               </ul>
             </Col>

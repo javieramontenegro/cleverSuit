@@ -5,7 +5,7 @@ import data from "../../data/content.json";
 import { Row, Col, Button } from "react-bootstrap";
 
 import Animation from "./AnimationCloud";
-import ModalForm from "./ModalForm";
+import ModalForm from "./ModalFormCloud";
 
 /* const mainContent = [
   {
