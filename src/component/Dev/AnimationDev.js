@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Lottie from "react-lottie";
-import Data from "../../data/ux_animation.json";
+import Data from "../../data/dev_animation.json";
 
 const back = window.matchMedia("(max-width: 1080px)");
 class AnimationAgile extends Component {
