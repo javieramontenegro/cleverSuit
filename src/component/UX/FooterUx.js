@@ -190,7 +190,9 @@ class FooterUx extends React.Component {
             </Col>
           </Row>
           <Row className="row-logo justify-content-center">
-            <Image src={logoCleverit}></Image>
+            <a href="https://www.cleveritgroup.com/">
+              <Image src={logoCleverit}></Image>
+            </a>
           </Row>
           <Row className="row-direction  justify-content-center">
             <p>

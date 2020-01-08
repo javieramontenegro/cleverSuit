@@ -55,7 +55,7 @@ class FooterDevOps extends React.Component {
             >
               <ul>
                 <li>
-                  <Link to="/ex"> clever Experience</Link>
+                  <Link to="/ex"> Clever Experience</Link>
                 </li>
                 <li>
                   <Link to="/development">Clever Development</Link>
@@ -190,7 +190,9 @@ class FooterDevOps extends React.Component {
             </Col>
           </Row>
           <Row className="row-logo justify-content-center">
-            <Image src={logoCleverit}></Image>
+            <a href="https://www.cleveritgroup.com/">
+              <Image src={logoCleverit}></Image>
+            </a>
           </Row>
           <Row className="row-direction  justify-content-center">
             <p>

@@ -724,8 +724,8 @@ h5 {
     text-align: center;
   }
   .content-text {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
   #circleUx {
     width: 10px;
@@ -760,7 +760,7 @@ h5 {
   .position-text h2 {
     margin-top: 0rem;
     color: white;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
   }
   .btn-watchvideo button {

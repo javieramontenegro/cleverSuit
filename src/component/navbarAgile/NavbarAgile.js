@@ -53,27 +53,29 @@ const NavbarAgile = props => {
               Request a Quote
             </Button>
 
-            <select
-              /* value={this.state.lang} onChange={this.onLangChange} */ className="selectpicker select-web"
-              data-width="fit"
-            >
-              <option
-                value="es"
-                className="anchor-option"
-                data-content="<i class='fa fa-globe'></i>  Es"
+            <div class="dropdown drop-lang-nav ">
+              <button
+                class="btn btn-light dropdown-toggle change"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-                Es
-              </option>
-              <option value="en" data-content="<i class='fa fa-globe'></i>  En">
-                Eng
-              </option>
-              <option
-                value="por"
-                data-content="<i class='fa fa-globe'></i>  Por"
-              >
-                Por
-              </option>
-            </select>
+                <i class="fas fa-globe icon-drop-nav"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-globe"></i> Es
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-globe"></i> Eng
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-globe"></i> Por
+                </a>
+              </div>
+            </div>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu

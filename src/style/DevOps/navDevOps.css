@@ -186,7 +186,22 @@ html {
   .btn-navDevOps {
     display: none;
   }
-  .select-web {
-    display: none !important;
+  .change {
+    display: none;
   }
+  .drop-lang-nav {
+    display: none;
+  }
+}
+.drop-lang {
+  z-index: 3;
+}
+.icon-drop {
+  font-size: 2rem;
+}
+.drop-lang-nav {
+  display: inline-block;
+}
+.icon-drop-nav {
+  font-size: 1.5rem;
 }

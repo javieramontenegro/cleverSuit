@@ -744,8 +744,8 @@ h5 {
     text-align: center;
   }
   .content-text {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
   #circlecloud {
     width: 10px;

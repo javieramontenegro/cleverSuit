@@ -55,7 +55,7 @@ class FooterAgile extends React.Component {
             >
               <ul>
                 <li>
-                  <Link to="/devOps"> clever DevOps</Link>
+                  <Link to="/devOps"> Clever DevOps</Link>
                 </li>
                 <li>
                   <Link to="/development">Clever Development</Link>
@@ -190,7 +190,9 @@ class FooterAgile extends React.Component {
             </Col>
           </Row>
           <Row className="row-logo justify-content-center">
-            <Image src={logoCleverit}></Image>
+            <a href="https://www.cleveritgroup.com/">
+              <Image src={logoCleverit}></Image>
+            </a>
           </Row>
           <Row className="row-direction  justify-content-center">
             <p>

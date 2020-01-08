@@ -66,28 +66,33 @@ const CollapseMenu = props => {
               Let's talk
             </a>
           </li>
-
-          <div className="aling-content">
-            <select
-              /* value={this.state.lang} onChange={this.onLangChange} */ className=""
-              data-width="fit"
-            >
-              <option value="es" data-content="<i class='fa fa-globe'></i>  Es">
-                Es
-              </option>
-              <option value="en" data-content="<i class='fa fa-globe'></i>  En">
-                Eng
-              </option>
-              <option
-                value="por"
-                data-content="<i class='fa fa-globe'></i>  Por"
+          <li>
+            <div class="dropdown drop-lang">
+              <button
+                class="btn btn-light dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-                Por
-              </option>
-            </select>
-          </div>
+                <i class="fas fa-globe icon-drop"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-globe"></i> Es
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-globe"></i> Eng
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-globe"></i> Por
+                </a>
+              </div>
+            </div>
+          </li>
           <div className="aling-content">
-            <Button className="btn-nav-mobile" onClick={handleShow}>
+            <Button className="btn-nav-mobile-Ux" onClick={handleShow}>
               Request a Quote
             </Button>
           </div>
