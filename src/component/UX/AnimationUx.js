@@ -42,6 +42,7 @@ class AnimationUx extends Component {
       <Lottie
         options={defaultOptions}
         width={`${this.state.animationChange}`}
+        className="ux-image-img"
       />
     );
   }

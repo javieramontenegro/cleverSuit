@@ -72,7 +72,7 @@ html {
 }
 .DevOps-text {
   padding-left: 6rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 @keyframes visible {
   0% {
@@ -138,6 +138,8 @@ html {
   text-align: center;
   padding-left: 6%;
   padding-right: 6%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* """""""SECTION VIDEO"""""""""-------------------------------------------------------- */
 .popup-video-youtube {
@@ -889,12 +891,17 @@ h5 {
     margin-right: 0;
   }
   .section-main {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
   .row-main h1 {
     font-size: 2rem;
     text-align: left;
     justify-content: left;
+  }
+  .DevOps-image {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
   }
   .DevOps-text {
     padding-left: 2rem;

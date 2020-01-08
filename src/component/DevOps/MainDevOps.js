@@ -83,9 +83,9 @@ class MainDevOps extends React.Component {
           </Col>
 
           <Col
-            xs={12}
-            sm={12}
-            md={12}
+            xs={10}
+            sm={10}
+            md={10}
             lg={6}
             xl={6}
             className={`align-self-center ux-image visible `}

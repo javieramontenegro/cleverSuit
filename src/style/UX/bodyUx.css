@@ -116,11 +116,10 @@ html {
   box-shadow: 0 0 0 0.2rem rgb(156, 9, 253, 0.2) !important;
 } */
 
-/* .ux-image img {
-  width: 80%;
-} */
 .ux-image-img {
-  width: 80%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #lottie {
   width: 80%;
@@ -130,6 +129,8 @@ html {
   text-align: center;
   padding-left: 6%;
   padding-right: 6%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* """""""SECTION VIDEO"""""""""-------------------------------------------------------- */
 .popup-video-youtube {
@@ -677,10 +678,10 @@ h5 {
   .ux-text {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
   .section-main {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
   .ux-image {
     justify-content: center;
@@ -688,7 +689,12 @@ h5 {
     margin-top: 3rem;
   }
   .row-main h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: left;
+    justify-content: left;
+  }
+  .row-main p {
+    font-size: 1.2rem;
     text-align: left;
     justify-content: left;
   }
@@ -807,6 +813,9 @@ h5 {
   .section-portfolio {
     margin-top: 25%;
   }
+  .col-card-plan-Ux {
+    padding-top: 1rem;
+  }
 
   .btn-footer-Ux {
     font-size: 1.2rem;
@@ -863,12 +872,24 @@ h5 {
     margin-right: 0;
   }
   .section-main {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
   .row-main h1 {
     font-size: 2rem;
     text-align: left;
     justify-content: left;
+  }
+  .row-main p {
+    font-size: 1.2rem;
+    text-align: left;
+    justify-content: left;
+  }
+  .ux-image {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .ux-text {
     padding-left: 2rem;
@@ -1015,6 +1036,9 @@ h5 {
     padding-right: 15%;
     color: #7e0cf5;
     border-color: #7e0cf5;
+  }
+  .col-card-plan-Ux {
+    padding-top: 1rem;
   }
   .title-plan-Ux {
     display: none;

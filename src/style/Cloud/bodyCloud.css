@@ -139,6 +139,8 @@ html {
   text-align: center;
   padding-left: 6%;
   padding-right: 6%;
+  margin-right: auto;
+  margin-left: auto;
 }
 /* """""""SECTION VIDEO"""""""""-------------------------------------------------------- */
 .popup-video-youtube {
@@ -696,7 +698,7 @@ h5 {
   .cloud-text {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
   .section-main {
     margin-top: 4rem;
@@ -707,7 +709,12 @@ h5 {
     margin-top: 3rem;
   }
   .row-main h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    text-align: left;
+    justify-content: left;
+  }
+  .row-main p {
+    font-size: 1.2rem;
     text-align: left;
     justify-content: left;
   }
@@ -881,13 +888,25 @@ h5 {
     margin-left: 0;
     margin-right: 0;
   }
-  .section-main {
-    margin-top: 8rem;
-  }
+
   .row-main h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     justify-content: left;
+  }
+  .row-main p {
+    font-size: 1.2rem;
+    text-align: left;
+    justify-content: left;
+  }
+  .cloud-image {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .section-main {
+    width: 100%;
+    margin-top: 6rem;
   }
   .cloud-text {
     padding-left: 2rem;
