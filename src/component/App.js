@@ -6,12 +6,13 @@ import CleverAgileTheme from "../pages/CleverAgileTheme";
 import CleverCloudTheme from "../pages/CleverCloudTheme";
 import CleverDevelopmentTheme from "../pages/CleverDevelopmentTheme";
 import CleverQaTheme from "../pages/CleverQaTheme";
+import CleverHomeTheme from "../pages/CleverHomeTheme";
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={CleverExTheme}></Route>
+        <Route exact path="/" component={CleverHomeTheme}></Route>
         {/*  <Route exact path="/home" component={CleverExTheme}></Route> */}
         <Route exact path="/ex" component={CleverExTheme}></Route>
         <Route exact path="/devOps" component={CleverDevOpsTheme}></Route>

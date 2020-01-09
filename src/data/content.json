@@ -105,5 +105,84 @@
         }
       ]
     }
+  },
+  "Home": {
+    "sectionMain": [
+      {
+        "mainTitle": "Impulsamos a nuestros clientes a llegar al máximo nivel",
+        "mainText": "Descubre con nosotros cóme llegar agregar valor a tu organización a través de la innovación, exploremos nuevas ideas y obtén resultadis tangibles",
+        "button": "Request a Quote"
+      }
+    ],
+    "sectionServices": {
+      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesHability": [
+        { "hability": "UI / UX Audit" },
+        { "hability": "Research" },
+        { "hability": "Brand Identity" },
+        { "hability": "Prototyping" },
+        { "hability": "Software" },
+        { "hability": "Animation" },
+        { "hability": "2D / 3D Motion Graphics" },
+        { "hability": "Web design and mobile apps" }
+      ],
+      "servicesButtonReel": "Watch our reel",
+      "servicesButtonRequest": "Request a Quote"
+    },
+    "sectionPortfolio": {
+      "portfolioTitle": "We build your tailored digital products",
+      "cards": [
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Flexit Contrataciones",
+          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/propins.png",
+          "text": "propins",
+          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/whyX.png",
+          "text": "WHYX App",
+          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development"
+        }
+      ]
+    },
+    "sectionBlog": {
+      "blogTitle": "Explora nuestras últimas ideas sobre temas importantes de la industria.",
+      "blogList": [
+        {
+          "services": "Big data, Branding, Service",
+          "title": "Creando valor a través de la data",
+          "description": "Excelente manera de otorgar valor a los servicios ofrecidos...",
+          "img": "../img/test.svg",
+          "time": "Feb 25, 2020"
+        },
+        {
+          "services": "Design, UI, Branding",
+          "title": "Buenas prácticas de diseño de interfaces y sus beneficios",
+          "description": "Conoce la mejor forma de presentar tus diseños e interfaces...",
+          "img": "../img/test.svg",
+          "time": "Feb 28, 2020"
+        },
+        {
+          "services": "DevOps, Agile, Process",
+          "title": "DevOps como apoyo para tu emprendimiento",
+          "description": "Excelente manera de otorgar valor a los servicios ofrecidos.a..",
+          "img": "../img/test.svg",
+          "time": "Mar 5, 2020"
+        }
+      ]
+    }
   }
 }
