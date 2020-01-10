@@ -10,7 +10,7 @@ import Main from "../component/Home/MainHome";
 import Companies from "../component/Home/Companies";
 import Blog from "../component/Home/BlogHome";
 /* import Photos from "../component/Home/Photos"; */
-/* import Footer from "../component/Home/FooterHome"; */
+import Footer from "../component/Home/FooterHome";
 
 class CleverHouseTheme extends React.Component {
   constructor(props) {
@@ -56,7 +56,7 @@ class CleverHouseTheme extends React.Component {
         classAnimationPhoto: "visible"
       });
     }
-    if (document.documentElement.scrollTop > 4000) {
+    if (document.documentElement.scrollTop > 3000) {
       this.setState({
         classAnimationFooter: "visible"
       });
@@ -102,11 +102,11 @@ class CleverHouseTheme extends React.Component {
             ></Photos>
           </section> */}
 
-          {/*  <section className="section-footer" id="section-footer">
+          <section className="section-footer" id="section-footer">
             <Footer
               classAnimationFooter={this.state.classAnimationFooter}
             ></Footer>
-          </section> */}
+          </section>
         </Container>
       </div>
     );

@@ -1,15 +1,40 @@
 import React from "react";
 
-import { Row, Col, Button, Card, Carousel } from "react-bootstrap";
+import {
+  Row,
+  Col,
+  Button,
+  Card,
+  Carousel,
+  CarouselItem
+} from "react-bootstrap";
 import data from "../../data/content.json";
+/* import Carousel from "react-multi-carousel"; */
 
 const { Body, Title, Text } = Card;
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+    slidesToSlide: 3 // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 2 // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1 // optional, default to 1.
+  }
+};
 
 class BlogHome extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      visible: 4,
+      visible: 3,
       data
     };
   }
@@ -40,33 +65,37 @@ class BlogHome extends React.Component {
           </Col>
           {/*  <Col xl={6} lg={2} md={0} sm={0} xs={0}></Col> */}
         </Row>
-
         <Row
           className={` justify-content-center ${this.props.classAnimationPortfolio} `}
         >
-          {data.Home.sectionBlog.blogList
-            .slice(0, this.state.visible)
-            .map((card, index) => {
-              return (
-                <div
-                  className="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-3 "
-                  key={index}
-                >
-                  <Card style={{ width: "100%" }}>
-                    <div className="inner">
-                      <Card.Img variant="top" src={card.img} />
-                    </div>
-                    <Body className="card-body-portfolio">
-                      <Title>{card.text}</Title>
-                      <Text>{card.description}</Text>
-                      <Text className="area-text-home">{card.area}</Text>
-                    </Body>
-                  </Card>
-                </div>
-              );
-            })}
+          <Col xs={8}>
+            {/*  <Carousel>
+              <CarouselItem> */}
+            {data.Home.sectionBlog.blogList
+              .slice(0, this.state.visible)
+              .map((card, index) => {
+                return (
+                  <div
+                    className="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-4 item-carousel"
+                    key={index}
+                  >
+                    <Card style={{ width: "100%" }}>
+                      <div className="inner">
+                        <Card.Img variant="top" src={card.img} />
+                      </div>
+                      <Body className="card-body-portfolio">
+                        <Title>{card.text}</Title>
+                        <Text>{card.description}</Text>
+                        <Text className="area-text-home">{card.area}</Text>
+                      </Body>
+                    </Card>
+                  </div>
+                );
+              })}
+            {/*  </CarouselItem>
+            </Carousel> */}
+          </Col>
         </Row>
-
         <Row
           className={`  justify-content-center ${this.props.classAnimationPortfolio} `}
         >

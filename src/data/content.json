@@ -181,6 +181,20 @@
           "description": "Excelente manera de otorgar valor a los servicios ofrecidos.a..",
           "img": "../img/test.svg",
           "time": "Mar 5, 2020"
+        },
+        {
+          "services": "DevOps, Agile, Process",
+          "title": "DevOps como apoyo para tu emprendimiento",
+          "description": "Excelente manera de otorgar valor a los servicios ofrecidos.a..",
+          "img": "../img/test.svg",
+          "time": "Mar 5, 2020"
+        },
+        {
+          "services": "DevOps, Agile, Process",
+          "title": "DevOps como apoyo para tu emprendimiento",
+          "description": "Excelente manera de otorgar valor a los servicios ofrecidos.a..",
+          "img": "../img/test.svg",
+          "time": "Mar 5, 2020"
         }
       ]
     }
