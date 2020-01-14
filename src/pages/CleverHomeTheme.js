@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 import Services from "../component/Home/ServicesHome";
 import CardsPortfolio from "../component/Home/PortfolioHome";
 import Main from "../component/Home/MainHome";
-import Companies from "../component/Home/Companies";
+import Companies from "../component/Home/CompaniesHome";
 import Blog from "../component/Home/BlogHome";
 /* import Photos from "../component/Home/Photos"; */
 import Footer from "../component/Home/FooterHome";
@@ -83,17 +83,17 @@ class CleverHouseTheme extends React.Component {
               classAnimationVideo={this.state.classAnimationVideo}
             ></Services>
           </section>
-          <section className="section-companies">
+          <section className="section-companies-home">
             <Companies
               classAnimationCompanies={this.state.classAnimationCompanies}
             ></Companies>
           </section>
-          <section className="section-portfolio" id="section-portfolio">
+          <section className="section-portfolio-home" id="section-portfolio">
             <CardsPortfolio
               classAnimationPortfolio={this.state.classAnimationPortfolio}
             ></CardsPortfolio>
           </section>
-          <section className="section-plan" id="section-plan">
+          <section className="section-blog" id="section-blog">
             <Blog classAnimationPlan={this.state.classAnimationPlan}></Blog>
           </section>
           {/*  <section className="section-photos" id="section-photos">

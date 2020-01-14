@@ -103,6 +103,7 @@ class BlogHome extends React.Component {
             <Button
               onClick={() => this.loadMore()}
               className="btn-loadMore-home"
+              size="lg"
             >
               {" "}
               load more

@@ -198,5 +198,80 @@
         }
       ]
     }
+  },
+  "Careers": {
+    "sectionUrgent": {
+      "urgentTitle": "Ofertas más urgentes",
+      "cards": [
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-devOps"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-development"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-ux"
+        }
+      ]
+    },
+    "sectionPostulate": {
+      "postulateTitle": "Forma parte de nuestro equipo de Clevers",
+      "cards": [
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "autor": "Publicado por María Gonzalez",
+          "text": "Arquitecto de software",
+          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        }
+      ]
+    }
   }
 }

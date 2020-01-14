@@ -27,9 +27,9 @@ class ServicesHome extends React.Component {
             <h2>{data.Home.sectionServices.servicesTitle}</h2>
           </Row>
           <Row className="row-cards-services  justify-content-center">
-            <Col xl={10} className="align-self-center">
+            <Col xl={10} lg={10} className="align-self-center">
               <Row className=" justify-content-center">
-                <Col xl={3}>
+                <Col xl={4}>
                   <Card style={{ width: "100%" }} className="card-devOps">
                     <Card.Body>
                       <Row className=" justify-content-center">
@@ -49,7 +49,7 @@ class ServicesHome extends React.Component {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={3}>
+                <Col xl={4}>
                   <Card style={{ width: "100%" }} className="card-development">
                     <Card.Body>
                       <Row className=" justify-content-center">
@@ -69,7 +69,7 @@ class ServicesHome extends React.Component {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={3}>
+                <Col xl={4}>
                   <Card style={{ width: "100%" }} className="card-ux">
                     <Card.Body>
                       <Row className=" justify-content-center">
@@ -89,7 +89,7 @@ class ServicesHome extends React.Component {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={3}>
+                <Col xl={4}>
                   <Card style={{ width: "100%" }} className="card-agile">
                     <Card.Body>
                       <Row className=" justify-content-center">
@@ -109,7 +109,7 @@ class ServicesHome extends React.Component {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={3}>
+                <Col xl={4}>
                   <Card style={{ width: "100%" }} className="card-qa">
                     <Card.Body>
                       <Row className=" justify-content-center">
@@ -129,7 +129,7 @@ class ServicesHome extends React.Component {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={3}>
+                <Col xl={4}>
                   <Card style={{ width: "100%" }} className="card-xr">
                     <Card.Body>
                       <Row className=" justify-content-center">
