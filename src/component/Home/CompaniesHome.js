@@ -1,14 +1,14 @@
 import React from "react";
 /* import "../../style/UX/bodyUx.css"; */
-import arauco from "../../img/arauco_logo.svg";
-import adt from "../../img/adt_logo.svg";
-import propins from "../../img/propins_logo.svg";
-import cat from "../../img/cat_logo.svg";
-import forus from "../../img/forus_logo.svg";
-import falabella from "../../img/falabella_logo.svg";
+import arauco from "../../img/arauco_logo_white.svg";
+import adt from "../../img/adt_logo_white.svg";
+import propins from "../../img/propins_logo_white.svg";
+import cat from "../../img/cat_logo_white.svg";
+import forus from "../../img/forus_logo_white.svg";
+import falabella from "../../img/falabella_logo_white.svg";
 import { Row, Col, Image } from "react-bootstrap";
 
-class Companies extends React.Component {
+class CompaniesHome extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -132,4 +132,4 @@ class Companies extends React.Component {
     );
   }
 }
-export default Companies;
+export default CompaniesHome;
