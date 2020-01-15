@@ -73,10 +73,10 @@ class PlanDev extends React.Component {
           >
             <>
               <h1 className={`${this.state.titleNormal}`}>
-                {data.UX.sectionPlan.planTitle}
+                {data.Development.sectionPlan.planTitle}
               </h1>
               <Carousel className="carousel-testimony">
-                {data.UX.sectionPlan.testimonyList.map((plan, index) => (
+                {data.Development.sectionPlan.testimonyList.map((plan, index) => (
                   <Carousel.Item key={index}>
                     <div>
                       <h4>{plan.testimony}</h4>
@@ -107,7 +107,7 @@ class PlanDev extends React.Component {
             className="col-card-plan-Ux"
           >
             <h1 className={`${this.state.title}`}>
-              {data.UX.sectionPlan.planTitle}
+              {data.Development.sectionPlan.planTitle}
             </h1>
             <Card style={{ width: "100%" }} className="card-plan-dev">
               <Card.Body className="card-body-plan-dev">
@@ -116,7 +116,7 @@ class PlanDev extends React.Component {
                 </Card.Title>
                 <p>Our default plan</p>
                 <ul className="ul-plan-dev">
-                  {data.UX.sectionPlan.planSmart.map((plan, index) => (
+                  {data.Development.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket">
                         <Image src={ticket} className="ticket"></Image>
@@ -134,7 +134,7 @@ class PlanDev extends React.Component {
                   className="btn-plan-outline-dev"
                   onClick={this.handleShow}
                 >
-                  We' ll Contact You!
+                  ¡Te contactamos!
                 </Button>
               </Card.Footer>
             </Card>
@@ -158,7 +158,7 @@ class PlanDev extends React.Component {
                 <p>Exclusive tailor-made service</p>
 
                 <ul className="ul-plan-dev">
-                  {data.UX.sectionPlan.planCostume.map((plan, index) => (
+                  {data.Development.sectionPlan.planCostume.map((plan, index) => (
                     <li className="row" key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-ticket ">
                         <Image src={ticket} className="ticket"></Image>
@@ -176,7 +176,7 @@ class PlanDev extends React.Component {
                   className="btn-plan-dev"
                   onClick={this.handleShow}
                 >
-                  We' ll Contact You!
+                  ¡Te contactamos!
                 </Button>
               </Card.Footer>
             </Card>
@@ -186,8 +186,8 @@ class PlanDev extends React.Component {
           <Col xl={5} lg={3} md={3} sm={2} xs={1}></Col>
           <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-dev">
             <p>
-              Do you have any additional questions? ,
-              <span>We'll call you!</span>?{" "}
+              ¿Tienes algunas dudas sobre el servicio? 
+              <span> ¡Te contactamos!</span>{" "}
             </p>
           </Col>
         </Row>

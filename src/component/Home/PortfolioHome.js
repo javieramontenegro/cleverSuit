@@ -79,7 +79,7 @@ class PortfolioHome extends React.Component {
               className="btn-loadMore-home"
             >
               {" "}
-              load more
+              Cargar más
             </Button>
           )}
         </Row>

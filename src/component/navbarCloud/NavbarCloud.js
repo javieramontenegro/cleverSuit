@@ -44,13 +44,13 @@ const NavbarCloud = props => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href="#section-video">Services</a>
-            <a href="#section-plan">Pricing</a>
+            <a href="#section-video">Servicios</a>
+            <a href="#section-plan">Planes</a>
             <a href="#section-photos">Team</a>
-            <a href="#section-footer">Let's talk</a>
+            <a href="#section-footer">¡Hablemos!</a>
 
             <Button className="btn-nav-cloud" onClick={handleShow}>
-              Request a Quote
+              Cotiza con nosotros
             </Button>
 
             <div class="dropdown drop-lang-nav">

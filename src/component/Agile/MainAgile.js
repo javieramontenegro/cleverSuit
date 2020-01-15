@@ -66,7 +66,7 @@ class MainAgile extends React.Component {
             xl={6}
             className={`agile-text visible`}
           >
-            {data.UX.sectionMain.map((text, index) => (
+            {data.Agile.sectionMain.map((text, index) => (
               <React.Fragment key={index}>
                 <h1>{text.mainTitle}</h1>
                 <br></br>

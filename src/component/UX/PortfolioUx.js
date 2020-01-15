@@ -76,7 +76,7 @@ class PortfolioUx extends React.Component {
           {this.state.visible < data.UX.sectionPortfolio.cards.length && (
             <Button onClick={() => this.loadMore()} className="btn-loadMore">
               {" "}
-              load more
+              Cargar más
             </Button>
           )}
         </Row>
