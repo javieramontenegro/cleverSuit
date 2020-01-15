@@ -79,7 +79,7 @@ class PortfolioAgile extends React.Component {
               className="btn-loadMore-agile"
             >
               {" "}
-              load more
+              Cargar más
             </Button>
           )}
         </Row>

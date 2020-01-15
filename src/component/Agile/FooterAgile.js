@@ -39,7 +39,7 @@ class FooterAgile extends React.Component {
           className={` container-footer-agile  ${this.props.classAnimationFooter}`}
         >
           <Row className="title-footer">
-            <h1>Let's Talk</h1>
+            <h1>¡Hablemos!</h1>
           </Row>
 
           <Row className="title-footer">
@@ -96,10 +96,10 @@ class FooterAgile extends React.Component {
                   <Link to="">FAQ's</Link>
                 </li>
                 <li>
-                  <Link to="">Terms and Conditions</Link>
+                  <Link to="">Términos y Condiciones</Link>
                 </li>
                 <li>
-                  <Link to="">About us</Link>
+                  <Link to="">Sobre nosotros</Link>
                 </li>
               </ul>
             </Col>
@@ -112,10 +112,10 @@ class FooterAgile extends React.Component {
             >
               <ul>
                 <li>
-                  <Link to="">Join us today!</Link>
+                  <Link to="">Únete a nuestro equipo</Link>
                 </li>
                 <li>
-                  <Link to="">Blog & articles</Link>
+                  <Link to="">Blog & artículos</Link>
                 </li>
                 <li>
                   <Link to="">Webinar</Link>
@@ -131,7 +131,7 @@ class FooterAgile extends React.Component {
               className=""
             >
               <Button className="btn-footer-agile" onClick={this.handleShow}>
-                I want to know more!
+                ¡Quiero saber más!
               </Button>
             </Col>
           </Row>

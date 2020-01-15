@@ -37,23 +37,23 @@ const CollapseMenuqa = props => {
         <NavLinks>
           <li>
             <a href="#section-main" onClick={props.handleNavbar}>
-              Home
+              Inicio
             </a>
           </li>
           <li>
             <a href="#section-video" onClick={props.handleNavbar}>
-              Services
+              Servicios
             </a>
           </li>
           <li>
             <a href="#section-portfolio" onClick={props.handleNavbar}>
-              Portfolio
+              Portafolio
             </a>
           </li>
 
           <li>
             <a href="#section-plan" onClick={props.handleNavbar}>
-              Pricing
+              Planes
             </a>
           </li>
           <li>
@@ -63,7 +63,7 @@ const CollapseMenuqa = props => {
           </li>
           <li>
             <a href="#section-footer" onClick={props.handleNavbar}>
-              Let's talk
+              ¡Te contactamos!
             </a>
           </li>
 

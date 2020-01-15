@@ -19,8 +19,8 @@
         { "hability": "2D / 3D Motion Graphics" },
         { "hability": "Web design and mobile apps" }
       ],
-      "servicesButtonReel": "Watch our reel",
-      "servicesButtonRequest": "Request a Quote"
+      "servicesButtonReel": "Mira nuestro reel",
+      "servicesButtonRequest": "Cotiza con nosotros"
     },
     "sectionPortfolio": {
       "portfolioTitle": "We build your tailored digital products",
@@ -111,7 +111,7 @@
       {
         "mainTitle": "Impulsamos a nuestros clientes a llegar al máximo nivel",
         "mainText": "Descubre con nosotros cóme llegar agregar valor a tu organización a través de la innovación, exploremos nuevas ideas y obtén resultadis tangibles",
-        "button": "Request a Quote"
+        "button": "¡Cotiza con nosotros!"
       }
     ],
     "sectionServices": {
@@ -126,8 +126,8 @@
         { "hability": "2D / 3D Motion Graphics" },
         { "hability": "Web design and mobile apps" }
       ],
-      "servicesButtonReel": "Watch our reel",
-      "servicesButtonRequest": "Request a Quote"
+      "servicesButtonReel": "Mira nuestro reel",
+      "servicesButtonRequest": "Cotiza con nosotros"
     },
     "sectionPortfolio": {
       "portfolioTitle": "We build your tailored digital products",
@@ -199,79 +199,469 @@
       ]
     }
   },
-  "Careers": {
-    "sectionUrgent": {
-      "urgentTitle": "Ofertas más urgentes",
+
+
+
+  
+  "DevOps": {
+    "sectionMain": [
+      {
+        "mainTitle": "We make complex things simple",
+        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "button": "Cotiza con nosotros"
+      }
+    ],
+    "sectionServices": {
+      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesHability": [
+        { "hability": "UI / UX Audit" },
+        { "hability": "Research" },
+        { "hability": "Brand Identity" },
+        { "hability": "Prototyping" },
+        { "hability": "Software" },
+        { "hability": "Animation" },
+        { "hability": "2D / 3D Motion Graphics" },
+        { "hability": "Web design and mobile apps" }
+      ],
+      "servicesButtonReel": "Mira nuestro reel",
+      "servicesButtonRequest": "Cotiza con nosotros"
+    },
+    "sectionPortfolio": {
+      "portfolioTitle": "We build your tailored digital products",
       "cards": [
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-devOps"
+          "img": "../../img/flexit.jpg",
+          "text": "Flexit Contrataciones",
+          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
+          "area": "UX, UI, branding, development"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-development"
+          "img": "../img/propins.png",
+          "text": "propins",
+          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
+          "area": "UX, UI, branding, development"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-ux"
+          "img": "../img/whyX.png",
+          "text": "WHYX App",
+          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
+          "area": "UX, UI, branding, development"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development"
         }
       ]
     },
-    "sectionPostulate": {
-      "postulateTitle": "Forma parte de nuestro equipo de Clevers",
+    "sectionPlan": {
+      "planTitle": "We offer plans that fit your needs",
+      "testimonyList": [
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        }
+      ],
+      "planSmart": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ],
+      "planCostume": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ]
+    }
+  },
+
+
+  "Agile": {
+    "sectionMain": [
+      {
+        "mainTitle": "Mindset Agility Enablers",
+        "mainText": "Vivir y disfrutar la agilidad mediante el aprendizaje y mejora continuo",
+        "button": "Cotiza con nosotros"
+      }
+    ],
+    "sectionServices": {
+      "servicesTitle": "Colaboración plena con el cliente",
+      "servicesHability": [
+        { "hability": "Entrenamiento en prácticas agile" },
+        { "hability": "Entrenamiento en prácticas de descubrimiento de producto" },
+        { "hability": "Agile Coaching" },
+        { "hability": "Coaching Ejecutivo" },
+        { "hability": "Certificaciones Agile" },
+        { "hability": "Agile Mentoring" },
+        { "hability": "Implementación de OKR" },
+        { "hability": "Scaled Agile Consulting" }
+      ],
+      "servicesButtonReel": "Mira nuestro reel",
+      "servicesButtonRequest": "Cotiza con nosotros"
+    },
+    "sectionPortfolio": {
+      "portfolioTitle": "Construimos tus productos digitales a medida",
       "cards": [
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-normal"
+          "img": "../../img/flexit.jpg",
+          "text": "Flexit Contrataciones",
+          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
+          "area": "UX, UI, branding, development"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-normal"
+          "img": "../img/propins.png",
+          "text": "propins",
+          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
+          "area": "UX, UI, branding, development"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-normal"
+          "img": "../img/whyX.png",
+          "text": "WHYX App",
+          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
+          "area": "UX, UI, branding, development"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-normal"
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development"
+        }
+      ]
+    },
+    "sectionPlan": {
+      "planTitle": "Ofrecemos planes que se ajustan a tus necesidades",
+      "testimonyList": [
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-normal"
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
         },
         {
-          "autor": "Publicado por María Gonzalez",
-          "text": "Arquitecto de software",
-          "description": "Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.",
-          "area": "UX, UI, branding, development",
-          "color": "color-card-normal"
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        }
+      ],
+      "planSmart": [
+        {
+          "descriptionPlan": "Generar estructuras ágiles que permitan darle el enfoque a las iniciativas de negocio de mayor valor."
+        },
+        {
+          "descriptionPlan": "Capacitaciones en prácticas y herramientas ágiles."
+        },
+        {
+          "descriptionPlan": "Proceso de acompañamiento de coaches/enabler a equipos para acelerar su proceso de madurez."
+        }
+      ],
+      "planCostume": [
+        {
+          "descriptionPlan": "Implementar marco de OKR (1 año)"
+        },
+        {
+          "descriptionPlan": "Certificaciones (mediante un partner) - Agile Fundamentals, - Liderazgo Ágil, - Certified Scrum Master, - Certified Scrum Product Owner, - Agile Team Facilitator, - Management 3.0, - Lean Change Management"
+        },
+
+        {
+          "descriptionPlan": "Acompañamiento en la expansión de la agilidad (plan de carrera, carga administrativa, etc)"
+        },
+        {
+          "descriptionPlan": "Coaching de equipos"
+        },
+        {
+          "descriptionPlan": "Workshop de Discovery"
+        },
+        {
+          "descriptionPlan": "Workshop de Scrum"
+        },
+        {
+          "descriptionPlan": "Workshop de Agilidad"
+        },
+        {
+          "descriptionPlan": "Workshop de Kanban"
+        },
+        {
+          "descriptionPlan": "Workshop Value Stream Mapping"
+        }
+      ]
+    }
+  },
+
+  "Development": {
+    "sectionMain": [
+      {
+        "mainTitle": "We make complex things simple",
+        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "button": "Cotiza con nosotros"
+      }
+    ],
+    "sectionServices": {
+      "servicesTitle": "Nuestra Capacidad",
+      "servicesHability": [
+        { "hability": "Web Development" },
+        { "hability": "API Development" },
+        { "hability": "IoT" },
+        { "hability": "ML" },
+        { "hability": "Serverless" },
+        { "hability": "Cloud Architect" },
+        { "hability": "Infrastructure Administration" }
+      ],
+      "servicesButtonReel": "Mira nuestro reel",
+      "servicesButtonRequest": "Cotiza con nosotros"
+    },
+    "sectionPortfolio": {
+      "portfolioTitle": "Creamos productos a la medida",
+      "cards": [
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Modernización de los contratos Laborales para Chile",
+          "description": "Digitalización y del proceso de evaluación y firma de contratos, la idea principal es evitar realizar dicho trabajo en una notaría, si no que cualquier empleador pueda generar de forma digital un contrato válido y que este pueda ser firmado por un empleado de forma digital haciendo uso de clave única desde el portal MiDT",
+          "area": "React, NETCore, OpenShift, Azure, Microservicios"
+        },
+        {
+          "img": "../img/flexit.jpg",
+          "text": "Web de Directores & Web de Gestión",
+          "description": "Sistemas documentales desarrollados a medida que permiten indexar documentos desde las bóvedas de Meridian BlueCielo, la idea principal de este proyecto es disponibilizar información sensible del resultado del directorio de Metro, el sistema debía ser rápido y de fácil adopción.",
+          "area": "NETCore, AzureDevOps"
+        },
+        {
+          "img": "../img/flexit.jpg",
+          "text": "Kardex",
+          "description": "Este es un sistema semi-automatizado para realizar retiro en tienda de productos, que está integrado al los sistemas actuales de Click and Collect de Falabella. Básicamente se compone de dos partes; por un lado está la bodega donde se almacenan los pedidos y, los módulos de atención que cuentan con dos puertas mecánicas, una de cara a la bodega y otra hacia el cliente. En estos módulos se ubican los pedidos para su posterior retiro y, por otro lado, está la raspberry donde está montada una aplicación desarrollada en Java FX que maneja la lógica de apertura y cierre de puertas y la atención del cliente que llega a retirar su producto.",
+          "area": "JavaSpring, JavaFX, J2EE, Raspberry"
+        },
+        {
+          "img": "../img/flexit.jpg",
+          "text": "Turnero Offline",
+          "description": "(CL PE CO AR) Esto sistema viene a ser un ReWork del actual turnero ya que el sistema anterior presentaba problemas cuando se perdía conexión a internet. Esto provocaba la pérdida sincronización de números, lo que terminaba perdiendo números de atención. Es por esto que se crea aplicación con base de datos embebida y local, la cual se utiliza cuando está sin internet y al momento de recuperar la conexión se deben enviar todos los números de atención para volver a sincronizar.",
+          "area": "JavaFX, S3, APIREST, Postgres"
+        }
+      ]
+    },
+    "sectionPlan": {
+      "planTitle": "We offer plans that fit your needs",
+      "testimonyList": [
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        }
+      ],
+      "planSmart": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ],
+      "planCostume": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ]
+    }
+  },
+
+  "QA": {
+    "sectionMain": [
+      {
+        "mainTitle": "Evaluamos productos priorizando la Calidad",
+        "mainText": "Creamos, inspeccionamos y adaptamos nuestros desarrollos de acuerdo a las necesidades del cliente",
+        "button": "Cotiza con nosotros"
+      }
+    ],
+    "sectionServices": {
+      "servicesTitle": "¿Qué nos hace ser clevers?",
+      "servicesHability": [
+        { "hability": "Automatizamos pruebas manuales usando distintas tecnologías adecuándonos al desarrollo del producto. " },
+        { "hability": "Inspeccionamos código y con esto podemos detectar vulnerabilidades, smell code, variables no usadas antes de que llegue a producción" },
+        { "hability": "Aplicamos estándares de buenas prácticas de desarrollo y ofrecemos workshops para difundirlo." },
+        { "hability": "Realizamos pruebas de stress a servicios o aplicaciones web o móviles" },
+        { "hability": "Formamos parte importante de la integración continua, desarrollamos pipelines que ejecutan nuestras pruebas e inspeccionan código." },
+        { "hability": "Al automatizar procesos manuales, reducimos el tiempo que toma un pase a producción." },
+        { "hability": "Versionamos nuestros productos y aplicamos estándares de trabajo para el manejo correcto de branches" },
+        { "hability": "Somos ágiles, trabajamos usando varios frameworks de metodología ágil: kanban, scrum, scrumban, etc" }
+      ],
+      "servicesButtonReel": "Mira nuestro reel",
+      "servicesButtonRequest": "Cotiza con nosotros"
+    },
+    "sectionPortfolio": {
+      "portfolioTitle": "Productos a la medida, con la mejor calidad",
+      "cards": [
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "WOMVOLUTION",
+          "description": "El proyecto trata de la migración de los servicios de legado y la célula QA cumple la función de partner de WOM, proveyendo un servicio de desarrollo y ejecución de pruebas manuales y automatizadas con distintos focos y alcances, a través de las entregas continuas e incrementales, garantizando la calidad de los desarrollos e integraciones entre distintas áreas.",
+          "area": "Services, SOAP, SOAPUI, git, AzureDevops Pipelines, Automated testing, Scrum"
+        },
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Post Virtual",
+          "description": "El proyecto se basó en realizar algunos cambios al postvirtual a nivel de operaciones de falabella y para esto se automatizaron las pruebas funcionales de todo el producto que antes se hacían de manera manual, agilizando con esto los pases a producción",
+          "area": "Java, POSTMAN, REST, Jira, cucumber, git, gitlab, Scrum"
+        },
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "GiftCard Compensación",
+          "description": "El proyecto se basó en la creación de una API para un nuevo tipo de GiftCard y para esto se automatizaron todas las pruebas de los diferentes servicios, además de la realización de las pruebas de stress para cada uno, evaluando con esto la arquitectura. Todo esto integrado en pipelines, apoyando la integración continua",
+          "area": "Java, POSTMAN, REST, git, Jira, cucumber, gitlab, RestAssured, jmeter, Scrum"
+        },
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Falabella Sales",
+          "description": "El proyecto se basó en la creación de una API para la generación de una Guía Electrónica para todas las ordenes de compra de Falabella bajo Google Cloud Platform y ademas de la realización de pruebas de stress para integrarlo en el pipeline",
+          "area": "Nodejs, POSTMAN, GCP, Jira, gitlab, Zephyr, git, nodejs, k6, Scrum"
+        },
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Falabella Conect",
+          "description": "El proyecto se basó en la creación de una app interna para la venta de planes y equipos móviles en Falabella y para esto se automatizaron todas las pruebas funcionales de los diferentes servicios.",
+          "area": "Java, POSTMAN, Zephyr, Jira, gitlab, git, cucumber, Scrum"
+        },
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Automatización de Pruebas",
+          "description": "El proyecto se basó en la automatización de las pruebas de regresión que se realizaban manualmente a los diferentes aplicativos de SAG. También se realizaron una serie de workshops evangelizando las buenas prácticas y la metodología ágil tanto al equipo de desarrollo como al equipo de QA.",
+          "area": "C#, POSTMAN, newman, Jira, Selenium, Specflow, Azure Devops, git, cucumber, nodejs, Scrum, TDD"
+        }
+      ]
+    },
+    "sectionPlan": {
+      "planTitle": "Ofrecemos planes que se ajustan a tus necesidades",
+      "testimonyList": [
+        {
+          "testimony": "El trabajo realizado por Cleverit cumplió con nuestras expectativas aportando a la agilidad de nuestros procesos de Testing",
+          "name": "Manuel Rivera",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "Ingeniero QA CCA",
+          "img": "../img/testimony_1.png"
+        },
+        {
+          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
+          "name": "Franco Abello",
+          "ocupation": "CEO de Why X",
+          "img": "../img/testimony_1.png"
+        }
+      ],
+      "planSmart": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        }
+      ],
+      "planCostume": [
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
         }
       ]
     }
   }
-}
+
+
+
+
+
+
+
+
+} 
