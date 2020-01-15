@@ -39,7 +39,7 @@ class PortfolioQa extends React.Component {
             className={`${this.props.classAnimationPortfolio} `}
           >
             <h1 className="portfolio-title">
-              {data.UX.sectionPortfolio.portfolioTitle}
+              {data.QA.sectionPortfolio.portfolioTitle}
             </h1>
           </Col>
           {/*  <Col xl={6} lg={2} md={0} sm={0} xs={0}></Col> */}
@@ -48,7 +48,7 @@ class PortfolioQa extends React.Component {
         <Row
           className={` justify-content-center ${this.props.classAnimationPortfolio} `}
         >
-          {data.UX.sectionPortfolio.cards
+          {data.QA.sectionPortfolio.cards
             .slice(0, this.state.visible)
             .map((card, index) => {
               return (
@@ -73,10 +73,10 @@ class PortfolioQa extends React.Component {
         <Row
           className={`  justify-content-center ${this.props.classAnimationPortfolio} `}
         >
-          {this.state.visible < data.UX.sectionPortfolio.cards.length && (
+          {this.state.visible < data.QA.sectionPortfolio.cards.length && (
             <Button onClick={() => this.loadMore()} className="btn-loadMore-qa">
               {" "}
-              load more
+              Cargar más
             </Button>
           )}
         </Row>

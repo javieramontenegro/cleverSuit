@@ -79,7 +79,7 @@ class PortfolioDevOps extends React.Component {
               className="btn-loadMore-DevOps"
             >
               {" "}
-              load more
+              Cargar más
             </Button>
           )}
         </Row>

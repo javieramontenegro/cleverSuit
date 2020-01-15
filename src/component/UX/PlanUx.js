@@ -146,7 +146,7 @@ class PlanUx extends React.Component {
                   className="btn-plan-outline-Ux"
                   onClick={this.handleShow}
                 >
-                  We' ll Contact You!
+                  ¡Te contactamos!
                 </Button>
               </Card.Footer>
             </Card>
@@ -193,7 +193,7 @@ class PlanUx extends React.Component {
                   className="btn-plan-Ux"
                   onClick={this.handleShow}
                 >
-                  We' ll Contact You!
+                  ¡Te contactamos!We
                 </Button>
               </Card.Footer>
             </Card>
@@ -203,8 +203,8 @@ class PlanUx extends React.Component {
           <Col xl={5} lg={3} md={3} sm={2} xs={1}></Col>
           <Col xl={6} lg={9} md={9} sm={10} xs={8} className="text-help-Ux">
             <p>
-              Do you have any additional questions? ,
-              <span>We'll call you!</span>?{" "}
+              ¿Tienes algunas dudas sobre el servicio?
+              <span> ¡Te contactamos!</span>{" "}
             </p>
           </Col>
         </Row>

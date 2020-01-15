@@ -96,11 +96,11 @@ class ServicesAgile extends React.Component {
               xl={12}
               className="content-text"
             >
-              <h2>{data.UX.sectionServices.servicesTitle}</h2>
+              <h2>{data.Agile.sectionServices.servicesTitle}</h2>
 
               {/*  <h2>Our customers support our capacity to boost your project</h2> */}
               <ul className="ul-section2">
-                {data.UX.sectionServices.servicesHability.map((hab, index) => (
+                {data.Agile.sectionServices.servicesHability.map((hab, index) => (
                   <>
                     <li key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
@@ -133,12 +133,12 @@ class ServicesAgile extends React.Component {
                     className="btn-outline-video-agile"
                     onClick={this.showVideo}
                   >
-                    {data.UX.sectionServices.servicesButtonReel}
+                    {data.Agile.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
                 <Col xl={3} lg={4} className="col-button-video">
                   <Button className="btn-color-agile" onClick={this.handleShow}>
-                    {data.UX.sectionServices.servicesButtonRequest}
+                    {data.Agile.sectionServices.servicesButtonRequest}
                   </Button>
                 </Col>
               </Row>
