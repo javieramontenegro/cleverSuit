@@ -211,7 +211,7 @@
 
 
 
-  
+
   "DevOps": {
     "sectionMain": [
       {
@@ -443,7 +443,7 @@
     "sectionMain": [
       {
         "mainTitle": "We make complex things simple",
-        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "mainText": "Somos un grupo de Ingenieros de Software capaces de hacer posible lo imposible nos gusta entregar valor de negocio haciendo lo que más nos gusta.",
         "button": "Cotiza con nosotros"
       }
     ],
@@ -465,10 +465,11 @@
       "portfolioTitle": "Creamos productos a la medida",
       "cards": [
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/miDT.png",
           "text": "Modernización de los contratos Laborales para Chile",
           "description": "Digitalización y del proceso de evaluación y firma de contratos, la idea principal es evitar realizar dicho trabajo en una notaría, si no que cualquier empleador pueda generar de forma digital un contrato válido y que este pueda ser firmado por un empleado de forma digital haciendo uso de clave única desde el portal MiDT",
-          "area": "React, NETCore, OpenShift, Azure, Microservicios"
+          "area": "React, NETCore, OpenShift, Azure, Microservicios",
+          "alt":"miDT - Dirección del trabajo, Chile"
         },
         {
           "img": "../img/flexit.jpg",
@@ -480,18 +481,20 @@
           "img": "../img/flexit.jpg",
           "text": "Kardex",
           "description": "Este es un sistema semi-automatizado para realizar retiro en tienda de productos, que está integrado al los sistemas actuales de Click and Collect de Falabella. Básicamente se compone de dos partes; por un lado está la bodega donde se almacenan los pedidos y, los módulos de atención que cuentan con dos puertas mecánicas, una de cara a la bodega y otra hacia el cliente. En estos módulos se ubican los pedidos para su posterior retiro y, por otro lado, está la raspberry donde está montada una aplicación desarrollada en Java FX que maneja la lógica de apertura y cierre de puertas y la atención del cliente que llega a retirar su producto.",
-          "area": "JavaSpring, JavaFX, J2EE, Raspberry"
+          "area": "JavaSpring, JavaFX, J2EE, Raspberry",
+          "alt":"miDT"
         },
         {
           "img": "../img/flexit.jpg",
           "text": "Turnero Offline",
           "description": "(CL PE CO AR) Esto sistema viene a ser un ReWork del actual turnero ya que el sistema anterior presentaba problemas cuando se perdía conexión a internet. Esto provocaba la pérdida sincronización de números, lo que terminaba perdiendo números de atención. Es por esto que se crea aplicación con base de datos embebida y local, la cual se utiliza cuando está sin internet y al momento de recuperar la conexión se deben enviar todos los números de atención para volver a sincronizar.",
-          "area": "JavaFX, S3, APIREST, Postgres"
+          "area": "JavaFX, S3, APIREST, Postgres",
+          "alt":"miDT"
         }
       ]
     },
     "sectionPlan": {
-      "planTitle": "We offer plans that fit your needs",
+      "planTitle": "Disponemos de Planes que se ajustan a tus requerimientos",
       "testimonyList": [
         {
           "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
@@ -514,21 +517,30 @@
       ],
       "planSmart": [
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Android/iOS Development"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Creation of API's for your Business (Microservices or Serverless)"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "PWA"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Relational or Non-Relational DB"
+        },
+        {
+          "descriptionPlan": "Top of React Dev"
+        },
+        {
+          "descriptionPlan": "GraphQL"
+        },
+        {
+          "descriptionPlan": "Free Hosting (on Serverless or K8s)"
         }
       ],
       "planCostume": [
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "en este caso ya tienes una buena definición de lo que quieres, también cuentas con una descripción detallada de los requisitos o TDR, tal vez quieras alojar esto en tu arquitectura onprem o en tu suscripción a la nube, para estos casos comienza aquí. "
         },
         {
           "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
@@ -673,4 +685,4 @@
 
 
 
-} 
+}

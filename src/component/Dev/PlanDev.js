@@ -112,9 +112,9 @@ class PlanDev extends React.Component {
             <Card style={{ width: "100%" }} className="card-plan-dev">
               <Card.Body className="card-body-plan-dev">
                 <Card.Title className="card-title-plan-dev">
-                  Standard Plan
+                  MVP Just Do IT
                 </Card.Title>
-                <p>Our default plan</p>
+                <p>Let's work together and make your dream come true </p>
                 <ul className="ul-plan-dev">
                   {data.Development.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
@@ -153,9 +153,9 @@ class PlanDev extends React.Component {
             >
               <Card.Body className="card-body-plan-dev">
                 <Card.Title className="card-title-plan-dev ">
-                  Custom-made plan
+                  Clever App (enterprise) 
                 </Card.Title>
-                <p>Exclusive tailor-made service</p>
+                <p>Let's make something big</p>
 
                 <ul className="ul-plan-dev">
                   {data.Development.sectionPlan.planCostume.map((plan, index) => (

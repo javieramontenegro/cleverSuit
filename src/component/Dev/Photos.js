@@ -1,10 +1,10 @@
 import React from "react";
 /* import "../../style/UX/bodyUx.css"; */
 import photo1 from "../../img/team_01.png";
-import photo2 from "../../img/team_02.png";
-import photo3 from "../../img/team_03.png";
-import photo4 from "../../img/team_04.png";
-import photo5 from "../../img/team_05.png";
+import photo2 from "../../img/devteam_05.JPG";
+import photo3 from "../../img/devteam_01.JPG";
+import photo4 from "../../img/devteam_04.JPG";
+import photo5 from "../../img/devteam_03.JPG";
 import { Row, Col, Carousel } from "react-bootstrap";
 
 import Image from "react-bootstrap/Image";
