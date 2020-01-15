@@ -7,6 +7,18 @@ import data from "../../data/content.json";
 import Image from "react-bootstrap/Image";
 import ModalForm from "./ModalForm";
 
+const planUl = [
+  {
+    descriptionPlanLi: "Donec id elit non mi porta gravida at eget metus."
+  },
+  {
+    descriptionPlanLi: "Donec id elit non mi porta gravida at eget metus."
+  },
+  {
+    descriptionPlanLi: "Donec id elit non mi porta gravida at eget metus."
+  }
+];
+
 const back = window.matchMedia("(max-width: 1199px)");
 
 class PlanUx extends React.Component {
@@ -164,7 +176,12 @@ class PlanUx extends React.Component {
                         <Image src={ticket} className="ticket"></Image>
                       </div>
                       <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-ticket">
-                        {plan.descriptionPlan}
+                        {plan.name}
+                        <ul>
+                          {plan.descriptionPlanUl.map(text => (
+                            <li>{text.descriptionPlanLi}</li>
+                          ))}
+                        </ul>
                       </div>
                     </li>
                   ))}

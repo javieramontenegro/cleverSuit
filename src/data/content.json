@@ -89,19 +89,28 @@
       ],
       "planCostume": [
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "name": "Donec id elit non mi porta gravida at eget metus.",
+          "descriptionPlanUl": [false]
+        },
+
+        {
+          "name": "Donec id elit non mi porta gravida at eget metus.",
+
+          "descriptionPlanUl": [
+            {
+              "descriptionPlanLi": "Donec id elit non mi porta gravida at eget metus."
+            },
+            {
+              "descriptionPlanLi": "Donec id elit non mi porta gravida at eget metus."
+            },
+            {
+              "descriptionPlanLi": "Donec id elit non mi porta gravida at eget metus."
+            }
+          ]
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
-        },
-        {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
-        },
-        {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
-        },
-        {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "name": "Donec id elit non mi porta gravida at eget metus.",
+          "descriptionPlanUl": [false]
         }
       ]
     }
