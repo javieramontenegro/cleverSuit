@@ -2,13 +2,13 @@
   "UX": {
     "sectionMain": [
       {
-        "mainTitle": "We make complex things simple",
-        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
-        "button": "Request a Quote"
+        "mainTitle": "Hacemos simples las cosas complejas",
+        "mainText": "Como equipo, nuestro objetivo es construir grandes experiencias de usuario para cada proyecto en el que participamos",
+        "button": "Cotiza con nosotros"
       }
     ],
     "sectionServices": {
-      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesTitle": "Nuestros clientes avalan nuestra capacidad para impulsar su proyecto",
       "servicesHability": [
         { "hability": "UI / UX Audit" },
         { "hability": "Research" },
@@ -23,36 +23,40 @@
       "servicesButtonRequest": "Cotiza con nosotros"
     },
     "sectionPortfolio": {
-      "portfolioTitle": "We build your tailored digital products",
+      "portfolioTitle": "Diseñamos productos digitales a medida",
       "cards": [
         {
           "img": "../../img/flexit.jpg",
           "text": "Flexit Contrataciones",
-          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
-          "area": "UX, UI, branding, development"
+          "description": "Esta aplicación fue desarrollada para la contratación rápida e inmediata de usuarios en contextos de tiempo parcial o eventos especiales que requieren más personal.",
+          "area": "UX, UI, branding, development",
+          "alt":"Flexit Contrataciones - Falabella, Retail"
         },
         {
           "img": "../img/propins.png",
           "text": "propins",
-          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
-          "area": "UX, UI, branding, development"
+          "description": "Se trata de una plataforma que permite realizar visitas virtuales a propiedades y proyectos para su venta utilizando la mejor tecnología para este mercado.",
+          "area": "UX, UI, branding, development",
+          "alt":"Propins - Tour virtual, realidad aumentada, compra, venta, inmuebles"
         },
         {
           "img": "../img/whyX.png",
           "text": "WHYX App",
-          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
-          "area": "UX, UI, branding, development"
+          "description": "Basado en una economía circular, el concepto principal es arrendar en lugar de comprar. El objetivo es tener experiencias sin obtener productos innecesarios.",
+          "area": "UX, UI, branding, development",
+          "alt":"WhyX - Experiencias unicas, economia circular, app, arriendo"
         },
         {
           "img": "../img/forus.png",
           "text": "Forus",
-          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
-          "area": "UX, UI, branding, development"
+          "description": "Nuestra solución para el inventario de productos en las tiendas de una cadena de tiendas minoristas, optimiza los procesos y permite una mayor eficiencia en el servicio.",
+          "area": "UX, UI, branding, development",
+          "alt":"Forus, control de inventarios para el retail"
         }
       ]
     },
     "sectionPlan": {
-      "planTitle": "We offer plans that fit your needs",
+      "planTitle": "Ofrecemeos planes que se ajustan a las necesidades de cada proyecto",
       "testimonyList": [
         {
           "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
@@ -569,14 +573,18 @@
     "sectionServices": {
       "servicesTitle": "¿Qué nos hace ser clevers?",
       "servicesHability": [
-        { "hability": "Automatizamos pruebas manuales usando distintas tecnologías adecuándonos al desarrollo del producto. " },
-        { "hability": "Inspeccionamos código y con esto podemos detectar vulnerabilidades, smell code, variables no usadas antes de que llegue a producción" },
-        { "hability": "Aplicamos estándares de buenas prácticas de desarrollo y ofrecemos workshops para difundirlo." },
-        { "hability": "Realizamos pruebas de stress a servicios o aplicaciones web o móviles" },
-        { "hability": "Formamos parte importante de la integración continua, desarrollamos pipelines que ejecutan nuestras pruebas e inspeccionan código." },
-        { "hability": "Al automatizar procesos manuales, reducimos el tiempo que toma un pase a producción." },
-        { "hability": "Versionamos nuestros productos y aplicamos estándares de trabajo para el manejo correcto de branches" },
-        { "hability": "Somos ágiles, trabajamos usando varios frameworks de metodología ágil: kanban, scrum, scrumban, etc" }
+        { "hability": "Stress tests" },
+        { "hability": "Automated Testing" },
+        { "hability": "DevTestOps" },
+        { "hability": "CI/CD" },
+        { "hability": "Services Tests" },
+        { "hability": "Visual Tests" },
+        { "hability": "Integration Tests" },
+        { "hability": "Quality" },
+        { "hability": "Agile testing" },
+        { "hability": "Api Tests" },
+        { "hability": "Mobile Tests" }
+        
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -628,19 +636,13 @@
         {
           "testimony": "El trabajo realizado por Cleverit cumplió con nuestras expectativas aportando a la agilidad de nuestros procesos de Testing",
           "name": "Manuel Rivera",
-          "ocupation": "CEO de Why X",
-          "img": "../img/testimony_1.png"
-        },
-        {
-          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-          "name": "Franco Abello",
           "ocupation": "Ingeniero QA CCA",
           "img": "../img/testimony_1.png"
         },
         {
-          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-          "name": "Franco Abello",
-          "ocupation": "CEO de Why X",
+          "testimony": "Muy capacitados en todo lo relacionado a certificación de software e implementación de flujos según procesos requeridos por la organización",
+          "name": "Keudy Moreno",
+          "ocupation": "Subgerencia de Desarrollo Ventas y Tiendas - Falabella Retail S.A",
           "img": "../img/testimony_1.png"
         }
       ],
