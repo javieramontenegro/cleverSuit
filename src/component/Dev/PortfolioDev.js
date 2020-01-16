@@ -58,7 +58,7 @@ class PortfolioAgile extends React.Component {
                 >
                   <Card style={{ width: "100%" }}>
                     <div className="inner">
-                      <Card.Img variant="top" src={card.img} />
+                      <Card.Img variant="top" src={card.img} alt={card.alt} />
                     </div>
                     <Body className="card-body-portfolio">
                       <Title>{card.text}</Title>

@@ -378,7 +378,7 @@ ul.ul-section2 {
   align-items: center;
   text-align: center;
 
-  height: 40rem;
+  height: 100%;
 }
 .card-body-plan-agile {
   padding-left: 0 !important;

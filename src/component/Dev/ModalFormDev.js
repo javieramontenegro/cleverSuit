@@ -73,26 +73,26 @@ class ModalFormDev extends React.Component {
               <Form onSubmit={""}>
                 <div className="row container-modal">
                   <div className="row-title">
-                    <h3> Enter your info, to offer you a good deal</h3>
+                    <h3> Ingresa tus datos, para ofrecerte un buen servicio</h3>
                     <br></br>
-                    <p>Type your name</p>
+                    <p>Ingresa tu nombre</p>
                   </div>
                   <div className="row row-name">
                     <Field name="name" type="text" className="input" />
                     <ErrorMessage name="name">
                       {message => <div className="error">{message}</div>}
                     </ErrorMessage>
-                    <p>We will never share this information with anyone.</p>
+                    <p>Nunca compartiremos esta información con nadie.</p>
                   </div>
                   <div className="row row-company">
-                    <p>What's the name of your company?</p>
+                    <p>¿Cómo se llama tu empresa?</p>
                     <Field name="company" type="text" className="input" />
                     <ErrorMessage name="company">
                       {message => <div className="error">{message}</div>}
                     </ErrorMessage>
                   </div>
                   <div className="row row-industry align-items-center">
-                    <p>industry</p>
+                    <p>Industria</p>
 
                     <select>
                       <option>01</option>
@@ -100,7 +100,7 @@ class ModalFormDev extends React.Component {
                     </select>
                   </div>
                   <div className="row row-options">
-                    <p>How big is the company you work for?</p>
+                    <p>¿Qué tan grande es la compañía para la que trabajas?</p>
                   </div>
                   <div className="row row-check  justify-content-center">
                     <ButtonToolbar
@@ -157,7 +157,7 @@ class ModalFormDev extends React.Component {
                       data-target="#myModal2"
                       onClick={this.props.handleShowSuccesfull}
                     >
-                      Request a Quote
+                      Haz tu cotización
                     </Button>
                   </div>
                   <div className="row btn-close">
@@ -165,7 +165,7 @@ class ModalFormDev extends React.Component {
                       variant="secondary"
                       onClick={this.props.handleClose}
                     >
-                      Close
+                      Cerrar
                     </Button>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ class ModalFormDev extends React.Component {
               <Image src={succes}></Image>
             </div>
             <div className="row row-sucess-text">
-              <h3>Your application has been successfully submitted!</h3>
+              <h3>¡Tu solicitud ha sido enviada con éxito!</h3>
             </div>
             <div className="row row-succes-btn-dev">
               <Button

@@ -66,7 +66,7 @@ class MainDevOps extends React.Component {
             xl={6}
             className={`ux-text visible`}
           >
-            {data.UX.sectionMain.map((text, index) => (
+            {data.DevOps.sectionMain.map((text, index) => (
               <React.Fragment key={index}>
                 <h1>{text.mainTitle}</h1>
                 <br></br>
