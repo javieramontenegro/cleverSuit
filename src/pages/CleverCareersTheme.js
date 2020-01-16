@@ -11,7 +11,7 @@ import Postulate from "../component/Careers/Postulate";
 
 import Footer from "../component/Home/FooterHome";
 
-class CleverHouseTheme extends React.Component {
+class CleverCareersTheme extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -89,4 +89,4 @@ class CleverHouseTheme extends React.Component {
     );
   }
 }
-export default CleverHouseTheme;
+export default CleverCareersTheme;

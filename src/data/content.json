@@ -89,28 +89,19 @@
       ],
       "planCostume": [
         {
-          "name": "Donec id elit non mi porta gravida at eget metus.",
-          "descriptionPlanUl": [false]
-        },
-
-        {
-          "name": "Donec id elit non mi porta gravida at eget metus.",
-
-          "descriptionPlanUl": [
-            {
-              "descriptionPlanLi": "Donec id elit non mi porta gravida at eget metus."
-            },
-            {
-              "descriptionPlanLi": "Donec id elit non mi porta gravida at eget metus."
-            },
-            {
-              "descriptionPlanLi": "Donec id elit non mi porta gravida at eget metus."
-            }
-          ]
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
         },
         {
-          "name": "Donec id elit non mi porta gravida at eget metus.",
-          "descriptionPlanUl": [false]
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+        },
+        {
+          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
         }
       ]
     }
@@ -209,9 +200,86 @@
     }
   },
 
+  "Careers": {
+    "sectionUrgent": {
+      "urgentTitle": "We build your tailored digital products",
+      "cards": [
+        {
+          "text": "Flexit Contrataciones",
+          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-devOps"
+        },
+        {
+          "text": "propins",
+          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-devOps"
+        },
+        {
+          "text": "WHYX App",
+          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-devOps"
+        }
+      ]
+    },
+    "sectionPostulate": {
+      "postulateTitle": "We build your tailored digital products",
+      "cards": [
+        {
+          "img": "../../img/flexit.jpg",
+          "text": "Flexit Contrataciones",
+          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "img": "../img/propins.png",
+          "text": "propins",
+          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "img": "../img/whyX.png",
+          "text": "WHYX App",
+          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        },
+        {
+          "img": "../img/forus.png",
+          "text": "Forus",
+          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
+          "area": "UX, UI, branding, development",
+          "color": "color-card-normal"
+        }
+      ]
+    }
+  },
 
-
-  
   "DevOps": {
     "sectionMain": [
       {
@@ -320,7 +388,6 @@
     }
   },
 
-
   "Agile": {
     "sectionMain": [
       {
@@ -333,7 +400,9 @@
       "servicesTitle": "Colaboración plena con el cliente",
       "servicesHability": [
         { "hability": "Entrenamiento en prácticas agile" },
-        { "hability": "Entrenamiento en prácticas de descubrimiento de producto" },
+        {
+          "hability": "Entrenamiento en prácticas de descubrimiento de producto"
+        },
         { "hability": "Agile Coaching" },
         { "hability": "Coaching Ejecutivo" },
         { "hability": "Certificaciones Agile" },
@@ -557,14 +626,30 @@
     "sectionServices": {
       "servicesTitle": "¿Qué nos hace ser clevers?",
       "servicesHability": [
-        { "hability": "Automatizamos pruebas manuales usando distintas tecnologías adecuándonos al desarrollo del producto. " },
-        { "hability": "Inspeccionamos código y con esto podemos detectar vulnerabilidades, smell code, variables no usadas antes de que llegue a producción" },
-        { "hability": "Aplicamos estándares de buenas prácticas de desarrollo y ofrecemos workshops para difundirlo." },
-        { "hability": "Realizamos pruebas de stress a servicios o aplicaciones web o móviles" },
-        { "hability": "Formamos parte importante de la integración continua, desarrollamos pipelines que ejecutan nuestras pruebas e inspeccionan código." },
-        { "hability": "Al automatizar procesos manuales, reducimos el tiempo que toma un pase a producción." },
-        { "hability": "Versionamos nuestros productos y aplicamos estándares de trabajo para el manejo correcto de branches" },
-        { "hability": "Somos ágiles, trabajamos usando varios frameworks de metodología ágil: kanban, scrum, scrumban, etc" }
+        {
+          "hability": "Automatizamos pruebas manuales usando distintas tecnologías adecuándonos al desarrollo del producto. "
+        },
+        {
+          "hability": "Inspeccionamos código y con esto podemos detectar vulnerabilidades, smell code, variables no usadas antes de que llegue a producción"
+        },
+        {
+          "hability": "Aplicamos estándares de buenas prácticas de desarrollo y ofrecemos workshops para difundirlo."
+        },
+        {
+          "hability": "Realizamos pruebas de stress a servicios o aplicaciones web o móviles"
+        },
+        {
+          "hability": "Formamos parte importante de la integración continua, desarrollamos pipelines que ejecutan nuestras pruebas e inspeccionan código."
+        },
+        {
+          "hability": "Al automatizar procesos manuales, reducimos el tiempo que toma un pase a producción."
+        },
+        {
+          "hability": "Versionamos nuestros productos y aplicamos estándares de trabajo para el manejo correcto de branches"
+        },
+        {
+          "hability": "Somos ágiles, trabajamos usando varios frameworks de metodología ágil: kanban, scrum, scrumban, etc"
+        }
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -665,12 +750,4 @@
       ]
     }
   }
-
-
-
-
-
-
-
-
-} 
+}

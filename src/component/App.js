@@ -7,6 +7,7 @@ import CleverCloudTheme from "../pages/CleverCloudTheme";
 import CleverDevelopmentTheme from "../pages/CleverDevelopmentTheme";
 import CleverQaTheme from "../pages/CleverQaTheme";
 import CleverHomeTheme from "../pages/CleverHomeTheme";
+import CleverCareersTheme from "../pages/CleverCareersTheme";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           component={CleverDevelopmentTheme}
         ></Route>
         <Route exact path="/qa" component={CleverQaTheme}></Route>
+        <Route exact path="/careers" component={CleverCareersTheme}></Route>
       </Switch>
     </BrowserRouter>
   );

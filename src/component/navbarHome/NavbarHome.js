@@ -6,7 +6,7 @@ import Brand from "./BrandHome";
 import BurgerMenu from "./BurgerMenuHome";
 import CollapseMenu from "./CollapseMenuHome";
 import "../../style/Home/navHome.css";
-
+import { Link } from "react-router-dom";
 import ModalForm from "../UX/ModalForm";
 
 const NavbarHome = props => {
@@ -46,7 +46,7 @@ const NavbarHome = props => {
           <NavLinks style={linkAnimation}>
             <a href="#section-video">Expertise</a>
             <a href="#section-plan">Proyects</a>
-            <a href="#section-photos">Careers</a>
+            <Link to="/Careers">Careers</Link>
             <a href="#section-footer">Blog</a>
 
             <Button className="btn-nav-home" onClick={handleShow}>

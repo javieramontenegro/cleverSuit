@@ -176,12 +176,7 @@ class PlanUx extends React.Component {
                         <Image src={ticket} className="ticket"></Image>
                       </div>
                       <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-ticket">
-                        {plan.name}
-                        <ul>
-                          {plan.descriptionPlanUl.map(text => (
-                            <li>{text.descriptionPlanLi}</li>
-                          ))}
-                        </ul>
+                        {plan.descriptionPlan}
                       </div>
                     </li>
                   ))}

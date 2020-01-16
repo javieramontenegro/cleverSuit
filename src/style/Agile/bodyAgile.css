@@ -966,8 +966,8 @@ h5 {
     width: 100%;
     margin-top: -75rem;
 
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
   }
   .companies-file-two {
     margin-top: 1rem;
@@ -984,8 +984,9 @@ h5 {
     left: 0;
   }
   #fadeImages {
-    margin-top: 4rem;
-    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .ul-section2 li {
     display: block;

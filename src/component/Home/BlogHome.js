@@ -54,8 +54,8 @@ class BlogHome extends React.Component {
           <Col
             xs={12}
             sm={12}
-            md={10}
-            lg={10}
+            md={12}
+            lg={12}
             xl={12}
             className={`${this.props.classAnimationPortfolio} `}
           >
@@ -68,7 +68,14 @@ class BlogHome extends React.Component {
         <Row
           className={` justify-content-center ${this.props.classAnimationPortfolio} `}
         >
-          <Col xs={8}>
+          <Col
+            xs={12}
+            sm={10}
+            md={8}
+            lg={10}
+            xl={8}
+            className="align-self-center col-blog-cards"
+          >
             {/*  <Carousel>
               <CarouselItem> */}
             {data.Home.sectionBlog.blogList
@@ -76,7 +83,7 @@ class BlogHome extends React.Component {
               .map((card, index) => {
                 return (
                   <div
-                    className="col-12 col-sm-10 col-md-8 col-lg-8 col-xl-4 item-carousel"
+                    className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 item-carousel"
                     key={index}
                   >
                     <Card style={{ width: "100%" }}>

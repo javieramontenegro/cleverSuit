@@ -140,6 +140,7 @@ html {
 }
 .section-postulate {
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 @media screen and (max-width: 450px) {
   .row-card-titleUrgent h1 {
