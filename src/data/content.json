@@ -219,7 +219,7 @@
   "DevOps": {
     "sectionMain": [
       {
-        "mainTitle": "We make complex things simple",
+        "mainTitle": "Complicado es un montón de cosas simples mezcladas. Destrúyelo. Luego hazlo simple",
         "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
         "button": "Cotiza con nosotros"
       }
@@ -328,7 +328,7 @@
   "Agile": {
     "sectionMain": [
       {
-        "mainTitle": "Mindset Agility Enablers",
+        "mainTitle": "Habilitadores de mentalidad agilizada",
         "mainText": "Vivir y disfrutar la agilidad mediante el aprendizaje y mejora continuo",
         "button": "Cotiza con nosotros"
       }
@@ -446,7 +446,7 @@
   "Development": {
     "sectionMain": [
       {
-        "mainTitle": "We make complex things simple",
+        "mainTitle": "Complicado es un montón de cosas simples mezcladas. Destrúyelo. Luego hazlo simple",
         "mainText": "Somos un grupo de Ingenieros de Software capaces de hacer posible lo imposible nos gusta entregar valor de negocio haciendo lo que más nos gusta.",
         "button": "Cotiza con nosotros"
       }
@@ -454,13 +454,13 @@
     "sectionServices": {
       "servicesTitle": "Nuestra Capacidad",
       "servicesHability": [
-        { "hability": "Web Development" },
-        { "hability": "API Development" },
+        { "hability": "Desarrollo web" },
+        { "hability": "Desarrollo de API" },
         { "hability": "IoT" },
         { "hability": "ML" },
         { "hability": "Serverless" },
-        { "hability": "Cloud Architect" },
-        { "hability": "Infrastructure Administration" }
+        { "hability": "Arquitectura Cloud" },
+        { "hability": "Administración de estructura TI" }
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -521,16 +521,16 @@
       ],
       "planSmart": [
         {
-          "descriptionPlan": "Android/iOS Development"
+          "descriptionPlan": "Android iOS (Híbrida)"
         },
         {
-          "descriptionPlan": "Creation of API's for your Business (Microservices or Serverless)"
+          "descriptionPlan": "Creación de API's para tu negocio (Microservicios o Serverless)"
         },
         {
           "descriptionPlan": "PWA"
         },
         {
-          "descriptionPlan": "Relational or Non-Relational DB"
+          "descriptionPlan": "BD relacional o no relacional"
         },
         {
           "descriptionPlan": "Top of React Dev"
@@ -539,24 +539,42 @@
           "descriptionPlan": "GraphQL"
         },
         {
-          "descriptionPlan": "Free Hosting (on Serverless or K8s)"
+          "descriptionPlan": "Hosting libre (en Serverless o K8s)"
         }
       ],
       "planCostume": [
         {
-          "descriptionPlan": "en este caso ya tienes una buena definición de lo que quieres, también cuentas con una descripción detallada de los requisitos o TDR, tal vez quieras alojar esto en tu arquitectura onprem o en tu suscripción a la nube, para estos casos comienza aquí. "
+          "descriptionPlan": "Desarrollo Android & iOS (Híbrida or Nativa)"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Gestión API + Api"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "PWA"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Sitio Backoffice"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Estrategía de mensajes de colas"
+        },
+        {
+          "descriptionPlan": "gRPC"
+        },
+        {
+          "descriptionPlan": "Pub/Sub Pattern or Signal R"
+        },
+        {
+          "descriptionPlan": "GraphQL"
+        },
+        {
+          "descriptionPlan": "Administración de bases de datos relacionales, no relacionales o de lagos de datos"
+        },
+        {
+          "descriptionPlan": "Todo el flujo de trabajo de DevSecOps está configurado y listo para ser desplegado más de 9999 veces al día"
+        },
+        {
+          "descriptionPlan": "Gestión de más de 100k usuarios concurrentes"
         }
       ]
     }
@@ -593,10 +611,11 @@
       "portfolioTitle": "Productos a la medida, con la mejor calidad",
       "cards": [
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/wom.png",
           "text": "WOMVOLUTION",
           "description": "El proyecto trata de la migración de los servicios de legado y la célula QA cumple la función de partner de WOM, proveyendo un servicio de desarrollo y ejecución de pruebas manuales y automatizadas con distintos focos y alcances, a través de las entregas continuas e incrementales, garantizando la calidad de los desarrollos e integraciones entre distintas áreas.",
-          "area": "Services, SOAP, SOAPUI, git, AzureDevops Pipelines, Automated testing, Scrum"
+          "area": "Services, SOAP, SOAPUI, git, AzureDevops Pipelines, Automated testing, Scrum",
+          "alt":"WOM, WOMVOLUTION, GIT, AZURE, AZUREDEVOPS,QA,TESTING"
         },
         {
           "img": "../../img/flexit.jpg",
