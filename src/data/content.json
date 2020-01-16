@@ -476,23 +476,23 @@
           "alt":"miDT - Dirección del trabajo, Chile"
         },
         {
-          "img": "../img/flexit.jpg",
+          "img": "../img/metro_pmt.png",
           "text": "Web de Directores & Web de Gestión",
           "description": "Sistemas documentales desarrollados a medida que permiten indexar documentos desde las bóvedas de Meridian BlueCielo, la idea principal de este proyecto es disponibilizar información sensible del resultado del directorio de Metro, el sistema debía ser rápido y de fácil adopción.",
           "area": "NETCore, AzureDevOps"
         },
         {
-          "img": "../img/flexit.jpg",
-          "text": "Kardex",
-          "description": "Este es un sistema semi-automatizado para realizar retiro en tienda de productos, que está integrado al los sistemas actuales de Click and Collect de Falabella. Básicamente se compone de dos partes; por un lado está la bodega donde se almacenan los pedidos y, los módulos de atención que cuentan con dos puertas mecánicas, una de cara a la bodega y otra hacia el cliente. En estos módulos se ubican los pedidos para su posterior retiro y, por otro lado, está la raspberry donde está montada una aplicación desarrollada en Java FX que maneja la lógica de apertura y cierre de puertas y la atención del cliente que llega a retirar su producto.",
+          "img": "../img/turnero_offline.png",
+          "text": "Turnero Offline",
+          "description": "(CL PE CO AR) Esto sistema viene a ser un ReWork del actual turnero ya que el sistema anterior presentaba problemas cuando se perdía conexión a internet. Esto provocaba la pérdida sincronización de números, lo que terminaba perdiendo números de atención. Es por esto que se crea aplicación con base de datos embebida y local, la cual se utiliza cuando está sin internet y al momento de recuperar la conexión se deben enviar todos los números de atención para volver a sincronizar.",
           "area": "JavaSpring, JavaFX, J2EE, Raspberry",
           "alt":"miDT"
         },
         {
-          "img": "../img/flexit.jpg",
-          "text": "Turnero Offline",
-          "description": "(CL PE CO AR) Esto sistema viene a ser un ReWork del actual turnero ya que el sistema anterior presentaba problemas cuando se perdía conexión a internet. Esto provocaba la pérdida sincronización de números, lo que terminaba perdiendo números de atención. Es por esto que se crea aplicación con base de datos embebida y local, la cual se utiliza cuando está sin internet y al momento de recuperar la conexión se deben enviar todos los números de atención para volver a sincronizar.",
-          "area": "JavaFX, S3, APIREST, Postgres",
+          "img": "../img/metro-pmt_dash.png",
+          "text": "Puesto Maniobra de Trenes (PMT)",
+          "description": "es un sistema que maneja toda la interacciones de los trenes de metro en las bodegas y centro de vias, desde este se agendan todos los moviemientos, matenciones y actividades, es el sistema de logistica utilizado por metro para dicha gestión.",
+          "area": "NetCore, Javascript, Hangfire, Api",
           "alt":"miDT"
         }
       ]
