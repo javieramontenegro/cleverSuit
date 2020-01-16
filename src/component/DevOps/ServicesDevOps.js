@@ -105,11 +105,11 @@ class ServicesDevOps extends React.Component {
               xl={12}
               className="content-text"
             >
-              <h2>{data.UX.sectionServices.servicesTitle}</h2>
+              <h2>{data.DevOps.sectionServices.servicesTitle}</h2>
 
               {/*  <h2>Our customers support our capacity to boost your project</h2> */}
               <ul className="ul-section2">
-                {data.UX.sectionServices.servicesHability.map((hab, index) => (
+                {data.DevOps.sectionServices.servicesHability.map((hab, index) => (
                   <>
                     <li key={index}>
                       <div className="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1">
@@ -142,7 +142,7 @@ class ServicesDevOps extends React.Component {
                     className="btn-outline-video-DevOps"
                     onClick={this.showVideo}
                   >
-                    {data.UX.sectionServices.servicesButtonReel}
+                    {data.DevOps.sectionServices.servicesButtonReel}
                   </Button>
                 </Col>
                 <Col xl={3} lg={4} className="col-button-video">
@@ -150,7 +150,7 @@ class ServicesDevOps extends React.Component {
                     className="btn-color-DevOps"
                     onClick={this.handleShow}
                   >
-                    {data.UX.sectionServices.servicesButtonRequest}
+                    {data.DevOps.sectionServices.servicesButtonRequest}
                   </Button>
                 </Col>
               </Row>

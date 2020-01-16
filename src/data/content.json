@@ -219,22 +219,22 @@
   "DevOps": {
     "sectionMain": [
       {
-        "mainTitle": "Complicado es un montón de cosas simples mezcladas. Destrúyelo. Luego hazlo simple",
-        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "mainTitle": "Piensa con inteligencia hoy, entrega más rápido el valor mañana.",
+        "mainText": "Reduce el error, aumenta la productividad y entrega el software más rápidamente.",
         "button": "Cotiza con nosotros"
       }
     ],
     "sectionServices": {
-      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesTitle": "¿Qué hacemos?:",
       "servicesHability": [
-        { "hability": "UI / UX Audit" },
-        { "hability": "Research" },
-        { "hability": "Brand Identity" },
-        { "hability": "Prototyping" },
-        { "hability": "Software" },
-        { "hability": "Animation" },
-        { "hability": "2D / 3D Motion Graphics" },
-        { "hability": "Web design and mobile apps" }
+        { "hability": "Mindset ágil" },
+        { "hability": "Redefinición, creación o reingeniería de procesos" },
+        { "hability": "Eliminar el desperdicio" },
+        { "hability": "Aumentar la productividad" },
+        { "hability": "Coaching y Mentoring para equipos" },
+        { "hability": "Instalar y configurar toolchain DevOps" },
+        { "hability": "Habilitar prácticas y hábitos" },
+        { "hability": "Aumentar la madurez de los dispositivos" }
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -618,22 +618,25 @@
           "alt":"WOM, WOMVOLUTION, GIT, AZURE, AZUREDEVOPS,QA,TESTING"
         },
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/Falabella_postvirtual.png",
           "text": "Post Virtual",
           "description": "El proyecto se basó en realizar algunos cambios al postvirtual a nivel de operaciones de falabella y para esto se automatizaron las pruebas funcionales de todo el producto que antes se hacían de manera manual, agilizando con esto los pases a producción",
-          "area": "Java, POSTMAN, REST, Jira, cucumber, git, gitlab, Scrum"
+          "area": "Java, POSTMAN, REST, Jira, cucumber, git, gitlab, Scrum",
+          "alt":"Falabella, jira, agile, qa, operaciones falabella, pruebas, scrum"
         },
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/Falabella_giftcard.png",
           "text": "GiftCard Compensación",
           "description": "El proyecto se basó en la creación de una API para un nuevo tipo de GiftCard y para esto se automatizaron todas las pruebas de los diferentes servicios, además de la realización de las pruebas de stress para cada uno, evaluando con esto la arquitectura. Todo esto integrado en pipelines, apoyando la integración continua",
-          "area": "Java, POSTMAN, REST, git, Jira, cucumber, gitlab, RestAssured, jmeter, Scrum"
+          "area": "Java, POSTMAN, REST, git, Jira, cucumber, gitlab, RestAssured, jmeter, Scrum",
+          "alt":"Falabella, jira, agile, qa, operaciones falabella, pruebas, scrum"
         },
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/Falabella_sales.png",
           "text": "Falabella Sales",
           "description": "El proyecto se basó en la creación de una API para la generación de una Guía Electrónica para todas las ordenes de compra de Falabella bajo Google Cloud Platform y ademas de la realización de pruebas de stress para integrarlo en el pipeline",
-          "area": "Nodejs, POSTMAN, GCP, Jira, gitlab, Zephyr, git, nodejs, k6, Scrum"
+          "area": "Nodejs, POSTMAN, GCP, Jira, gitlab, Zephyr, git, nodejs, k6, Scrum",
+          "alt":"Falabella, jira, agile, qa, operaciones falabella, pruebas, scrum"
         },
         {
           "img": "../../img/flexit.jpg",
