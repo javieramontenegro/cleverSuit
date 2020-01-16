@@ -16,6 +16,7 @@ class MainDev extends React.Component {
       show: false,
       data
     };
+    console.log(this.state)
   }
   handleShow = () => {
     this.setState({ show: true });
@@ -50,7 +51,7 @@ class MainDev extends React.Component {
             xl={6}
             className={`dev-text visible`}
           >
-            {data.Development.sectionMain.map((text, index) => (
+            {this.state.data.Development.sectionMain.map((text, index) => (
               <React.Fragment key={index}>
                 <h1>{text.mainTitle}</h1>
                 <br></br>

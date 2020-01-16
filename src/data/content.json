@@ -2,13 +2,13 @@
   "UX": {
     "sectionMain": [
       {
-        "mainTitle": "We make complex things simple",
-        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
-        "button": "Request a Quote"
+        "mainTitle": "Hacemos simples las cosas complejas",
+        "mainText": "Como equipo, nuestro objetivo es construir grandes experiencias de usuario para cada proyecto en el que participamos",
+        "button": "Cotiza con nosotros"
       }
     ],
     "sectionServices": {
-      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesTitle": "Nuestros clientes avalan nuestra capacidad para impulsar su proyecto",
       "servicesHability": [
         { "hability": "UI / UX Audit" },
         { "hability": "Research" },
@@ -23,36 +23,40 @@
       "servicesButtonRequest": "Cotiza con nosotros"
     },
     "sectionPortfolio": {
-      "portfolioTitle": "We build your tailored digital products",
+      "portfolioTitle": "Diseñamos productos digitales a medida",
       "cards": [
         {
           "img": "../../img/flexit.jpg",
           "text": "Flexit Contrataciones",
-          "description": "This app was developed for quick and immediate hiring of users in part-time contexts or special events that require more staff.",
-          "area": "UX, UI, branding, development"
+          "description": "Esta aplicación fue desarrollada para la contratación rápida e inmediata de usuarios en contextos de tiempo parcial o eventos especiales que requieren más personal.",
+          "area": "UX, UI, branding, development",
+          "alt":"Flexit Contrataciones - Falabella, Retail"
         },
         {
           "img": "../img/propins.png",
           "text": "propins",
-          "description": "This is a platform that allows virtual tours to properties and projects for sales by using the best technology for this market.",
-          "area": "UX, UI, branding, development"
+          "description": "Se trata de una plataforma que permite realizar visitas virtuales a propiedades y proyectos para su venta utilizando la mejor tecnología para este mercado.",
+          "area": "UX, UI, branding, development",
+          "alt":"Propins - Tour virtual, realidad aumentada, compra, venta, inmuebles"
         },
         {
           "img": "../img/whyX.png",
           "text": "WHYX App",
-          "description": "Based on a circular economy, the main concept is 'lease instead of buy'. The aim is to have experiences without getting needless products.",
-          "area": "UX, UI, branding, development"
+          "description": "Basado en una economía circular, el concepto principal es arrendar en lugar de comprar. El objetivo es tener experiencias sin obtener productos innecesarios.",
+          "area": "UX, UI, branding, development",
+          "alt":"WhyX - Experiencias unicas, economia circular, app, arriendo"
         },
         {
           "img": "../img/forus.png",
           "text": "Forus",
-          "description": "Our solution for product inventory in stores of a retail chain, optimize processes and allow greater service efficiency.",
-          "area": "UX, UI, branding, development"
+          "description": "Nuestra solución para el inventario de productos en las tiendas de una cadena de tiendas minoristas, optimiza los procesos y permite una mayor eficiencia en el servicio.",
+          "area": "UX, UI, branding, development",
+          "alt":"Forus, control de inventarios para el retail"
         }
       ]
     },
     "sectionPlan": {
-      "planTitle": "We offer plans that fit your needs",
+      "planTitle": "Ofrecemeos planes que se ajustan a las necesidades de cada proyecto",
       "testimonyList": [
         {
           "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
@@ -211,26 +215,26 @@
 
 
 
-  
+
   "DevOps": {
     "sectionMain": [
       {
-        "mainTitle": "We make complex things simple",
-        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "mainTitle": "Piensa con inteligencia hoy, entrega más rápido el valor mañana.",
+        "mainText": "Reduce el error, aumenta la productividad y entrega el software más rápidamente.",
         "button": "Cotiza con nosotros"
       }
     ],
     "sectionServices": {
-      "servicesTitle": "Our customers support our capacity to boost your project",
+      "servicesTitle": "¿Qué hacemos?:",
       "servicesHability": [
-        { "hability": "UI / UX Audit" },
-        { "hability": "Research" },
-        { "hability": "Brand Identity" },
-        { "hability": "Prototyping" },
-        { "hability": "Software" },
-        { "hability": "Animation" },
-        { "hability": "2D / 3D Motion Graphics" },
-        { "hability": "Web design and mobile apps" }
+        { "hability": "Mindset ágil" },
+        { "hability": "Redefinición, creación o reingeniería de procesos" },
+        { "hability": "Eliminar el desperdicio" },
+        { "hability": "Aumentar la productividad" },
+        { "hability": "Coaching y Mentoring para equipos" },
+        { "hability": "Instalar y configurar toolchain DevOps" },
+        { "hability": "Habilitar prácticas y hábitos" },
+        { "hability": "Aumentar la madurez de los dispositivos" }
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -324,7 +328,7 @@
   "Agile": {
     "sectionMain": [
       {
-        "mainTitle": "Mindset Agility Enablers",
+        "mainTitle": "Habilitadores de mentalidad agilizada",
         "mainText": "Vivir y disfrutar la agilidad mediante el aprendizaje y mejora continuo",
         "button": "Cotiza con nosotros"
       }
@@ -442,21 +446,21 @@
   "Development": {
     "sectionMain": [
       {
-        "mainTitle": "We make complex things simple",
-        "mainText": "As a team, our goal is to build great user experiences for every project we participate in",
+        "mainTitle": "Complicado es un montón de cosas simples mezcladas. Destrúyelo. Luego hazlo simple",
+        "mainText": "Somos un grupo de Ingenieros de Software capaces de hacer posible lo imposible nos gusta entregar valor de negocio haciendo lo que más nos gusta.",
         "button": "Cotiza con nosotros"
       }
     ],
     "sectionServices": {
       "servicesTitle": "Nuestra Capacidad",
       "servicesHability": [
-        { "hability": "Web Development" },
-        { "hability": "API Development" },
+        { "hability": "Desarrollo web" },
+        { "hability": "Desarrollo de API" },
         { "hability": "IoT" },
         { "hability": "ML" },
         { "hability": "Serverless" },
-        { "hability": "Cloud Architect" },
-        { "hability": "Infrastructure Administration" }
+        { "hability": "Arquitectura Cloud" },
+        { "hability": "Administración de estructura TI" }
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -465,33 +469,36 @@
       "portfolioTitle": "Creamos productos a la medida",
       "cards": [
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/miDT.png",
           "text": "Modernización de los contratos Laborales para Chile",
           "description": "Digitalización y del proceso de evaluación y firma de contratos, la idea principal es evitar realizar dicho trabajo en una notaría, si no que cualquier empleador pueda generar de forma digital un contrato válido y que este pueda ser firmado por un empleado de forma digital haciendo uso de clave única desde el portal MiDT",
-          "area": "React, NETCore, OpenShift, Azure, Microservicios"
+          "area": "React, NETCore, OpenShift, Azure, Microservicios",
+          "alt":"miDT - Dirección del trabajo, Chile"
         },
         {
-          "img": "../img/flexit.jpg",
+          "img": "../img/metro_pmt.png",
           "text": "Web de Directores & Web de Gestión",
           "description": "Sistemas documentales desarrollados a medida que permiten indexar documentos desde las bóvedas de Meridian BlueCielo, la idea principal de este proyecto es disponibilizar información sensible del resultado del directorio de Metro, el sistema debía ser rápido y de fácil adopción.",
           "area": "NETCore, AzureDevOps"
         },
         {
-          "img": "../img/flexit.jpg",
-          "text": "Kardex",
-          "description": "Este es un sistema semi-automatizado para realizar retiro en tienda de productos, que está integrado al los sistemas actuales de Click and Collect de Falabella. Básicamente se compone de dos partes; por un lado está la bodega donde se almacenan los pedidos y, los módulos de atención que cuentan con dos puertas mecánicas, una de cara a la bodega y otra hacia el cliente. En estos módulos se ubican los pedidos para su posterior retiro y, por otro lado, está la raspberry donde está montada una aplicación desarrollada en Java FX que maneja la lógica de apertura y cierre de puertas y la atención del cliente que llega a retirar su producto.",
-          "area": "JavaSpring, JavaFX, J2EE, Raspberry"
-        },
-        {
-          "img": "../img/flexit.jpg",
+          "img": "../img/turnero_offline.png",
           "text": "Turnero Offline",
           "description": "(CL PE CO AR) Esto sistema viene a ser un ReWork del actual turnero ya que el sistema anterior presentaba problemas cuando se perdía conexión a internet. Esto provocaba la pérdida sincronización de números, lo que terminaba perdiendo números de atención. Es por esto que se crea aplicación con base de datos embebida y local, la cual se utiliza cuando está sin internet y al momento de recuperar la conexión se deben enviar todos los números de atención para volver a sincronizar.",
-          "area": "JavaFX, S3, APIREST, Postgres"
+          "area": "JavaSpring, JavaFX, J2EE, Raspberry",
+          "alt":"miDT"
+        },
+        {
+          "img": "../img/metro-pmt_dash.png",
+          "text": "Puesto Maniobra de Trenes (PMT)",
+          "description": "es un sistema que maneja toda la interacciones de los trenes de metro en las bodegas y centro de vias, desde este se agendan todos los moviemientos, matenciones y actividades, es el sistema de logistica utilizado por metro para dicha gestión.",
+          "area": "NetCore, Javascript, Hangfire, Api",
+          "alt":"miDT"
         }
       ]
     },
     "sectionPlan": {
-      "planTitle": "We offer plans that fit your needs",
+      "planTitle": "Disponemos de Planes que se ajustan a tus requerimientos",
       "testimonyList": [
         {
           "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
@@ -514,33 +521,60 @@
       ],
       "planSmart": [
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Android iOS (Híbrida)"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Creación de API's para tu negocio (Microservicios o Serverless)"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "PWA"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "BD relacional o no relacional"
+        },
+        {
+          "descriptionPlan": "Top of React Dev"
+        },
+        {
+          "descriptionPlan": "GraphQL"
+        },
+        {
+          "descriptionPlan": "Hosting libre (en Serverless o K8s)"
         }
       ],
       "planCostume": [
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Desarrollo Android & iOS (Híbrida or Nativa)"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Gestión API + Api"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "PWA"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Sitio Backoffice"
         },
         {
-          "descriptionPlan": "Donec id elit non mi porta gravida at eget metus."
+          "descriptionPlan": "Estrategía de mensajes de colas"
+        },
+        {
+          "descriptionPlan": "gRPC"
+        },
+        {
+          "descriptionPlan": "Pub/Sub Pattern or Signal R"
+        },
+        {
+          "descriptionPlan": "GraphQL"
+        },
+        {
+          "descriptionPlan": "Administración de bases de datos relacionales, no relacionales o de lagos de datos"
+        },
+        {
+          "descriptionPlan": "Todo el flujo de trabajo de DevSecOps está configurado y listo para ser desplegado más de 9999 veces al día"
+        },
+        {
+          "descriptionPlan": "Gestión de más de 100k usuarios concurrentes"
         }
       ]
     }
@@ -557,14 +591,18 @@
     "sectionServices": {
       "servicesTitle": "¿Qué nos hace ser clevers?",
       "servicesHability": [
-        { "hability": "Automatizamos pruebas manuales usando distintas tecnologías adecuándonos al desarrollo del producto. " },
-        { "hability": "Inspeccionamos código y con esto podemos detectar vulnerabilidades, smell code, variables no usadas antes de que llegue a producción" },
-        { "hability": "Aplicamos estándares de buenas prácticas de desarrollo y ofrecemos workshops para difundirlo." },
-        { "hability": "Realizamos pruebas de stress a servicios o aplicaciones web o móviles" },
-        { "hability": "Formamos parte importante de la integración continua, desarrollamos pipelines que ejecutan nuestras pruebas e inspeccionan código." },
-        { "hability": "Al automatizar procesos manuales, reducimos el tiempo que toma un pase a producción." },
-        { "hability": "Versionamos nuestros productos y aplicamos estándares de trabajo para el manejo correcto de branches" },
-        { "hability": "Somos ágiles, trabajamos usando varios frameworks de metodología ágil: kanban, scrum, scrumban, etc" }
+        { "hability": "Stress tests" },
+        { "hability": "Automated Testing" },
+        { "hability": "DevTestOps" },
+        { "hability": "CI/CD" },
+        { "hability": "Services Tests" },
+        { "hability": "Visual Tests" },
+        { "hability": "Integration Tests" },
+        { "hability": "Quality" },
+        { "hability": "Agile testing" },
+        { "hability": "Api Tests" },
+        { "hability": "Mobile Tests" }
+        
       ],
       "servicesButtonReel": "Mira nuestro reel",
       "servicesButtonRequest": "Cotiza con nosotros"
@@ -573,28 +611,32 @@
       "portfolioTitle": "Productos a la medida, con la mejor calidad",
       "cards": [
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/wom.png",
           "text": "WOMVOLUTION",
           "description": "El proyecto trata de la migración de los servicios de legado y la célula QA cumple la función de partner de WOM, proveyendo un servicio de desarrollo y ejecución de pruebas manuales y automatizadas con distintos focos y alcances, a través de las entregas continuas e incrementales, garantizando la calidad de los desarrollos e integraciones entre distintas áreas.",
-          "area": "Services, SOAP, SOAPUI, git, AzureDevops Pipelines, Automated testing, Scrum"
+          "area": "Services, SOAP, SOAPUI, git, AzureDevops Pipelines, Automated testing, Scrum",
+          "alt":"WOM, WOMVOLUTION, GIT, AZURE, AZUREDEVOPS,QA,TESTING"
         },
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/Falabella_postvirtual.png",
           "text": "Post Virtual",
           "description": "El proyecto se basó en realizar algunos cambios al postvirtual a nivel de operaciones de falabella y para esto se automatizaron las pruebas funcionales de todo el producto que antes se hacían de manera manual, agilizando con esto los pases a producción",
-          "area": "Java, POSTMAN, REST, Jira, cucumber, git, gitlab, Scrum"
+          "area": "Java, POSTMAN, REST, Jira, cucumber, git, gitlab, Scrum",
+          "alt":"Falabella, jira, agile, qa, operaciones falabella, pruebas, scrum"
         },
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/Falabella_giftcard.png",
           "text": "GiftCard Compensación",
           "description": "El proyecto se basó en la creación de una API para un nuevo tipo de GiftCard y para esto se automatizaron todas las pruebas de los diferentes servicios, además de la realización de las pruebas de stress para cada uno, evaluando con esto la arquitectura. Todo esto integrado en pipelines, apoyando la integración continua",
-          "area": "Java, POSTMAN, REST, git, Jira, cucumber, gitlab, RestAssured, jmeter, Scrum"
+          "area": "Java, POSTMAN, REST, git, Jira, cucumber, gitlab, RestAssured, jmeter, Scrum",
+          "alt":"Falabella, jira, agile, qa, operaciones falabella, pruebas, scrum"
         },
         {
-          "img": "../../img/flexit.jpg",
+          "img": "../../img/Falabella_sales.png",
           "text": "Falabella Sales",
           "description": "El proyecto se basó en la creación de una API para la generación de una Guía Electrónica para todas las ordenes de compra de Falabella bajo Google Cloud Platform y ademas de la realización de pruebas de stress para integrarlo en el pipeline",
-          "area": "Nodejs, POSTMAN, GCP, Jira, gitlab, Zephyr, git, nodejs, k6, Scrum"
+          "area": "Nodejs, POSTMAN, GCP, Jira, gitlab, Zephyr, git, nodejs, k6, Scrum",
+          "alt":"Falabella, jira, agile, qa, operaciones falabella, pruebas, scrum"
         },
         {
           "img": "../../img/flexit.jpg",
@@ -616,19 +658,13 @@
         {
           "testimony": "El trabajo realizado por Cleverit cumplió con nuestras expectativas aportando a la agilidad de nuestros procesos de Testing",
           "name": "Manuel Rivera",
-          "ocupation": "CEO de Why X",
-          "img": "../img/testimony_1.png"
-        },
-        {
-          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-          "name": "Franco Abello",
           "ocupation": "Ingeniero QA CCA",
           "img": "../img/testimony_1.png"
         },
         {
-          "testimony": "Excellent team, the whole process was clear, fast and efficient. I would certainly work with them again",
-          "name": "Franco Abello",
-          "ocupation": "CEO de Why X",
+          "testimony": "Muy capacitados en todo lo relacionado a certificación de software e implementación de flujos según procesos requeridos por la organización",
+          "name": "Keudy Moreno",
+          "ocupation": "Subgerencia de Desarrollo Ventas y Tiendas - Falabella Retail S.A",
           "img": "../img/testimony_1.png"
         }
       ],
@@ -673,4 +709,4 @@
 
 
 
-} 
+}

@@ -114,7 +114,7 @@ class PlanAgile extends React.Component {
                 <Card.Title className="card-title-plan-agile">
                   Plan Standard 
                 </Card.Title>
-                <p>(6 meses por enabler asignado a 4 células)</p>
+                <p>(6 meses por habilitador asignado a 4 células)</p>
                 <ul className="ul-plan-agile">
                   {data.Agile.sectionPlan.planSmart.map((plan, index) => (
                     <li className="row" key={index}>
@@ -153,9 +153,9 @@ class PlanAgile extends React.Component {
             >
               <Card.Body className="card-body-plan-agile">
                 <Card.Title className="card-title-plan-agile ">
-                  Custom-made plan
+                  Plan a medida
                 </Card.Title>
-                <p>Exclusive tailor-made service</p>
+                <p>Ajustado a los requerimientos del negocio</p>
 
                 <ul className="ul-plan-agile">
                   {data.Agile.sectionPlan.planCostume.map((plan, index) => (
